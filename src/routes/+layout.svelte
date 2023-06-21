@@ -34,7 +34,7 @@
 	} */
 
 	.body {
-		background-color: rgb(114, 206, 252);
+		background-color: #f9f5ed;
 		min-height: 40rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

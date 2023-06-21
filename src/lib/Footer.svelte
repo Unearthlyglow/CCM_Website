@@ -16,7 +16,7 @@
 
 <style>
 	.footer {
-		background-color: #d3a632;
+		background-color: #efcb70;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 		grid-gap: 1rem;

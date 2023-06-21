@@ -1,31 +1,14 @@
-<script></script>
+<script>
+	import headerLogo from '$lib/images/ccm_logo_svg.svg';
+	import Tabs from '$lib/Tabs.svelte';
+</script>
 
-<div class="header">
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet consectetur minima
-		perferendis maxime rem dolorum sed voluptate optio aut pariatur sequi, nobis ad similique
-		dolores quia ullam consequatur temporibus harum ducimus recusandae nostrum perspiciatis iste.
-		Molestiae repellat nisi sapiente!
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet consectetur minima
-		perferendis maxime rem dolorum sed voluptate optio aut pariatur sequi, nobis ad similique
-		dolores quia ullam consequatur temporibus harum ducimus recusandae nostrum perspiciatis iste.
-		Molestiae repellat nisi sapiente!
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet consectetur minima
-		perferendis maxime rem dolorum sed voluptate optio aut pariatur sequi, nobis ad similique
-		dolores quia ullam consequatur temporibus harum ducimus recusandae nostrum perspiciatis iste.
-		Molestiae repellat nisi sapiente!
-	</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eveniet consectetur minima
-		perferendis maxime rem dolorum sed voluptate optio aut pariatur sequi, nobis ad similique
-		dolores quia ullam consequatur temporibus harum ducimus recusandae nostrum perspiciatis iste.
-		Molestiae repellat nisi sapiente!
-	</p>
-</div>
+<nav class="header">
+	<ul class="logo">
+		<li><img class="logo-building" alt="CCM Logo" src={headerLogo} /></li>
+	</ul>
+	<Tabs />
+</nav>
 
 <style>
 	.header {
@@ -33,6 +16,10 @@
 		min-height: 20rem;
 		text-align: center;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+		background-color: rgb(33, 125, 137);
+	}
+
+	.logo-building {
 	}
 </style>
