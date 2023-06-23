@@ -1,25 +1,26 @@
 <script>
 	import headerLogo from '$lib/images/ccm_logo_svg.svg';
-	import Tabs from '$lib/Tabs.svelte';
+	
 </script>
 
-<nav class="header">
-	<ul class="logo">
-		<li><img class="logo-building" alt="CCM Logo" src={headerLogo} /></li>
-	</ul>
-	<Tabs />
-</nav>
+<header>
+	<nav class="header">
+		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
+	</nav>
+</header>
 
 <style>
-	.header {
-		background-color: #271f3e;
-		min-height: 20rem;
-		text-align: center;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+	header {
 		background-color: rgb(33, 125, 137);
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+		grid-gap: 1rem;
+
+		grid-column: 1 / -1;
 	}
 
-	.logo-building {
+	img {
+		height: auto;
+		grid-row: 1;
 	}
 </style>

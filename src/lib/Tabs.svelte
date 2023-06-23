@@ -23,6 +23,12 @@
 		</ul>
 	</details>
 	<details role="list">
+		<summary aria-haspopup="listbox" role="primary">Portfolio</summary>
+		<ul role="listbox">
+			<li><a>Action</a></li>
+		</ul>
+	</details>
+	<details role="list">
 		<summary aria-haspopup="listbox" role="primary">About</summary>
 		<ul role="listbox">
 			<li><a>Action</a></li>
@@ -34,16 +40,28 @@
 	.container {
 		display: flex;
 		font-weight: 800;
-		align-items: center;
+		align-content: end;
+		align-items: end;
+		justify-content: flex-start;
 	}
 
 	summary {
 		color: white;
+		align-items: center;
 	}
 
 	summary:hover {
-		color: rgb(231, 139, 139);
-		background-color: rgba(233, 228, 228, 0.687);
+		color: #8c2525;
+		background-color: rgb(233, 228, 228);
+		display: block;
+	}
+
+	summary:focus {
+		color: #8c2525;
+	}
+
+	summary::-webkit-details-marker {
+		display: none;
 	}
 
 	details {

@@ -1,0 +1,6 @@
+1. Need to get rid of arrows next to tabs.
+2. Need snippet for importing images and importing components
+3.Tabs dropdown box color and text need to be changed.
+4. Need to update footer 
+5. Need to update header to make sure it doesn't overflow 
+6. Animation stuff once all the basic content is up
