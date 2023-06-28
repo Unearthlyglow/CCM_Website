@@ -4,40 +4,10 @@
 	// gsap.to('.box', { x: 200 });
 </script>
 
-<nav class="container">
-	<div class="box green" />
 
-	<details role="list">
-		<summary class="tabs--single" aria-haspopup="listbox" role="primary">Writing</summary>
-		<ul role="listbox">
-			<li><a href="https://www.google.com">Link</a></li>
-			<li><a>Jazz Manifesto</a></li>
-		</ul>
-	</details>
-	<details role="list">
-		<summary aria-haspopup="listbox" role="primary">Works In Progress</summary>
-		<ul role="listbox">
-			<li><a>Bob's Electronics</a></li>
-			<li><a>Milk Bar</a></li>
-			<li><a>Something</a></li>
-		</ul>
-	</details>
-	<details role="list">
-		<summary aria-haspopup="listbox" role="primary">Portfolio</summary>
-		<ul role="listbox">
-			<li><a>Action</a></li>
-		</ul>
-	</details>
-	<details role="list">
-		<summary aria-haspopup="listbox" role="primary">About</summary>
-		<ul role="listbox">
-			<li><a>Action</a></li>
-		</ul>
-	</details>
-</nav>
 
 <style>
-	.container {
+	.container-tabs {
 		display: flex;
 		font-weight: 800;
 		align-content: end;

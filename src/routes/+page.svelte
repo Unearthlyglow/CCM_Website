@@ -1,9 +1,7 @@
 <script>
-	import Modal from '$lib/Modal.svelte';
-	import Dropdown from '$lib/Dropdown.svelte';
 </script>
 
-<div>
+<div class="home-page">
 	<h1>Home Page Dummy Text</h1>
 	<p>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste eaque dolor impedit eum harum eos
@@ -12,7 +10,11 @@
 </div>
 
 <style>
-h1 {
-	text-align: center;
-}
+	h1 {
+		text-align: center;
+	}
+
+	.home-page {
+		margin: 1rem;
+	}
 </style>

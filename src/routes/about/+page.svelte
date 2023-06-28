@@ -4,4 +4,8 @@
 	<h1>About Page</h1>
 </div>
 
-<style></style>
+<style>
+	div {
+		margin: 1rem;
+	}
+</style>
