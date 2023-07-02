@@ -69,13 +69,18 @@
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
 	<hr class="hr" />
-	<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+	<div class="footer--ccmquote">
+		<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+
+		<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+	</div>
+
+	<p class="footer--friends">My Friend's Digital Places:</p>
 
 	<div class="footer--footloose">
-		<a href="">Link1</a>
-		<a href="">Link2</a>
-		<a href="">Link2</a>
-		<a href="">Link2</a>
+		<a href="">Blair's </a>
+
+		<a href="">Josie's</a>
 	</div>
 
 	<p class="footer--text">
@@ -94,7 +99,7 @@
 		padding-left: 0px;
 		background-color: rgb(33, 125, 137);
 		border-bottom: #8c2525 solid 12px;
-		border-top: #8c2525 solid 9px;
+		border-top: #8c2525 solid 6px;
 	}
 
 	nav {
@@ -103,17 +108,20 @@
 	}
 
 	details:hover {
-		color: #fac53d;
-		font-size: 1.1rem;
+		color: #05667e;
+		background-color: #d3a632;
+
+		font-size: 1.04rem;
+		transition: font-size 0.8s, background-color 0.6s;
 	}
 
 	ul[role='listbox'] {
-		background-color: rgb(82, 53, 53);
+		background-color: #d3a632;
 		border: none;
 	}
 
 	Details summary:focus:not([role='button']) {
-		color: #e33c3c;
+		color: rgb(8, 79, 67);
 	}
 
 	.container-tabs {
@@ -134,9 +142,17 @@
 		margin-top: 3rem;
 	}
 
-	.footer--words {
+	.footer--quote {
+		font-size: 0.7rem;
+		font-weight: 800;
+		color: burlywood;
+		margin-top: 2rem;
+	}
+
+	.footer--ccmquote {
 		display: flex;
-		word-spacing: 0.5rem;
+		flex-direction: row;
+		align-items: center;
 	}
 
 	li {
@@ -149,8 +165,14 @@
 		color: #fac53d;
 	}
 
+	.footer--friends {
+		text-align: center;
+		font-size: 0.7rem;
+		font-weight: 800;
+		color: burlywood;
+	}
 	.footer--footloose {
-		word-spacing: 0.5rem;
+		word-spacing: 0.3rem;
 		text-align: center;
 		font-size: 0.7rem;
 		font-weight: 800;
@@ -167,8 +189,8 @@
 
 	.footer--text {
 		color: #712828;
-		font-weight: 400;
-		font-size: 0.8rem;
+		font-weight: 700;
+		font-size: 0.7rem;
 		padding: 1rem;
 	}
 
