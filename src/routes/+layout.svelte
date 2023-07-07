@@ -6,6 +6,11 @@
 	import headerLogo from '$lib/images/ccm_logo_svg.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
+	import githubLogo from '$lib/images/github-logo.svg';
+	import LinkedInLogo from '$lib/images/LinkedIn-Logo.svg';
+	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
+	import IgLogo from '$lib/images/Ig-logo.svg';
+	import Body from '$lib/Body.svelte';
 </script>
 
 <div class="container-fluid">
@@ -13,6 +18,9 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="container-tabs">
+		<details role="list">
+			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Home</summary>
+		</details>
 		<details role="list">
 			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Writing</summary>
 			<ul role="listbox">
@@ -42,9 +50,11 @@
 		</details>
 	</nav>
 
-	<div class="body">
+	<!-- <div class="body">
 		<slot />
-	</div>
+	</div> -->
+
+	<Body />
 
 	<div class="footer">
 		<ul>
@@ -60,11 +70,22 @@
 			<li>CCM:: Milkbar Blog</li>
 		</ul>
 		<ul>
-			<li>Image for Github</li>
+			<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repo">
+				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
+			</a>
+			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
+				><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
+			>
+
+			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
+				><img class="footer--icons" alt="LinkedIn Logo" src={LinkedInLogo} /></a
+			>
+
+			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
+				><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
+			>
 		</ul>
-		<ul>
-			<li>Image for Instagram</li>
-		</ul>
+		<ul />
 
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
@@ -75,22 +96,37 @@
 		<p class="footer--quote">"It's (Almost) Better Than Life"</p>
 	</div>
 
-	<p class="footer--friends">My Friend's Digital Places:</p>
-
 	<div class="footer--footloose">
-		<a href="">Blair's </a>
+		<p class="footer--friends">My Friend's Digital Places:</p>
 
-		<a href="">Josie's</a>
+		<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
+
+		<a href="https://www.josielockharttx.com/">Josie's :: Josie Lockhart</a>
 	</div>
 
-	<p class="footer--text">
+	<i class="footer--text">
 		I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
 		out to award@capsules.io for any feedback. Any and all complaints can be sent to
 		DoNotReply@capsules.io.
-	</p>
+	</i>
 </div>
 
 <style>
+	a:link {
+		text-decoration: none;
+	}
+
+	a:visited {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	a:active {
+		text-decoration: none;
+	}
 	.container-fluid {
 		min-height: 100vh;
 		display: grid;
@@ -98,7 +134,7 @@
 		padding-right: 0px;
 		padding-left: 0px;
 		background-color: rgb(33, 125, 137);
-		border-bottom: #8c2525 solid 12px;
+		border-bottom: #8c2525 solid 8px;
 		border-top: #8c2525 solid 6px;
 	}
 
@@ -121,17 +157,14 @@
 	}
 
 	Details summary:focus:not([role='button']) {
-		color: rgb(8, 79, 67);
+		/* color: rgb(8, 79, 67); */
+		color: palegoldenrod;
 	}
 
 	.container-tabs {
 		justify-content: space-around;
 		padding-top: 1rem;
 		font-weight: 700;
-	}
-
-	.body {
-		background-color: rgb(46, 46, 51);
 	}
 
 	.footer {
@@ -143,15 +176,15 @@
 	}
 
 	.footer--quote {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 		font-weight: 800;
-		color: burlywood;
+		color: palegoldenrod;
 		margin-top: 2rem;
 	}
 
 	.footer--ccmquote {
 		display: flex;
-		flex-direction: row;
+		/* flex-direction: row; */
 		align-items: center;
 	}
 
@@ -165,17 +198,21 @@
 		color: #fac53d;
 	}
 
-	.footer--friends {
-		text-align: center;
-		font-size: 0.7rem;
-		font-weight: 800;
-		color: burlywood;
-	}
 	.footer--footloose {
-		word-spacing: 0.3rem;
-		text-align: center;
 		font-size: 0.7rem;
 		font-weight: 800;
+		display: flex;
+		flex-direction: column;
+		align-content: flex-end;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.footer--friends {
+		margin: 0.3rem;
+		font-size: 0.8rem;
+		font-weight: 800;
+		color: hsl(205, 16%, 77%);
 	}
 
 	a {
@@ -197,6 +234,12 @@
 	.building-logo {
 		height: 6rem;
 		padding-right: 1rem;
+		align-self: start;
+	}
+
+	.footer--icons {
+		height: 1.5rem;
+		margin: 0.5rem;
 	}
 
 	.CCM-letters {
@@ -214,4 +257,6 @@
 		background-color: #d3a632;
 		height: 1px;
 	}
+
+	
 </style>

@@ -16,5 +16,8 @@
 
 	.home-page {
 		margin: 1rem;
+		min-height: 20rem;
 	}
+
+	
 </style>
