@@ -1,10 +1,5 @@
 <h1><span>J</span>azz Manifesto</h1>
 
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dignissimos possimus quod dolorem
-	quidem repellendus animi ipsa incidunt voluptates reiciendis! Sequi minima, vero saepe consectetur
-	ipsam enim veritatis excepturi! Reprehenderit.
-</p>
 <p><span>I.</span> Thou shout learn how to write a manifesto</p>
 <p><span>II.</span> I explicitly mean no intentional harm.</p>
 <p><span>III.</span> Phuong can not beat me in Super Smash Bros(any title entry).</p>

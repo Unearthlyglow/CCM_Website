@@ -3,7 +3,6 @@
 
 <div class="body">
 	<div class="body--inner">
-		
 		<hr class="hr--top" />
 
 		<slot />
@@ -22,8 +21,8 @@
 
 	.body--inner {
 		margin-top: 1rem;
-		margin-left: 8rem;
-		margin-right: 8rem;
+		margin-left: 4rem;
+		margin-right: 4rem;
 		/* border-right: 5px #d3a632 solid;
 		border-left: 5px #d3a632 solid; */
 	}
@@ -43,7 +42,7 @@
 
 	.hr--bottom {
 		clear: both;
-margin-top: 5rem;
+		margin-top: 5rem;
 		display: block;
 		width: 30%;
 		background-color: #d3a632;

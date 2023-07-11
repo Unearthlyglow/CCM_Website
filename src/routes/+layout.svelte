@@ -7,7 +7,7 @@
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-	import LinkedInLogo from '$lib/images/LinkedIn-Logo.svg';
+	import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
@@ -28,7 +28,7 @@
 			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Writing</summary>
 			<ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
-				<li><a href="https://www.google.com">CCM General Blog(MD Book)</a></li>
+				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
 				<!-- <li><a href="https://www.google.com">CCM Bob's Electronics(MD Book)</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCM-Milkbar/">CCM Milk Bar(MD Book)</a></li>
 				<li><a href="https://www.google.com">CCM Hamlet Design(MD Book)</a></li> -->
@@ -66,7 +66,7 @@
 		</ul>
 		<ul>
 			<a href="/jazz-manifesto"> <li>Jazz Manifesto</li></a>
-			<a href="/writing/general-blog"><li>CCM:: General Blog</li></a>
+			<a href="https://unearthlyglow.github.io/CCMBlog/"><li>CCM:: General Blog</li></a>
 			<!-- 
 			<li>CCM:: Bob's Electronics Blog</li>
 			<li>CCM:: Milkbar Blog</li> -->
@@ -80,7 +80,7 @@
 			>
 
 			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
-				><img class="footer--icons" alt="LinkedIn Logo" src={LinkedInLogo} /></a
+				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
 			>
 
 			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
