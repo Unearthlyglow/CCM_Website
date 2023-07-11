@@ -18,59 +18,61 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="container-tabs">
-		<details role="list">
-			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Home</summary>
-		</details>
+		<a href="/"
+			><details role="list">
+				<summary class="tabs--single joker" aria-haspopup="listbox" role="primary">Home</summary>
+			</details></a
+		>
+
 		<details role="list">
 			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Writing</summary>
 			<ul role="listbox">
-				<li><a href="https://www.google.com">Link</a></li>
-				<li><a>Jazz Manifesto</a></li>
+				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
+				<li><a href="https://www.google.com">CCM General Blog(MD Book)</a></li>
+				<!-- <li><a href="https://www.google.com">CCM Bob's Electronics(MD Book)</a></li>
+				<li><a href="https://unearthlyglow.github.io/CCM-Milkbar/">CCM Milk Bar(MD Book)</a></li>
+				<li><a href="https://www.google.com">CCM Hamlet Design(MD Book)</a></li> -->
 			</ul>
 		</details>
-		<details role="list">
-			<summary aria-haspopup="listbox" role="primary">Works In Progress</summary>
-			<ul role="listbox">
-				<li><a>Bob's Electronics</a></li>
-				<li><a>Milk Bar</a></li>
-				<li><a>Something</a></li>
-			</ul>
-		</details>
+
 		<details role="list">
 			<summary aria-haspopup="listbox" role="primary">Portfolio</summary>
 			<ul role="listbox">
-				<li><a>Action</a></li>
+				<li><a href="/websites">Websites</a></li>
+				<!-- <li><a href="/portfolio/film">Film</a></li> -->
+				<!-- <li><a href="/portfolio/graphic-design">Graphic Design</a></li> -->
 			</ul>
 		</details>
 		<details role="list">
 			<summary aria-haspopup="listbox" role="primary">About</summary>
 			<ul role="listbox">
-				<li><a>Action</a></li>
+				<li><a href="/about">About Me</a></li>
+				<!-- <li><a href="/about/resume">Resume</a></li> -->
+				<li><a href="/todos">Website To-Do List!</a></li>
 			</ul>
 		</details>
 	</nav>
 
-	<!-- <div class="body">
+	<Body>
 		<slot />
-	</div> -->
-
-	<Body />
+	</Body>
 
 	<div class="footer">
 		<ul>
-			<li>About</li>
-			<li>Writing</li>
-			<li>Works In Projects</li>
-			<li>Portfolio</li>
+			<a href="/about"><li>About</li></a>
+			<!-- <a href="/"> <li>Writing</li></a> -->
+			<!-- <a href=""><li>Works In Projects</li></a> -->
+			<a href="/websites"><li>Website Portfolio</li></a>
 		</ul>
 		<ul>
-			<li>Jazz Manifesto</li>
-			<li>CCM:: General Blog</li>
+			<a href="/jazz-manifesto"> <li>Jazz Manifesto</li></a>
+			<a href="/writing/general-blog"><li>CCM:: General Blog</li></a>
+			<!-- 
 			<li>CCM:: Bob's Electronics Blog</li>
-			<li>CCM:: Milkbar Blog</li>
+			<li>CCM:: Milkbar Blog</li> -->
 		</ul>
 		<ul>
-			<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repo">
+			<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
 				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
 			</a>
 			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
@@ -101,8 +103,12 @@
 
 		<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
 
-		<a href="https://www.josielockharttx.com/">Josie's :: Josie Lockhart</a>
+		<a href="https://www.josielockharttx.com/">Aaron's :: Josie Lockhart</a>
+
+		<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 	</div>
+
+	<p class="footer--version">Version: <span>0.5.9</span></p>
 
 	<i class="footer--text">
 		I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
@@ -112,6 +118,17 @@
 </div>
 
 <style>
+	.joker {
+		color: white;
+	}
+
+	.joker:hover {
+		color: #05667e;
+		background-color: #d3a632;
+
+		font-size: 1.04rem;
+		transition: font-size 0.8s, background-color 0.6s;
+	}
 	a:link {
 		text-decoration: none;
 	}
@@ -141,6 +158,7 @@
 	nav {
 		background-color: rgb(33, 125, 137);
 		color: white;
+		margin-right: 1rem;
 	}
 
 	details:hover {
@@ -178,7 +196,7 @@
 	.footer--quote {
 		font-size: 0.8rem;
 		font-weight: 800;
-		color: palegoldenrod;
+		color: #fac53d;
 		margin-top: 2rem;
 	}
 
@@ -192,6 +210,7 @@
 		list-style-type: none;
 		font-weight: 700;
 		font-size: 0.7rem;
+		color: hsl(205, 16%, 77%);
 	}
 
 	li:hover {
@@ -239,7 +258,19 @@
 
 	.footer--icons {
 		height: 1.5rem;
-		margin: 0.5rem;
+		margin: 1.5rem;
+	}
+
+	.footer--version {
+		font-size: 0.8rem;
+		font-weight: 800;
+		color: #fac53d;
+		text-align: right;
+		margin: 1rem;
+	}
+
+	.footer--version > span {
+		color: rgb(255, 255, 255);
 	}
 
 	.CCM-letters {
@@ -257,6 +288,4 @@
 		background-color: #d3a632;
 		height: 1px;
 	}
-
-	
 </style>

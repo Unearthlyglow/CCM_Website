@@ -3,31 +3,11 @@
 
 <div class="body">
 	<div class="body--inner">
-		<h1>Welcome Home</h1>
+		
 		<hr class="hr--top" />
 
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in.
-			Repellendus, mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid,
-			distinctio enim maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam
-			voluptate veniam ipsam repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error
-			neque temporibus eligendi et?
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in.
-			Repellendus, mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid,
-			distinctio enim maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam
-			voluptate veniam ipsam repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error
-			neque temporibus eligendi et?
-		</p>
+		<slot />
 
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in.
-			Repellendus, mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid,
-			distinctio enim maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam
-			voluptate veniam ipsam repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error
-			neque temporibus eligendi et?
-		</p>
 		<hr class="hr--bottom" />
 	</div>
 </div>
@@ -52,19 +32,22 @@
 		text-align: center;
 	}
 
-	.hr--bottom {
-		clear: both;
-		display: block;
-		width: 30%;
-		background-color: #d3a632;
-		height: 5px;
-	}
 	.hr--top {
 		margin-bottom: 3rem;
 		clear: both;
 		display: block;
-		width: 90%;
+		width: 100%;
 		background-color: #d3a632;
 		height: 10px;
+	}
+
+	.hr--bottom {
+		clear: both;
+margin-top: 5rem;
+		display: block;
+		width: 30%;
+		background-color: #d3a632;
+		height: 7px;
+		margin-bottom: 5rem;
 	}
 </style>
