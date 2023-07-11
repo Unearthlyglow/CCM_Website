@@ -1,33 +1,22 @@
 <script>
 </script>
 
-<h1>Welcome Home</h1>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in. Repellendus,
-	mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid, distinctio enim
-	maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam voluptate veniam ipsam
-	repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error neque temporibus eligendi
-	et?
-</p>
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in. Repellendus,
-	mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid, distinctio enim
-	maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam voluptate veniam ipsam
-	repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error neque temporibus eligendi
-	et?
-</p>
-
-<p>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quibusdam dolore in. Repellendus,
-	mollitia iusto. Delectus deserunt veritatis reprehenderit labore soluta aliquid, distinctio enim
-	maxime doloremque nobis quam quod vel? Modi laudantium officia quisquam voluptate veniam ipsam
-	repellat reiciendis dolorum aliquid delectus? Ut beatae possimus error neque temporibus eligendi
-	et?
-</p>
+<h1><span>W</span>elcome Home</h1>
+<p>Hello, sorry for the lack of content at the moment but this website is still in beta.</p>
+<p>Feel free to look around, there isn't much but I thought I should go ahead and put this website up and build and fix things as time progresses - 7/11/23</p>
 
 <style>
 	h1 {
 		text-align: center;
 		font-size: 3rem;
+	}
+
+	span {
+		color: #fac53d;
+		font-weight: 700;
+	}
+
+	p {
+		text-align: center;
 	}
 </style>
