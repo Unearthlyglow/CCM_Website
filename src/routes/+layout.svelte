@@ -7,7 +7,7 @@
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-	import Linkedin from '$lib/images/Linkedin.svg';
+	// import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
@@ -78,10 +78,10 @@
 			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
 				><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
 			>
-
+<!-- 
 			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
 				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
-			>
+			> -->
 
 			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
 				><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
