@@ -18,39 +18,39 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="container-tabs">
-		<a href="/"
-			><details role="list">
-				<summary class="tabs--single joker" aria-haspopup="listbox" role="primary">Home</summary>
-			</details></a
-		>
+		<li role="list" dir="rtl">
+			<a href="/" aria-haspopup="listbox">Home</a>
+			<!-- <ul role="listbox">
+				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
+				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
+			</ul> -->
+		</li>
 
-		<details role="list">
-			<summary class="tabs--single" aria-haspopup="listbox" role="primary">Writing</summary>
+		<li role="list" dir="rtl">
+			<a href="#" aria-haspopup="listbox">Writing</a>
 			<ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
-				<!-- <li><a href="https://www.google.com">CCM Bob's Electronics(MD Book)</a></li>
-				<li><a href="https://unearthlyglow.github.io/CCM-Milkbar/">CCM Milk Bar(MD Book)</a></li>
-				<li><a href="https://www.google.com">CCM Hamlet Design(MD Book)</a></li> -->
 			</ul>
-		</details>
+		</li>
 
-		<details role="list">
-			<summary aria-haspopup="listbox" role="primary">Portfolio</summary>
+		<li role="list" dir="rtl">
+			<a href="#" aria-haspopup="listbox">Portfolio</a>
 			<ul role="listbox">
 				<li><a href="/websites">Websites</a></li>
 				<!-- <li><a href="/portfolio/film">Film</a></li> -->
 				<!-- <li><a href="/portfolio/graphic-design">Graphic Design</a></li> -->
 			</ul>
-		</details>
-		<details role="list">
-			<summary aria-haspopup="listbox" role="primary">About</summary>
+		</li>
+
+		<li role="list" dir="rtl">
+			<a href="#" aria-haspopup="listbox">About</a>
 			<ul role="listbox">
 				<li><a href="/about">About Me</a></li>
 				<!-- <li><a href="/about/resume">Resume</a></li> -->
 				<li><a href="/todos">Website To-Do List!</a></li>
 			</ul>
-		</details>
+		</li>
 	</nav>
 
 	<Body>
@@ -78,7 +78,7 @@
 			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
 				><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
 			>
-<!-- 
+			<!-- 
 			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
 				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
 			> -->
@@ -117,7 +117,7 @@
 	</i>
 </div>
 
-<style>
+<style lang="scss">
 	.joker {
 		color: white;
 	}
@@ -161,17 +161,35 @@
 		margin-right: 1rem;
 	}
 
-	details:hover {
-		color: #05667e;
-		background-color: #d3a632;
-
-		font-size: 1.04rem;
-		transition: font-size 0.8s, background-color 0.6s;
+	.container-tabs {
+		& a {
+			color: white;
+			font-size: 1rem;
+		}
 	}
 
 	ul[role='listbox'] {
 		background-color: #d3a632;
+		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.98);
 		border: none;
+		text-align: center;
+		& a {
+			font-size: 0.7rem;
+			color: rgb(13, 81, 90);
+		}
+	}
+
+	ul[role='listbox']:hover {
+		background-color: rgb(13, 81, 90);
+		transition: background-color 0.5s;
+
+		& a {
+			color: #fac53d;
+		}
+
+		& a:hover {
+			background: rgba(255, 255, 255, 0.343);
+		}
 	}
 
 	Details summary:focus:not([role='button']) {
