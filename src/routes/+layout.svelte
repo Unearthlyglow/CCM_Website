@@ -7,44 +7,56 @@
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
+	import painting1 from '$lib/images/painting1.png';
+	import painting2 from '$lib/images/painting2.png';
+	import painting3 from '$lib/images/painting3.jpg';
 	// import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
+
+
 </script>
 
 <div class="container-fluid">
 	<nav>
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
+	<nav class="nav--paintings">
+		<img class="painting1" src={painting1} alt="CCM Letters" />
+		<img class="painting1" src={painting2} alt="CCM Letters" />
+		<img class="painting1" src={painting3} alt="CCM Letters" />
+		<!-- <img class="painting1" src={painting1} alt="CCM Letters" /> -->
+	</nav>
 	<nav class="container-tabs">
-		<li role="list" dir="rtl">
-			<a href="/" aria-haspopup="listbox">Home</a>
+		<li>
+			<a href="/"> Home</a>
 			<!-- <ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
 			</ul> -->
 		</li>
-
+		<li class="class-divide">||</li>
 		<li role="list" dir="rtl">
-			<a href="#" aria-haspopup="listbox">Writing</a>
+			<p class="tab-intact">Writing</p>
 			<ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
 			</ul>
 		</li>
-
+		<li class="class-divide">||</li>
 		<li role="list" dir="rtl">
-			<a href="#" aria-haspopup="listbox">Portfolio</a>
+			<p class="tab-intact">Projects</p>
 			<ul role="listbox">
-				<li><a href="/websites">Websites</a></li>
-				<!-- <li><a href="/portfolio/film">Film</a></li> -->
-				<!-- <li><a href="/portfolio/graphic-design">Graphic Design</a></li> -->
+				<li><a href="/websites">Completed</a></li>
+				<li><a href="/websites">Metropolis Design</a></li>
+				<li><a href="/websites">Works In Progress</a></li>
+
 			</ul>
 		</li>
-
+		<li class="class-divide">||</li>
 		<li role="list" dir="rtl">
-			<a href="#" aria-haspopup="listbox">About</a>
+			<p class="tab-intact" aria-haspopup="listbox">About</p>
 			<ul role="listbox">
 				<li><a href="/about">About Me</a></li>
 				<!-- <li><a href="/about/resume">Resume</a></li> -->
@@ -55,18 +67,28 @@
 
 	<Body>
 		<slot />
+
 	</Body>
 
 	<div class="footer">
+
 		<ul>
-			<a href="/about"><li>About</li></a>
+			<a href="/about">
+				<li>About</li>
+			</a>
 			<!-- <a href="/"> <li>Writing</li></a> -->
 			<!-- <a href=""><li>Works In Projects</li></a> -->
-			<a href="/websites"><li>Website Portfolio</li></a>
+			<a href="/websites">
+				<li>Website Portfolio</li>
+			</a>
 		</ul>
 		<ul>
-			<a href="/jazz-manifesto"> <li>Jazz Manifesto</li></a>
-			<a href="https://unearthlyglow.github.io/CCMBlog/"><li>CCM:: General Blog</li></a>
+			<a href="/jazz-manifesto">
+				<li>Jazz Manifesto</li>
+			</a>
+			<a href="https://unearthlyglow.github.io/CCMBlog/">
+				<li>CCM:: General Blog</li>
+			</a>
 			<!-- 
 			<li>CCM:: Bob's Electronics Blog</li>
 			<li>CCM:: Milkbar Blog</li> -->
@@ -75,19 +97,14 @@
 			<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
 				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
 			</a>
-			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
-				><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
-			>
+			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a>
 			<!-- 
 			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
 				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
 			> -->
 
-			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
-				><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
-			>
+			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
 		</ul>
-		<ul />
 
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
@@ -110,25 +127,18 @@
 
 	<p class="footer--version">Version: <span>0.5.9</span></p>
 
+
 	<i class="footer--text">
 		I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
 		out to award@capsules.io for any feedback. Any and all complaints can be sent to
 		DoNotReply@capsules.io.
 	</i>
+
+
+
 </div>
 
 <style lang="scss">
-	.joker {
-		color: white;
-	}
-
-	.joker:hover {
-		color: #05667e;
-		background-color: #d3a632;
-
-		font-size: 1.04rem;
-		transition: font-size 0.8s, background-color 0.6s;
-	}
 	a:link {
 		text-decoration: none;
 	}
@@ -144,6 +154,7 @@
 	a:active {
 		text-decoration: none;
 	}
+
 	.container-fluid {
 		min-height: 100vh;
 		display: grid;
@@ -155,17 +166,43 @@
 		border-top: #8c2525 solid 6px;
 	}
 
+	.nav--paintings {
+		justify-content: center;
+	}
+
+
+	.painting1 {
+		max-height: 18rem;
+		max-width: 18rem;
+		margin: 1rem;
+	}
+
 	nav {
 		background-color: rgb(33, 125, 137);
 		color: white;
-		margin-right: 1rem;
 	}
 
 	.container-tabs {
+		justify-content: center;
+
 		& a {
 			color: white;
 			font-size: 1rem;
 		}
+	}
+
+	.tab-intact {
+		color: white;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.tab-intact:hover {
+		color: #fac53d;
+	}
+
+	.class-divide {
+		color: #8c2525;
 	}
 
 	ul[role='listbox'] {
@@ -173,6 +210,7 @@
 		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.98);
 		border: none;
 		text-align: center;
+
 		& a {
 			font-size: 0.7rem;
 			color: rgb(13, 81, 90);
@@ -190,17 +228,6 @@
 		& a:hover {
 			background: rgba(255, 255, 255, 0.343);
 		}
-	}
-
-	Details summary:focus:not([role='button']) {
-		/* color: rgb(8, 79, 67); */
-		color: palegoldenrod;
-	}
-
-	.container-tabs {
-		justify-content: space-around;
-		padding-top: 1rem;
-		font-weight: 700;
 	}
 
 	.footer {
@@ -287,7 +314,7 @@
 		margin: 1rem;
 	}
 
-	.footer--version > span {
+	.footer--version>span {
 		color: rgb(255, 255, 255);
 	}
 
@@ -305,5 +332,12 @@
 		width: 96%;
 		background-color: #d3a632;
 		height: 1px;
+	}
+
+	@media (width: 500px) {
+		.painting1 {
+			max-height: 8rem;
+			max-width: 8rem;
+		}
 	}
 </style>
