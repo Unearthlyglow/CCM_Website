@@ -7,9 +7,9 @@
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-	import painting2 from '$lib/images/painting2.svg';
-	import paintingUpdated from '$lib/images/paintingUpdated.svg';
-	import paintingUpdated2 from '$lib/images/paintingUpdated2.svg';
+
+	import painting1 from '$lib/images/painting1.jpg';
+	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
 	// import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
@@ -24,20 +24,15 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="nav--paintings">
-		<!-- <img class="painting1" src={painting1} alt="CCM Letters" />
-		<img class="painting1" src={painting3} alt="CCM Letters" />
-		
--->
 
-		<!-- <img class="painting1" src={painting1} alt="CCM Letters" /> -->
-		<!-- <img class="painting1" src={paintingUpdated} alt="CCM Letters" /> -->
-		<!-- <img class="painting1" src={painting2} alt="CCM Letters" /> -->
+		<img class="painting1" src={painting1} alt="CCM Letters" />
+		<img class="painting1" src={painting2} alt="CCM Letters" />
 		<img class="painting1" src={painting3} alt="CCM Letters" />
 	</nav>
 
 	<nav class="container-tabs">
 		<li>
-			<a href="/"> Home</a>
+			<a href="/#body"> Home</a>
 			<!-- <ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
@@ -65,14 +60,14 @@
 		<li role="list" dir="rtl">
 			<p class="tab-intact" aria-haspopup="listbox">About</p>
 			<ul role="listbox">
-				<li><a href="/about">About Me</a></li>
+				<li><a href="/about/#body">About Me</a></li>
 				<!-- <li><a href="/about/resume">Resume</a></li> -->
 				<li><a href="/todos">Website To-Do List!</a></li>
 			</ul>
 		</li>
 	</nav>
 
-	<Body>
+	<Body id="body">
 		<slot />
 
 	</Body>
@@ -132,7 +127,7 @@
 		<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 	</div>
 
-	<p class="footer--version">Version: <span>0.5.9</span></p>
+	<p class="footer--version">Version: <span>0.6.3</span></p>
 
 
 	<i class="footer--text">

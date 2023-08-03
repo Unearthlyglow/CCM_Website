@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="body">
+<div id="body">
 	<div class="body--inner">
 		<hr class="hr--top" />
 
@@ -12,7 +12,7 @@
 </div>
 
 <style>
-	.body {
+	#body {
 		background-color: rgb(46, 46, 51);
 		min-height: 40rem;
 		display: grid;
