@@ -23,9 +23,9 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="nav--paintings">
-		<img class="painting1" src={painting1} alt="CCM Letters" />
+		<!-- <img class="painting1" src={painting1} alt="CCM Letters" />
 		<img class="painting1" src={painting3} alt="CCM Letters" />
-		<img class="painting1" src={painting2} alt="CCM Letters" />
+		<img class="painting1" src={painting2} alt="CCM Letters" /> -->
 
 		<!-- <img class="painting1" src={painting1} alt="CCM Letters" /> -->
 	</nav>
