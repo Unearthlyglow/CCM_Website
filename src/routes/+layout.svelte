@@ -110,35 +110,37 @@
 
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
-	<hr class="hr" />
-	<div class="footer--ccmquote">
-		<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+	<div class="Below--Footer">
+		<hr class="hr" />
+		<div class="footer--ccmquote">
+			<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
 
-		<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+			<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+		</div>
+
+		<div class="footer--footloose">
+			<p class="footer--friends">My Friend's Digital Places:</p>
+
+			<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
+
+			<a href="https://www.josielockharttx.com/">Aaron's :: Josie Lockhart</a>
+
+			<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
+		</div>
+
+		<p class="footer--version">Version: <span>0.6.3</span></p>
+
+
+		<i class="footer--text">
+			I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
+			out to award@capsules.io for any feedback. Any and all complaints can be sent to
+			DoNotReply@capsules.io.
+		</i>
 	</div>
-
-	<div class="footer--footloose">
-		<p class="footer--friends">My Friend's Digital Places:</p>
-
-		<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
-
-		<a href="https://www.josielockharttx.com/">Aaron's :: Josie Lockhart</a>
-
-		<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
-	</div>
-
-	<p class="footer--version">Version: <span>0.6.3</span></p>
-
-
-	<i class="footer--text">
-		I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
-		out to award@capsules.io for any feedback. Any and all complaints can be sent to
-		DoNotReply@capsules.io.
-	</i>
-
 
 
 </div>
+
 
 <style lang="scss">
 	a:link {
@@ -158,7 +160,8 @@
 	}
 
 	.container-fluid {
-		min-height: 100vh;
+		min-height: 100%;
+		min-width: 100%;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, 1fr);
 		padding-right: 0px;
@@ -189,7 +192,7 @@
 
 		& a {
 			color: white;
-			font-size: 1rem;
+			font-size: 1.5rem;
 		}
 	}
 
@@ -197,6 +200,7 @@
 		color: white;
 		font-weight: 700;
 		margin: 0;
+		font-size: 1.5rem;
 	}
 
 	.tab-intact:hover {
