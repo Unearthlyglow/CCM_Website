@@ -8,7 +8,7 @@
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
 	import painting1 from '$lib/images/painting1.png';
-	import painting2 from '$lib/images/painting2.png';
+	import painting2 from '$lib/images/painting2.svg';
 	import painting3 from '$lib/images/painting3.jpg';
 	// import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
@@ -25,9 +25,11 @@
 	<nav class="nav--paintings">
 		<!-- <img class="painting1" src={painting1} alt="CCM Letters" />
 		<img class="painting1" src={painting3} alt="CCM Letters" />
-		<img class="painting1" src={painting2} alt="CCM Letters" /> -->
+		
+-->
 
 		<!-- <img class="painting1" src={painting1} alt="CCM Letters" /> -->
+		<img class="painting1" src={painting2} alt="CCM Letters" />
 	</nav>
 	<nav class="container-tabs">
 		<li>
