@@ -72,15 +72,14 @@
 
 	</Body>
 
-	<div class="footer">
-
-		<ul>
+	<footer class="footer">
+		<!-- <ul>
 			<a href="/about">
 				<li>About</li>
-			</a>
-			<!-- <a href="/"> <li>Writing</li></a> -->
-			<!-- <a href=""><li>Works In Projects</li></a> -->
-			<a href="/websites">
+			</a> -->
+		<!-- <a href="/"> <li>Writing</li></a> -->
+		<!-- <a href=""><li>Works In Projects</li></a> -->
+		<!-- <a href="/websites">
 				<li>Website Portfolio</li>
 			</a>
 		</ul>
@@ -90,53 +89,56 @@
 			</a>
 			<a href="https://unearthlyglow.github.io/CCMBlog/">
 				<li>CCM:: General Blog</li>
-			</a>
-			<!-- 
+			</a> -->
+		<!-- 
 			<li>CCM:: Bob's Electronics Blog</li>
 			<li>CCM:: Milkbar Blog</li> -->
-		</ul>
-		<ul>
-			<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
+		<!-- </ul> -->
+		<!-- <ul> -->
+		<!-- <a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
 				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
 			</a>
-			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a>
-			<!-- 
+			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a> -->
+		<!-- 
 			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
 				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
 			> -->
 
-			<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
+		<!-- <a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
 		</ul>
 
-		<img class="building-logo" alt="The project logo" src={footerLogo} />
-	</div>
-	<div class="Below--Footer">
-		<hr class="hr" />
-		<div class="footer--ccmquote">
-			<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+		<img class="building-logo" alt="The project logo" src={footerLogo} /> -->
 
-			<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+		<div class="Below--Footer">
+			<hr class="hr" />
+			<div class="footer--ccmquote">
+				<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+
+				<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+			</div>
+
+			<div class="footer--footloose">
+				<p class="footer--friends">My Friend's Digital Places:</p>
+
+				<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
+
+				<a href="https://www.josielockharttx.com/">Aaron's :: Josie Lockhart</a>
+
+				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
+			</div>
+
+			<p class="footer--version">Version: <span>0.6.3</span></p>
+
+
+			<i class="footer--text">
+				I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
+				out to award@capsules.io for any feedback. Any and all complaints can be sent to
+				DoNotReply@capsules.io.
+			</i>
 		</div>
-
-		<div class="footer--footloose">
-			<p class="footer--friends">My Friend's Digital Places:</p>
-
-			<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
-
-			<a href="https://www.josielockharttx.com/">Aaron's :: Josie Lockhart</a>
-
-			<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
-		</div>
-
-		<p class="footer--version">Version: <span>0.6.3</span></p>
+	</footer>
 
 
-		<i class="footer--text">
-			I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
-			out to award@capsules.io for any feedback. Any and all complaints can be sent to
-			DoNotReply@capsules.io.
-		</i>
-	</div>
 
 
 </div>
@@ -159,6 +161,9 @@
 		text-decoration: none;
 	}
 
+
+
+
 	.container-fluid {
 		min-height: 100%;
 		min-width: 100%;
@@ -166,7 +171,7 @@
 		grid-template-columns: repeat(auto-fit, 1fr);
 		padding-right: 0px;
 		padding-left: 0px;
-		background-color: rgb(33, 125, 137);
+		/* background-color: rgb(33, 125, 137); */
 		border-bottom: #8c2525 solid 8px;
 		border-top: #8c2525 solid 6px;
 	}
@@ -241,7 +246,7 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: flex-end;
-		margin-top: 3rem;
+
 	}
 
 	.footer--quote {
@@ -249,12 +254,14 @@
 		font-weight: 800;
 		color: #fac53d;
 		margin-top: 2rem;
+
 	}
 
 	.footer--ccmquote {
 		display: flex;
-		/* flex-direction: row; */
+		flex-direction: row;
 		align-items: center;
+
 	}
 
 	li {
@@ -276,6 +283,7 @@
 		align-content: flex-end;
 		align-items: center;
 		justify-content: flex-end;
+
 	}
 
 	.footer--friends {
