@@ -11,7 +11,7 @@
 	import painting1 from '$lib/images/painting1.jpg';
 	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
-	// import Linkedin from '$lib/images/Linkedin.svg';
+	import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
@@ -73,41 +73,46 @@
 	</Body>
 
 	<footer class="footer">
-		<!-- <ul>
-			<a href="/about">
-				<li>About</li>
-			</a> -->
-		<!-- <a href="/"> <li>Writing</li></a> -->
-		<!-- <a href=""><li>Works In Projects</li></a> -->
-		<!-- <a href="/websites">
-				<li>Website Portfolio</li>
-			</a>
-		</ul>
-		<ul>
-			<a href="/jazz-manifesto">
-				<li>Jazz Manifesto</li>
-			</a>
-			<a href="https://unearthlyglow.github.io/CCMBlog/">
-				<li>CCM:: General Blog</li>
-			</a> -->
-		<!-- 
-			<li>CCM:: Bob's Electronics Blog</li>
-			<li>CCM:: Milkbar Blog</li> -->
-		<!-- </ul> -->
-		<!-- <ul> -->
-		<!-- <a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
-				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
-			</a>
-			<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a> -->
-		<!-- 
-			<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
-				><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
-			> -->
+		<div class="above">
 
-		<!-- <a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
-		</ul>
+			<ul>
+				<a href="/about">
+					<li>About</li>
+				</a>
+				<a href="/">
+					<li>Writing</li>
+				</a>
+				<a href="/">
+					<li>Works In Projects</li>
+				</a>
+				<a href="/websites">
+					<li>Website Portfolio</li>
+				</a>
+			</ul>
+			<ul>
+				<a href="/jazz-manifesto">
+					<li>Jazz Manifesto</li>
+				</a>
+				<a href="https://unearthlyglow.github.io/CCMBlog/">
+					<li>CCM:: General Blog</li>
+				</a>
 
-		<img class="building-logo" alt="The project logo" src={footerLogo} /> -->
+				<li>CCM:: Bob's Electronics Blog</li>
+				<li>CCM:: Milkbar Blog</li>
+			</ul>
+			<ul>
+				<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
+					<img class="footer--icons" alt="Github Logo" src={githubLogo} />
+				</a>
+				<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a>
+
+				<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"><img class="footer--icons" alt="LinkedIn Logo"
+						src={Linkedin} /></a>
+
+				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
+			</ul>
+			<img class="building-logo" alt="The project logo" src={footerLogo} />
+		</div>
 
 		<div class="Below--Footer">
 			<hr class="hr" />
@@ -132,7 +137,7 @@
 
 			<i class="footer--text">
 				I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
-				out to award@capsules.io for any feedback. Any and all complaints can be sent to
+				out to award@capsules.io for any feedback. Any and all unfunny complaints can be sent to
 				DoNotReply@capsules.io.
 			</i>
 		</div>
@@ -243,10 +248,15 @@
 
 	.footer {
 		background-color: rgb(33, 125, 137);
-		display: flex;
-		justify-content: space-around;
-		align-items: flex-end;
 
+	}
+
+	.above {
+		margin: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		line-height: 1.7rem;
 	}
 
 	.footer--quote {
@@ -257,12 +267,7 @@
 
 	}
 
-	.footer--ccmquote {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
 
-	}
 
 	li {
 		list-style-type: none;
@@ -293,6 +298,10 @@
 		color: hsl(205, 16%, 77%);
 	}
 
+	.Below--Footer {
+		margin: 1rem;
+	}
+
 	a {
 		text-decoration: underline;
 		color: #363262;
@@ -305,9 +314,16 @@
 	.footer--text {
 		color: #712828;
 		font-weight: 700;
-		font-size: 0.7rem;
-		padding: 1rem;
+		font-size: .80rem;
+		margin: 3rem;
 	}
+
+	.footer--ccmquote {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
 
 	.building-logo {
 		height: 6rem;
@@ -321,7 +337,7 @@
 	}
 
 	.footer--version {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		font-weight: 800;
 		color: #fac53d;
 		text-align: right;
