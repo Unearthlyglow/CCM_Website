@@ -2,6 +2,7 @@
 	// @ts-nocheck
 
 	import { page } from '$app/stores';
+	import grate from '$lib/images/grate.png';
 </script>
 
 <h1>MANNNNN-GREAT</h1>
@@ -13,6 +14,8 @@
 		>award@capsulescure.io</span
 	>, I'll look into it. Thank you.
 </p>
+
+<img src={grate} alt="" />
 
 <style>
 	h1 {

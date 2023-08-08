@@ -15,8 +15,6 @@
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
-
-
 </script>
 
 <div class="container-fluid">
@@ -24,7 +22,6 @@
 		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
 	</nav>
 	<nav class="nav--paintings">
-
 		<img class="painting1" src={painting1} alt="CCM Letters" />
 		<img class="painting1" src={painting2} alt="CCM Letters" />
 		<img class="painting1" src={painting3} alt="CCM Letters" />
@@ -42,7 +39,7 @@
 		<li role="list" dir="rtl">
 			<p class="tab-intact">Writing</p>
 			<ul role="listbox">
-				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
+				<li><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
 			</ul>
 		</li>
@@ -50,10 +47,10 @@
 		<li role="list" dir="rtl">
 			<p class="tab-intact">Projects</p>
 			<ul role="listbox">
-				<li><a href="/websites">Completed</a></li>
-				<li><a href="/websites">Metropolis Design</a></li>
-				<li><a href="/websites">Works In Progress</a></li>
+				<li><a href="/software/#body">Software</a></li>
+				<li><a href="/metro/#body">Metropolis Design</a></li>
 
+				<li><a href="/art/#body">Art I've Enjoyed</a></li>
 			</ul>
 		</li>
 		<li class="class-divide">||</li>
@@ -62,31 +59,26 @@
 			<ul role="listbox">
 				<li><a href="/about/#body">About Me</a></li>
 				<!-- <li><a href="/about/resume">Resume</a></li> -->
-				<li><a href="/todos">Website To-Do List!</a></li>
+				<li><a href="/todos/#body">Website To-Do List!</a></li>
 			</ul>
 		</li>
 	</nav>
 
 	<Body id="body">
 		<slot />
-
 	</Body>
 
 	<footer class="footer">
-		<div class="above">
-
+		<div class="footer--above">
 			<ul>
-				<a href="/about">
+				<a href="/#body">
+					<li>Home</li>
+				</a>
+				<a href="/about/#body">
 					<li>About</li>
 				</a>
-				<a href="/">
-					<li>Writing</li>
-				</a>
-				<a href="/">
-					<li>Works In Projects</li>
-				</a>
-				<a href="/websites">
-					<li>Website Portfolio</li>
+				<a href="/software/#body">
+					<li>Software Portfolio</li>
 				</a>
 			</ul>
 			<ul>
@@ -104,18 +96,23 @@
 				<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
 					<img class="footer--icons" alt="Github Logo" src={githubLogo} />
 				</a>
-				<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a>
+				<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
+					><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
+				>
 
-				<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"><img class="footer--icons" alt="LinkedIn Logo"
-						src={Linkedin} /></a>
+				<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
+					><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
+				>
 
-				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a>
+				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
+					><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
+				>
 			</ul>
 			<img class="building-logo" alt="The project logo" src={footerLogo} />
 		</div>
 
-		<div class="Below--Footer">
-			<hr class="hr" />
+		<div class="below--footer">
+			<hr class="footer--hr" />
 			<div class="footer--ccmquote">
 				<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
 
@@ -134,20 +131,14 @@
 
 			<p class="footer--version">Version: <span>0.6.3</span></p>
 
-
-			<i class="footer--text">
-				I'm still figuring this out, so please forgive me for any errors you may encounter. Please reach
-				out to award@capsules.io for any feedback. Any and all unfunny complaints can be sent to
-				DoNotReply@capsules.io.
+			<i class="footer--Bottomtext">
+				I'm still figuring this out, so please forgive me for any errors you may encounter. Please
+				reach out to award@capsules.io for any feedback. Any and all unfunny complaints can be sent
+				to DoNotReply@capsules.io.
 			</i>
 		</div>
 	</footer>
-
-
-
-
 </div>
-
 
 <style lang="scss">
 	a:link {
@@ -166,9 +157,6 @@
 		text-decoration: none;
 	}
 
-
-
-
 	.container-fluid {
 		min-height: 100%;
 		min-width: 100%;
@@ -181,10 +169,13 @@
 		border-top: #8c2525 solid 6px;
 	}
 
+	.logo-building {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.nav--paintings {
 		justify-content: center;
 	}
-
 
 	.painting1 {
 		max-height: 18rem;
@@ -248,10 +239,9 @@
 
 	.footer {
 		background-color: rgb(33, 125, 137);
-
 	}
 
-	.above {
+	.footer--above {
 		margin: 1rem;
 		display: flex;
 		flex-direction: row;
@@ -264,10 +254,7 @@
 		font-weight: 800;
 		color: #fac53d;
 		margin-top: 2rem;
-
 	}
-
-
 
 	li {
 		list-style-type: none;
@@ -288,7 +275,6 @@
 		align-content: flex-end;
 		align-items: center;
 		justify-content: flex-end;
-
 	}
 
 	.footer--friends {
@@ -298,7 +284,7 @@
 		color: hsl(205, 16%, 77%);
 	}
 
-	.Below--Footer {
+	.below--footer {
 		margin: 1rem;
 	}
 
@@ -311,10 +297,10 @@
 		color: #fac53d;
 	}
 
-	.footer--text {
+	.footer--Bottomtext {
 		color: #712828;
 		font-weight: 700;
-		font-size: .80rem;
+		font-size: 0.8rem;
 		margin: 3rem;
 	}
 
@@ -323,7 +309,6 @@
 		flex-direction: row;
 		align-items: center;
 	}
-
 
 	.building-logo {
 		height: 6rem;
@@ -344,7 +329,7 @@
 		margin: 1rem;
 	}
 
-	.footer--version>span {
+	.footer--version > span {
 		color: rgb(255, 255, 255);
 	}
 

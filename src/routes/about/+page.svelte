@@ -10,6 +10,13 @@
 	<h2>Objective:</h2>
 
 	<p>To collect, reflect, and share all the knowledge and information that I accumulate.</p>
+
+	<p>
+		Tech Stack: 
+		HTML CSS Javascript Sveltekit Rust *I also use a whole bunch of tools that are both involved and
+		not involved with the tools above and although they deserve mention there are just too many of
+		em! This will be listed in smaller font* I can create the following software…
+	</p>
 </div>
 
 <style>
