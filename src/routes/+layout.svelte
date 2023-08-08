@@ -3,7 +3,8 @@
 	import '@fontsource/roboto';
 	import '@fontsource/material-icons';
 	import '@fontsource/caveat-brush';
-	import headerLogo from '$lib/images/ccm_logo_svg.svg';
+
+	import metropolis_building from '$lib/images/metropolis2.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
@@ -11,6 +12,7 @@
 	import painting1 from '$lib/images/painting1.jpg';
 	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
+	import fire from '$lib/images/fire.svg';
 	import Linkedin from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
@@ -19,7 +21,7 @@
 
 <div class="container-fluid">
 	<nav>
-		<img class="logo-building" alt="CCM Logo" src={headerLogo} />
+		<img class="logo-building" alt="CCM Logo" src={metropolis_building} />
 	</nav>
 	<nav class="nav--paintings">
 		<img class="painting1" src={painting1} alt="CCM Letters" />
@@ -92,31 +94,46 @@
 				<li>CCM:: Bob's Electronics Blog</li>
 				<li>CCM:: Milkbar Blog</li>
 			</ul>
-			<ul>
-				<a href="https://github.com/Unearthlyglow" data-tooltip="My Github Repos">
+
+			<div class="footer--iconss">
+				<a
+					href="https://github.com/Unearthlyglow"
+					data-tooltip="My Github Repos"
+					class="footer--github"
+				>
 					<img class="footer--icons" alt="Github Logo" src={githubLogo} />
 				</a>
-				<a href="https://www.instagram.com/ccm_employee/" data-tooltip="Instagram"
-					><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
+				<a
+					href="https://www.instagram.com/ccm_employee/"
+					data-tooltip="Instagram"
+					class="footer--ig"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
 				>
 
-				<a href="https://www.linkedin.com/in/award-malisi/" data-tooltip="LinkedIn"
+				<a
+					href="https://www.linkedin.com/in/award-malisi/"
+					data-tooltip="LinkedIn"
+					class="footer--linkedin"
 					><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
 				>
 
-				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter"
+				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter" class="footer--twitter"
 					><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
 				>
-			</ul>
+			</div>
+
 			<img class="building-logo" alt="The project logo" src={footerLogo} />
 		</div>
 
 		<div class="below--footer">
 			<hr class="footer--hr" />
-			<div class="footer--ccmquote">
-				<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
 
-				<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+			<div class="footer--ccmquote">
+				<div>
+					<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
+					<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+				</div>
+
+				<img class="footer--fire" src={fire} alt="CCM Letters" />
 			</div>
 
 			<div class="footer--footloose">
@@ -129,7 +146,7 @@
 				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 			</div>
 
-			<p class="footer--version">Version: <span>0.6.3</span></p>
+			<p class="footer--version">Version: <span>0.6.3</span> Original background color: #217D89</p>
 
 			<i class="footer--Bottomtext">
 				I'm still figuring this out, so please forgive me for any errors you may encounter. Please
@@ -170,6 +187,7 @@
 	}
 
 	.logo-building {
+		margin-top: 1rem;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -184,7 +202,7 @@
 	}
 
 	nav {
-		background-color: rgb(33, 125, 137);
+		background-color: rgb(131, 155, 160);
 		color: white;
 	}
 
@@ -238,7 +256,7 @@
 	}
 
 	.footer {
-		background-color: rgb(33, 125, 137);
+		background-color: #839ba0;
 	}
 
 	.footer--above {
@@ -249,18 +267,11 @@
 		line-height: 1.7rem;
 	}
 
-	.footer--quote {
-		font-size: 0.8rem;
-		font-weight: 800;
-		color: #fac53d;
-		margin-top: 2rem;
-	}
-
 	li {
 		list-style-type: none;
 		font-weight: 700;
 		font-size: 0.7rem;
-		color: hsl(205, 16%, 77%);
+		color: hsl(0, 0%, 100%);
 	}
 
 	li:hover {
@@ -281,7 +292,7 @@
 		margin: 0.3rem;
 		font-size: 0.8rem;
 		font-weight: 800;
-		color: hsl(205, 16%, 77%);
+		color: hsl(0, 0%, 100%);
 	}
 
 	.below--footer {
@@ -306,19 +317,61 @@
 
 	.footer--ccmquote {
 		display: flex;
-		flex-direction: row;
 		align-items: center;
+		justify-content: space-between;
+	}
+
+	.footer--quote {
+		font-size: 0.8rem;
+		font-weight: 800;
+		color: #fac53d;
+		margin-top: 2rem;
+		display: inline-block;
+	}
+
+	.footer--fire {
+		align-self: center;
+		margin-right: 3rem;
 	}
 
 	.building-logo {
 		height: 6rem;
 		padding-right: 1rem;
-		align-self: start;
 	}
 
 	.footer--icons {
 		height: 1.5rem;
 		margin: 1.5rem;
+	}
+
+	.footer--github {
+		background: #f7be2f;
+	}
+
+	.footer--github:hover {
+		background: #fddf92;
+	}
+
+	.footer--linkedin {
+		background: #363262;
+	}
+	.footer--linkedin:hover {
+		background: #ba91ef;
+	}
+
+	.footer--twitter {
+		background: #860b0b;
+	}
+	.footer--twitter:hover {
+		background: #dd5050;
+	}
+
+	.footer--ig {
+		background: #c4c1c1;
+	}
+
+	.footer--ig:hover {
+		background: #ffffff;
 	}
 
 	.footer--version {

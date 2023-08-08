@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <div id="body">
@@ -8,6 +9,8 @@
 		<slot />
 
 		<hr class="hr--bottom" />
+
+		
 		<!-- <a href="/[slug]/#body" role="button">Back to Top</a> -->
 	</div>
 </div>
