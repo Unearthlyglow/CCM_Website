@@ -11,7 +11,7 @@
 	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
 	import fire from '$lib/images/fire.svg';
-	import LinkedIn from '$lib/images/Linkedin.svg';
+	import linked from '$lib/images/linked.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
@@ -111,8 +111,7 @@
 				<a
 					href="https://www.linkedin.com/in/award-malisi/"
 					data-tooltip="LinkedIn"
-					class="footer--linkedin"
-					><img class="footer--icons" alt="LinkedIn Logo" src={LinkedIn} /></a
+					class="footer--linkedin"><img class="footer--icons" alt="LinkedIn Logo" src={linked} /></a
 				>
 
 				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter" class="footer--twitter"
@@ -147,11 +146,11 @@
 
 			<p class="footer--version">Version: <span>0.6.3</span></p>
 
-			<i class="footer--Bottomtext">
+			<p class="footer--Bottomtext">
 				I'm still figuring this out, so please forgive me for any errors you may encounter. Please
 				reach out to award@capsules.io for any feedback. Any and all unfunny complaints can be sent
 				to DoNotReply@capsules.io.
-			</i>
+			</p>
 		</div>
 	</footer>
 </div>
@@ -257,6 +256,7 @@
 
 	.footer {
 		background-color: #839ba0;
+		padding-top: 5rem;
 	}
 
 	.footer--above {
@@ -312,7 +312,8 @@
 		color: #712828;
 		font-weight: 700;
 		font-size: 0.8rem;
-		margin: 3rem;
+		margin: 1.5rem;
+		text-align: center;
 	}
 
 	.footer--ccmquote {

@@ -42,7 +42,7 @@ Set it up so that
 		display: block;
 		width: 100%;
 		background-color: #d3a632;
-		height: 10px;
+		height: 7px;
 	}
 
 	.hr--bottom {
