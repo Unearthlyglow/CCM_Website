@@ -4,7 +4,10 @@
 		<p>TV:</p>
     <ul>
       <li>
-        Goosebumps, R.L. Stine
+        The Wire
+      </li>
+      <li>
+        Goosebumps
       </li>
     </ul>
 		<p>Film:</p>

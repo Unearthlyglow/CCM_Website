@@ -3,12 +3,10 @@
 	import '@fontsource/roboto';
 	import '@fontsource/material-icons';
 	import '@fontsource/caveat-brush';
-
 	import metropolis_building from '$lib/images/metropolis2.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-
 	import painting1 from '$lib/images/painting1.jpg';
 	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
@@ -50,9 +48,10 @@
 			<p class="tab-intact">Projects</p>
 			<ul role="listbox">
 				<li><a href="/software/#body">Software</a></li>
+				<li><a href="/visual/#body">Visual Media</a></li>
 				<li><a href="/metro/#body">Metropolis Design</a></li>
-
 				<li><a href="/art/#body">Art I've Enjoyed</a></li>
+				<li><a href="/embedded/#body">The Road To Embedded Programming</a></li>
 			</ul>
 		</li>
 		<li class="class-divide">||</li>
@@ -66,7 +65,7 @@
 		</li>
 	</nav>
 
-	<Body id="body">
+	<Body>
 		<slot />
 	</Body>
 
@@ -146,7 +145,7 @@
 				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 			</div>
 
-			<p class="footer--version">Version: <span>0.6.3</span> Original background color: #217D89</p>
+			<p class="footer--version">Version: <span>0.6.3</span></p>
 
 			<i class="footer--Bottomtext">
 				I'm still figuring this out, so please forgive me for any errors you may encounter. Please
@@ -192,7 +191,7 @@
 		margin-right: auto;
 	}
 	.nav--paintings {
-		justify-content: center;
+		justify-content: space-around;
 	}
 
 	.painting1 {
@@ -213,6 +212,7 @@
 			color: white;
 			font-size: 1.5rem;
 		}
+		padding: 2rem;
 	}
 
 	.tab-intact {
@@ -264,7 +264,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
-		line-height: 1.7rem;
+		line-height: 1.3rem;
 	}
 
 	li {
@@ -331,7 +331,6 @@
 
 	.footer--fire {
 		align-self: center;
-		margin-right: 3rem;
 	}
 
 	.building-logo {

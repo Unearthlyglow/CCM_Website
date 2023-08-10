@@ -12,11 +12,41 @@
 	<p>To collect, reflect, and share all the knowledge and information that I accumulate.</p>
 
 	<p>
-		Tech Stack: 
-		HTML CSS Javascript Sveltekit Rust *I also use a whole bunch of tools that are both involved and
-		not involved with the tools above and although they deserve mention there are just too many of
-		em! This will be listed in smaller font* I can create the following software…
+		Tech Stack: HTML CSS Javascript Sveltekit Rust *I also use a whole bunch of tools that are both
+		involved and not involved with the tools above and although they deserve mention there are just
+		too many of em! This will be listed in smaller font* I can create the following software…
 	</p>
+
+	<h2>Tech Stack & Tools:</h2>
+	<h3>Web Development Programming:</h3>
+
+	<ul>
+		<li>HTML</li>
+		<li>CSS & SASS</li>
+		<li>Javascript</li>
+		<li>Typescript</li>
+		<li>Vue/Nuxt, Svelte/Sveltekit</li>
+		<li>Node.js</li>
+		<li>Express.js</li>
+		<li>SQL, SQLite, PostgresSQL</li>
+		<li>Github</li>
+		<li>Docker</li>
+		<li>A number of other utility tool: (Gulp, Vercel, Shell, Notion, etc…)</li>
+	</ul>
+
+	<h3>General Purpose Programming:</h3>
+	<li>Rust Programming Langauge</li>
+	<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
+
+	<h3>Visual Design:</h3>
+	<li>Inkscape</li>
+	<li>Figma</li>
+	<li>Gimp</li>
+	<li>Blender</li>
+	<li>OpenToonz</li>
+	<li>Final Cut Pro </li>
+	<li>S-VHS Camcorders & Tape Decks</li>
+	<li>RPG Maker MV</li>
 </div>
 
 <style>
