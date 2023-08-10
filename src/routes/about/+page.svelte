@@ -17,34 +17,32 @@
 		too many of em! This will be listed in smaller font* I can create the following software…
 	</p>
 
-	<h2>Tech Stack & Tools:</h2>
-	<h3>Web Development Programming:</h3>
+	<h2 class="about--techstack">Tech Stack & Tools:</h2>
+	<h3>Web Development Programming</h3>
 
 	<ul>
 		<li>HTML</li>
 		<li>CSS & SASS</li>
-		<li>Javascript</li>
-		<li>Typescript</li>
+		<li>Javascript, Typescript</li>
 		<li>Vue/Nuxt, Svelte/Sveltekit</li>
-		<li>Node.js</li>
-		<li>Express.js</li>
+		<li>Node.js, Express.js</li>
 		<li>SQL, SQLite, PostgresSQL</li>
 		<li>Github</li>
 		<li>Docker</li>
 		<li>A number of other utility tool: (Gulp, Vercel, Shell, Notion, etc…)</li>
 	</ul>
 
-	<h3>General Purpose Programming:</h3>
+	<h3>General Purpose Programming</h3>
 	<li>Rust Programming Langauge</li>
 	<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
 
-	<h3>Visual Design:</h3>
+	<h3>Visual Design</h3>
 	<li>Inkscape</li>
 	<li>Figma</li>
 	<li>Gimp</li>
 	<li>Blender</li>
 	<li>OpenToonz</li>
-	<li>Final Cut Pro </li>
+	<li>Final Cut Pro</li>
 	<li>S-VHS Camcorders & Tape Decks</li>
 	<li>RPG Maker MV</li>
 </div>
@@ -52,10 +50,29 @@
 <style>
 	h1 {
 		text-align: center;
+		margin-top: 3rem;
 	}
 
+	h3 {
+		text-align: center;
+		color: rgb(148, 237, 255);
+		margin-bottom: 1.2rem;
+		margin-top: 1rem;
+	}
+
+	li {
+		text-align: center;
+		list-style-type: none;
+		line-height: 2.1rem;
+	}
 	span {
 		color: #fac53d;
 		font-weight: 700;
+	}
+
+	.about--techstack {
+		margin-bottom: 2rem;
+		display: flex;
+		
 	}
 </style>

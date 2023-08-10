@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <div id="body">
@@ -10,7 +9,9 @@
 
 		<hr class="hr--bottom" />
 
-		
+		<div class="body--box">
+			<hr class="hr--box" />
+		</div>
 		<!-- <a href="/[slug]/#body" role="button">Back to Top</a> -->
 	</div>
 </div>
@@ -35,10 +36,6 @@ Set it up so that
 		border-left: 5px #d3a632 solid; */
 	}
 
-	h1 {
-		text-align: center;
-	}
-
 	.hr--top {
 		margin-bottom: 3rem;
 		clear: both;
@@ -56,5 +53,19 @@ Set it up so that
 		background-color: #d3a632;
 		height: 7px;
 		margin-bottom: 5rem;
+	}
+
+	.body--box {
+		display: flex;
+	}
+
+	.hr--box {
+		clear: both;
+		margin-top: 5rem;
+		width: 1rem;
+		background-color: #712828;
+		height: 1.2rem;
+		margin-bottom: 5rem;
+	margin-right: 3rem;
 	}
 </style>

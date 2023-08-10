@@ -11,7 +11,7 @@
 	import painting2 from '$lib/images/painting2.jpg';
 	import painting3 from '$lib/images/painting3.jpg';
 	import fire from '$lib/images/fire.svg';
-	import Linkedin from '$lib/images/Linkedin.svg';
+	import LinkedIn from '$lib/images/Linkedin.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import Body from '$lib/Body.svelte';
@@ -112,7 +112,7 @@
 					href="https://www.linkedin.com/in/award-malisi/"
 					data-tooltip="LinkedIn"
 					class="footer--linkedin"
-					><img class="footer--icons" alt="LinkedIn Logo" src={Linkedin} /></a
+					><img class="footer--icons" alt="LinkedIn Logo" src={LinkedIn} /></a
 				>
 
 				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter" class="footer--twitter"
@@ -181,8 +181,8 @@
 		padding-right: 0px;
 		padding-left: 0px;
 		/* background-color: rgb(33, 125, 137); */
-		border-bottom: #8c2525 solid 8px;
-		border-top: #8c2525 solid 6px;
+		/*border-bottom: #8c2525 solid 8px;
+		border-top: #8c2525 solid 6px; */
 	}
 
 	.logo-building {
