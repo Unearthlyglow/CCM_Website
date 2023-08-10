@@ -147,9 +147,9 @@
 			<p class="footer--version">Version: <span>0.6.3</span></p>
 
 			<p class="footer--Bottomtext">
-				I'm still figuring this out, so please forgive me for any errors you may encounter. Please
-				reach out to award@capsules.io for any feedback. Any and all unfunny complaints can be sent
-				to DoNotReply@capsules.io.
+				Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler,
+				auf die Sie stoßen. Bitte Für Feedback wenden Sie sich bitte an award@capsules.io. Es können
+				alle unlustigen Beschwerden eingereicht werden an DoNotReply@capsules.io. 
 			</p>
 		</div>
 	</footer>
@@ -196,7 +196,6 @@
 	.painting1 {
 		max-height: 18rem;
 		max-width: 18rem;
-		margin: 1rem;
 	}
 
 	nav {
@@ -340,8 +339,8 @@
 	}
 
 	.footer--icons {
-		height: 1.5rem;
-		margin: 1.5rem;
+		height: 1.3rem;
+		margin: 1.3rem;
 	}
 
 	.footer--github {

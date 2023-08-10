@@ -52,8 +52,8 @@
 	h3 {
 		text-align: center;
 		color: rgb(148, 237, 255);
-		margin-bottom: 1.2rem;
-		margin-top: 1rem;
+		margin-bottom: 0rem;
+		margin-top: 2rem;
 	}
 
 	li {

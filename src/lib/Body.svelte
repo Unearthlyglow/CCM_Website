@@ -1,17 +1,25 @@
 <script>
+	import footerLogo from '$lib/images/MetroRod.svg';
+	import yellowBuilding from '$lib/images/yellowBuilding.svg';
 </script>
 
 <div id="body">
 	<div class="body--inner">
+		<div class="building-logos">
+			<img class="building-logo" alt="The project logo" src={yellowBuilding} />
+			<img class="building-logo2" alt="The project logo" src={yellowBuilding} />
+		</div>
+
 		<hr class="hr--top" />
 
 		<slot />
 
-		<hr class="hr--bottom" />
+		<!-- <hr class="hr--box" /> -->
+		<p class="fin">フィン</p>
 
-		<div class="body--box">
-			<hr class="hr--box" />
-		</div>
+		<hr class="hr--bottom" />
+		<hr class="hr--bottom2" />
+
 		<!-- <a href="/[slug]/#body" role="button">Back to Top</a> -->
 	</div>
 </div>
@@ -36,8 +44,22 @@ Set it up so that
 		border-left: 5px #d3a632 solid; */
 	}
 
+	.building-logos {
+		display: flex;
+		justify-content: space-between;
+	}
+	.building-logo {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.building-logo2 {
+		width: 3rem;
+		height: 3rem;
+	}
 	.hr--top {
 		margin-bottom: 3rem;
+		margin-top: 0rem;
 		clear: both;
 		display: block;
 		width: 100%;
@@ -46,13 +68,19 @@ Set it up so that
 	}
 
 	.hr--bottom {
-		clear: both;
-		margin-top: 5rem;
-		display: block;
-		width: 30%;
+		margin-top: 10rem;
+		width: 40%;
 		background-color: #d3a632;
 		height: 7px;
+		margin-bottom: 0rem;
+	}
+
+	.hr--bottom2 {
+		width: 30%;
+		background-color: #712828;
+		height: 15px;
 		margin-bottom: 5rem;
+		margin-top: 0rem;
 	}
 
 	.body--box {
@@ -61,11 +89,19 @@ Set it up so that
 
 	.hr--box {
 		clear: both;
-		margin-top: 5rem;
+		transform: translateY(9rem);
 		width: 1rem;
 		background-color: #712828;
 		height: 1.2rem;
-		margin-bottom: 5rem;
-	margin-right: 3rem;
+		margin-right: 4rem;
+	}
+
+	.fin {
+		transform: translateY(9rem);
+		font-weight: 900;
+		font-size: 0.9rem;
+		color: #a84747;
+		text-align: end;
+		
 	}
 </style>
