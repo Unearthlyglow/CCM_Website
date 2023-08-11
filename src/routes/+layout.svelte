@@ -410,20 +410,27 @@
 		height: 1px;
 	}
 
-	@media (width: 825px) {
-		.painting1 {
-			max-height: 8rem;
-			max-width: 8rem;
-		}
-		.footer--iconss {
-			display: flex;
-		}
+	.footer--iconss {
 	}
 
-	@media (width: 600px) {
+	@media only screen and (max-width: 630px) {
 		.painting1 {
-			max-height: 8rem;
-			max-width: 8rem;
+			max-height: 6rem;
+			max-width: 6rem;
+		}
+
+		.footer--iconss {
+			display: grid;
+			grid-gap: 1rem;
+		}
+
+		.footer--fire {
+			width: 15rem;
+			height: 15rem;
+		}
+
+		.footer--above > ul > a > li {
+			font-size: 1rem;
 		}
 	}
 </style>
