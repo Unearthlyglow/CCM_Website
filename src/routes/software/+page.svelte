@@ -56,7 +56,7 @@
 </div>
 
 <div class="software--details">
-	<p>Technology: Rust</p>
+	<p>Technology: Rust Programming Language</p>
 	<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank"
 		>Github Repo</a
 	>
@@ -77,7 +77,7 @@
 </div>
 
 <div class="software--details">
-	<p>Technology: Rust</p>
+	<p>Technology: Rust Programming Language</p>
 	<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">Github Repo</a>
 </div>
 
@@ -95,7 +95,7 @@
 </div>
 
 <div class="software--details">
-	<p>Technology: Rust</p>
+	<p>Technology: Rust Programming Language</p>
 	<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">Github Repo</a>
 </div>
 

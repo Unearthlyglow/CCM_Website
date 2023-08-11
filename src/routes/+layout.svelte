@@ -316,8 +316,6 @@
 		color: #fac53d;
 	}
 
-	.footer--iconss {
-	}
 	.footer--Bottomtext {
 		color: #712828;
 		font-weight: 700;
@@ -412,7 +410,17 @@
 		height: 1px;
 	}
 
-	@media (width: 500px) {
+	@media (width: 825px) {
+		.painting1 {
+			max-height: 8rem;
+			max-width: 8rem;
+		}
+		.footer--iconss {
+			display: flex;
+		}
+	}
+
+	@media (width: 600px) {
 		.painting1 {
 			max-height: 8rem;
 			max-width: 8rem;
