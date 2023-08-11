@@ -18,9 +18,7 @@
 		font-weight: 700;
 	}
 
-	h2 {
-		font-size: 2.5rem;
-
-		color: #f2efe5;
+	p {
+		font-size: 1.1rem;
 	}
 </style>

@@ -1,8 +1,9 @@
 <script>
 	import '@picocss/pico';
-	import '@fontsource/roboto';
-	import '@fontsource/material-icons';
-	import '@fontsource/caveat-brush';
+	import '@fontsource/lato/400.css';
+	import '@fontsource/lato/700.css';
+	import '@fontsource/lato/900.css';
+	import '../app.css';
 	import metropolis_building from '$lib/images/metropolis2.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
@@ -17,6 +18,10 @@
 	import Body from '$lib/Body.svelte';
 </script>
 
+<svelte:head>
+	<meta name="google" content="notranslate" />
+</svelte:head>
+
 <div class="container-fluid">
 	<nav>
 		<img class="logo-building" alt="CCM Logo" src={metropolis_building} />
@@ -29,7 +34,7 @@
 
 	<nav class="container-tabs">
 		<li>
-			<a href="/#body"> Home</a>
+			<a href="/#body" class="single--tab"> Home</a>
 			<!-- <ul role="listbox">
 				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
 				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
@@ -40,7 +45,11 @@
 			<p class="tab-intact">Writing</p>
 			<ul role="listbox">
 				<li><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
-				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
+				<li>
+					<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank"
+						>CCM General Blog(MD Book)</a
+					>
+				</li>
 			</ul>
 		</li>
 		<li class="class-divide">||</li>
@@ -49,7 +58,7 @@
 			<ul role="listbox">
 				<li><a href="/software/#body">Software</a></li>
 				<li><a href="/visual/#body">Visual Media</a></li>
-				<li><a href="/metro/#body">Metropolis Design</a></li>
+				<!-- <li><a href="/metro/#body">Metropolis Design</a></li> -->
 				<li><a href="/art/#body">Art I've Enjoyed</a></li>
 				<li><a href="/embedded/#body">The Road To Embedded Programming</a></li>
 			</ul>
@@ -83,20 +92,21 @@
 				</a>
 			</ul>
 			<ul>
-				<a href="/jazz-manifesto">
+				<a href="/jazz-manifesto/#body">
 					<li>Jazz Manifesto</li>
 				</a>
-				<a href="https://unearthlyglow.github.io/CCMBlog/">
+				<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank">
 					<li>CCM:: General Blog</li>
 				</a>
 
-				<li>CCM:: Bob's Electronics Blog</li>
-				<li>CCM:: Milkbar Blog</li>
+				<li data-tooltip="Nooo, not yet!">CCM:: Bob's Electronics Blog</li>
+				<li data-tooltip=" Double Nooo, not yet!">CCM:: Milkbar Blog</li>
 			</ul>
 
 			<div class="footer--iconss">
 				<a
 					href="https://github.com/Unearthlyglow"
+					target="_blank"
 					data-tooltip="My Github Repos"
 					class="footer--github"
 				>
@@ -104,17 +114,23 @@
 				</a>
 				<a
 					href="https://www.instagram.com/ccm_employee/"
+					target="_blank"
 					data-tooltip="Instagram"
 					class="footer--ig"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
 				>
 
 				<a
 					href="https://www.linkedin.com/in/award-malisi/"
+					target="_blank"
 					data-tooltip="LinkedIn"
 					class="footer--linkedin"><img class="footer--icons" alt="LinkedIn Logo" src={linked} /></a
 				>
 
-				<a href="https://twitter.com/CCMAnd2Cents" data-tooltip="Twitter" class="footer--twitter"
+				<a
+					href="https://twitter.com/CCMAnd2Cents"
+					target="_blank"
+					data-tooltip="Twitter"
+					class="footer--twitter"
 					><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
 				>
 			</div>
@@ -136,6 +152,7 @@
 
 			<div class="footer--footloose">
 				<p class="footer--friends">My Friend's Digital Places:</p>
+				<a href="https://thehappycactusatx.com/">Todd & Mickey's :: The Happy Cactus Apothecary </a>
 
 				<a href="https://www.instagram.com/amatheband/">Blair's :: Ama </a>
 
@@ -149,7 +166,7 @@
 			<p class="footer--Bottomtext">
 				Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler,
 				auf die Sie stoßen. Bitte Für Feedback wenden Sie sich bitte an award@capsules.io. Es können
-				alle unlustigen Beschwerden eingereicht werden an DoNotReply@capsules.io. 
+				alle unlustigen Beschwerden eingereicht werden an DoNotReply@capsules.io.
 			</p>
 		</div>
 	</footer>
@@ -203,6 +220,9 @@
 		color: white;
 	}
 
+	.single--tab {
+		font-weight: 900;
+	}
 	.container-tabs {
 		justify-content: center;
 
@@ -215,7 +235,7 @@
 
 	.tab-intact {
 		color: white;
-		font-weight: 700;
+		font-weight: 900;
 		margin: 0;
 		font-size: 1.5rem;
 	}
@@ -266,20 +286,9 @@
 		line-height: 1.3rem;
 	}
 
-	li {
-		list-style-type: none;
-		font-weight: 700;
-		font-size: 0.7rem;
-		color: hsl(0, 0%, 100%);
-	}
-
-	li:hover {
-		color: #fac53d;
-	}
-
 	.footer--footloose {
 		font-size: 0.7rem;
-		font-weight: 800;
+		font-weight: 900;
 		display: flex;
 		flex-direction: column;
 		align-content: flex-end;
@@ -290,7 +299,7 @@
 	.footer--friends {
 		margin: 0.3rem;
 		font-size: 0.8rem;
-		font-weight: 800;
+		font-weight: 900;
 		color: hsl(0, 0%, 100%);
 	}
 
@@ -307,6 +316,8 @@
 		color: #fac53d;
 	}
 
+	.footer--iconss {
+	}
 	.footer--Bottomtext {
 		color: #712828;
 		font-weight: 700;

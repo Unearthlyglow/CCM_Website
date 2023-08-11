@@ -1,5 +1,5 @@
 <script>
-	import footerLogo from '$lib/images/MetroRod.svg';
+	import '@fontsource/lato';
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
 </script>
 
@@ -36,6 +36,14 @@ Set it up so that
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	}
 
+	p,
+	li,
+	a,
+	div {
+		font-family: 'Lato', sans-serif;
+		color: red;
+	}
+
 	.body--inner {
 		margin-top: 1rem;
 		margin-left: 4rem;
@@ -56,6 +64,12 @@ Set it up so that
 	.building-logo2 {
 		width: 3rem;
 		height: 3rem;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: 'FlipH';
 	}
 	.hr--top {
 		margin-bottom: 3rem;
@@ -102,6 +116,5 @@ Set it up so that
 		font-size: 0.9rem;
 		color: #a84747;
 		text-align: end;
-		
 	}
 </style>

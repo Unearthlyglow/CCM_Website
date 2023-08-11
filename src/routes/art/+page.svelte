@@ -78,6 +78,10 @@
 		color: rgb(103, 184, 237);
 	}
 
+  li {
+		font-size: 1rem;
+	}
+
 	span {
 		color: #fac53d;
 		font-weight: 700;

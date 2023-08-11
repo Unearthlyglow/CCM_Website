@@ -46,6 +46,9 @@
 		text-align: center;
 	}
 
+	li {
+		font-size: 1rem;
+	}
 	p {
 		font-size: 2rem;
 		margin-top: 2rem;

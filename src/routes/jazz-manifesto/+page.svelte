@@ -22,4 +22,8 @@
 		color: #fac53d;
 		font-weight: 700;
 	}
+
+	p {
+		font-size: 1.5rem;
+	}
 </style>

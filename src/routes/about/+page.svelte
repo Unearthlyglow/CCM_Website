@@ -51,7 +51,7 @@
 
 	h3 {
 		text-align: center;
-		color: rgb(148, 237, 255);
+		color: rgb(137, 118, 197);
 		margin-bottom: 0rem;
 		margin-top: 2rem;
 	}
@@ -60,11 +60,18 @@
 		text-align: center;
 		list-style-type: none;
 		line-height: 2.1rem;
+		font-size: .98rem;
 	}
 	span {
 		color: #fac53d;
-		font-weight: 700;
+		font-weight: 900;
 	}
+
+	p {
+		font-size: 1.5rem;
+	}
+
+
 
 	.about--techstack {
 		margin-bottom: 2rem;
