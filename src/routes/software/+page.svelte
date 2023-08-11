@@ -39,7 +39,7 @@
 </div>
 
 <div class="software--details">
-	<p>Technology: Sveltekit | GSAP</p>
+	<p>Technology: Sveltekit | PicoCSS | GSAP</p>
 	<a href="https://github.com/Unearthlyglow/Grid_Flex_Fun" target="_blank">Github Repo</a>
 </div>
 
