@@ -60,7 +60,7 @@
 		text-align: center;
 		list-style-type: none;
 		line-height: 2.1rem;
-		font-size: .98rem;
+		font-size: 1.3rem;
 	}
 	span {
 		color: #fac53d;

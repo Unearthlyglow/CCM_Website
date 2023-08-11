@@ -255,7 +255,7 @@
 		text-align: center;
 
 		& a {
-			font-size: 0.7rem;
+			font-size: 1rem;
 			color: rgb(13, 81, 90);
 		}
 	}
