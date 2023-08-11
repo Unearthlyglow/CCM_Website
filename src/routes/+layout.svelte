@@ -56,7 +56,7 @@
 		<li role="list" dir="rtl">
 			<p class="tab-intact">Projects</p>
 			<ul role="listbox">
-				<li><a href="/software/#body">Software</a></li>
+				<li><a href="/software/#body">Software Portfolio</a></li>
 				<li><a href="/visual/#body">Visual Media</a></li>
 				<!-- <li><a href="/metro/#body">Metropolis Design</a></li> -->
 				<li><a href="/art/#body">Art I've Enjoyed</a></li>
