@@ -413,10 +413,10 @@
 	.footer--iconss {
 	}
 
-	@media only screen and (max-width: 630px) {
+	@media only screen and (max-width: 800px) {
 		.painting1 {
-			max-height: 6rem;
-			max-width: 6rem;
+			max-height: 10rem;
+			max-width: 10rem;
 		}
 
 		.footer--iconss {
