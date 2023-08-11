@@ -42,7 +42,7 @@
 		</li>
 		<li class="class-divide">||</li>
 		<li role="list" dir="rtl">
-			<p class="tab-intact">Writing</p>
+			<p class="tab-intact" aria-haspopup="listbox">Writing</p>
 			<ul role="listbox">
 				<li><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
 				<li>
@@ -54,7 +54,7 @@
 		</li>
 		<li class="class-divide">||</li>
 		<li role="list" dir="rtl">
-			<p class="tab-intact">Projects</p>
+			<p class="tab-intact" aria-haspopup="listbox">Projects</p>
 			<ul role="listbox">
 				<li><a href="/software/#body">Software Portfolio</a></li>
 				<li><a href="/visual/#body">Visual Media</a></li>
