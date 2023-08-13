@@ -161,7 +161,7 @@
 				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 			</div>
 
-			<p class="footer--version">Version: <span>0.6.3</span></p>
+			<p class="footer--version">Version: <span>0.8.3</span></p>
 
 			<p class="footer--Bottomtext">
 				Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler,
@@ -432,5 +432,6 @@
 		.footer--above > ul > a > li {
 			font-size: 1rem;
 		}
+
 	}
 </style>

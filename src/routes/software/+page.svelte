@@ -65,8 +65,7 @@
 <h2>In Progress <span>:</span></h2>
 <a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">
 	<p class="software--title">
-		Education Project | Zero To Production: Newsletter API
-		<span>2023</span> |
+		Education Project | Zero To Production: Newsletter API | <span>2023</span> |
 	</p>
 </a>
 
