@@ -1,6 +1,7 @@
 <script>
 	import '@fontsource/lato';
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
+	import plant from '$lib/images/plant.svg';
 </script>
 
 <div id="body">
@@ -18,7 +19,9 @@
 		<p class="fin">フィン</p>
 
 		<hr class="hr--bottom" />
+
 		<hr class="hr--bottom2" />
+		<img class="body--plant" alt="plant" src={plant} />
 
 		<!-- <a href="/[slug]/#body" role="button">Back to Top</a> -->
 	</div>
@@ -71,6 +74,13 @@ Set it up so that
 		filter: FlipH;
 		-ms-filter: 'FlipH';
 	}
+
+	.body--plant {
+		height: 15rem;
+		width: 7rem;
+		margin: 0rem;
+		padding: 0rem;
+	}
 	.hr--top {
 		margin-bottom: 3rem;
 		margin-top: 0rem;
@@ -93,7 +103,6 @@ Set it up so that
 		width: 30%;
 		background-color: #712828;
 		height: 15px;
-		margin-bottom: 5rem;
 		margin-top: 0rem;
 	}
 
