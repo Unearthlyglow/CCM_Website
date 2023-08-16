@@ -2,7 +2,12 @@
 	import '@fontsource/lato';
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
 	import plant from '$lib/images/planth.svg';
+	import { page } from '$app/stores';
 </script>
+
+<svelte:head>
+	<title>{$page.data.page.title}</title>
+</svelte:head>
 
 <div id="body">
 	<div class="body--inner">
@@ -15,21 +20,16 @@
 
 		<slot />
 
-		<!-- <hr class="hr--box" /> -->
 		<p class="fin">フィン</p>
 
 		<hr class="hr--bottom" />
 
 		<hr class="hr--bottom2" />
-		<img class="body--plant" alt="plant" src={plant} />
 
-		<!-- <a href="/[slug]/#body" role="button">Back to Top</a> -->
+		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
+		<img class="body--plant" alt="plant" src={plant} />
 	</div>
 </div>
-
-<!-- /[slug]#body 
-Set it up so that 
--->
 
 <style>
 	#body {
@@ -44,7 +44,15 @@ Set it up so that
 	a,
 	div {
 		font-family: 'Lato', sans-serif;
-		color: red;
+		color: white;
+	}
+
+	a:hover {
+		color: #fac53d;
+	}
+
+	button {
+		background: none;
 	}
 
 	.body--inner {
@@ -77,7 +85,7 @@ Set it up so that
 
 	.body--plant {
 		height: 15rem;
-		width: 7rem;
+		width: 5rem;
 		margin: 0rem;
 		padding: 0rem;
 	}
@@ -125,5 +133,10 @@ Set it up so that
 		font-size: 0.9rem;
 		color: #a84747;
 		text-align: end;
+	}
+
+	.body--back-to-top {
+		text-align: center;
+		font-size: 1.2rem;
 	}
 </style>

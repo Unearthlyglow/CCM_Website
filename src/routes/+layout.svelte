@@ -23,6 +23,8 @@
 </svelte:head>
 
 <div class="container-fluid">
+	<!-- <h1>Hello {$page.data.page.title}</h1> -->
+
 	<nav>
 		<img class="logo-building" alt="CCM Logo" src={metropolis_building} />
 	</nav>
@@ -206,6 +208,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	.nav--paintings {
 		justify-content: space-around;
 	}
@@ -223,6 +226,7 @@
 	.single--tab {
 		font-weight: 900;
 	}
+
 	.container-tabs {
 		justify-content: center;
 
@@ -230,6 +234,7 @@
 			color: white;
 			font-size: 1.5rem;
 		}
+
 		padding: 2rem;
 	}
 
@@ -363,6 +368,7 @@
 	.footer--linkedin {
 		background: #363262;
 	}
+
 	.footer--linkedin:hover {
 		background: #ba91ef;
 	}
@@ -370,6 +376,7 @@
 	.footer--twitter {
 		background: #860b0b;
 	}
+
 	.footer--twitter:hover {
 		background: #dd5050;
 	}
