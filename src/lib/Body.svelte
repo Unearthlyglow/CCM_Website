@@ -1,7 +1,7 @@
 <script>
 	import '@fontsource/lato';
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
-	import plant from '$lib/images/plant.svg';
+	import plant from '$lib/images/planth.svg';
 </script>
 
 <div id="body">
