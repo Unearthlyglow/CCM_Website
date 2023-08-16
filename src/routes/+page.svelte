@@ -30,8 +30,6 @@
 		display: flex;
 		justify-content: center;
 		align-content: center;
-		margin-left: 10rem;
-		margin-right: 10rem;
 		line-height: 3rem;
 	}
 </style>
