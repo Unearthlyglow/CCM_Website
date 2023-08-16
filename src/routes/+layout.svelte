@@ -8,9 +8,9 @@
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-	import painting1 from '$lib/images/painting1.jpg?format=webp';
-	import painting2 from '$lib/images/painting2.jpg?format=webp';
-	import painting3 from '$lib/images/painting3.jpg?format=webp';
+	import painting1 from '$lib/images/painting1.jpg?w=400&h=300&format=webp';
+	import painting2 from '$lib/images/painting2.jpg?w=400&h=300&format=webp';
+	import painting3 from '$lib/images/painting3.jpg?w=400&h=300&format=webp';
 	import fire from '$lib/images/fire.svg';
 	import linked from '$lib/images/linked.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
