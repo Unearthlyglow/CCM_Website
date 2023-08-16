@@ -14,12 +14,16 @@
 // 	config
 // };
 
+import { defineConfig } from 'vite';
+import { imagetools } from 'vite-imagetools';
+
 import adapter from '@sveltejs/adapter-vercel';
 
-export default {
+export default defineConfig({
+	plugins: [imagetools()],
 	kit: {
 		adapter: adapter({
 			// see the 'Deployment configuration' section below
 		})
 	}
-};
+});
