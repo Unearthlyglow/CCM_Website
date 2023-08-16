@@ -1,7 +1,8 @@
 export function load() {
 	return {
 		page: {
-			title: `visual`
+			title: `visual`,
+			description: 'A page dedicated to any video productions I wish to display'
 		}
 	};
 }

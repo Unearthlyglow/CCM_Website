@@ -6,7 +6,8 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.page.title}</title>
+	<title>CCM | {$page.data.page.title}</title>
+	<meta name="description" content={$page.data.page.description} />
 </svelte:head>
 
 <div id="body">

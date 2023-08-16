@@ -2,7 +2,8 @@
 export function load() {
 	return {
 		page: {
-			title: ``
+			title: ``,
+			description: 'The Home Page: I will list the latest updates here'
 		}
 	};
 }
