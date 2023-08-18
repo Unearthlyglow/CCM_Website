@@ -234,7 +234,7 @@
 	}
 
 	nav {
-		background-color: rgb(131, 155, 160);
+		background-color: rgb(199, 210, 210);
 		color: white;
 	}
 
@@ -246,7 +246,7 @@
 		justify-content: center;
 
 		& a {
-			color: white;
+			color: rgb(13, 81, 90);
 			font-size: 1.5rem;
 		}
 
@@ -254,14 +254,14 @@
 	}
 
 	.tab-intact {
-		color: white;
+		color: rgb(13, 81, 90);
 		font-weight: 900;
 		margin: 0;
 		font-size: 1.5rem;
 	}
 
 	.tab-intact:hover {
-		color: #fac53d;
+		color: #d60675;
 	}
 
 	.class-divide {
@@ -269,7 +269,7 @@
 	}
 
 	ul[role='listbox'] {
-		background-color: rgb(239, 239, 196);
+		background-color: rgb(199, 210, 210);
 		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.98);
 		border: none;
 		text-align: center;
@@ -294,7 +294,7 @@
 	}
 
 	.footer {
-		background-color: #839ba0;
+		background-color: rgb(199, 210, 210);
 		padding-top: 3rem;
 	}
 
@@ -306,6 +306,16 @@
 
 	.footer--above > ul > a > li {
 		font-size: 0.9rem;
+		color: rgb(13, 81, 90);
+	}
+
+	.footer--above > ul > li {
+		font-size: 0.9rem;
+		color: rgb(13, 81, 90);
+	}
+
+	.footer--above > ul > a > li:hover {
+		color: #8c2525;
 	}
 
 	.footer--footloose {
@@ -333,7 +343,7 @@
 	}
 
 	a:hover {
-		color: #fac53d;
+		color: #d60675;
 	}
 
 	.footer--Bottomtext {
@@ -360,7 +370,7 @@
 	.footer--quote {
 		font-size: 0.8rem;
 		font-weight: 800;
-		color: #fac53d;
+		color: rgb(13, 81, 90);
 		display: inline-block;
 	}
 
@@ -369,8 +379,8 @@
 	}
 
 	.building-logo {
-		height: 13rem;
-		padding-right: 1rem;
+		height: 10rem;
+
 	}
 
 	.footer--icons {
@@ -413,7 +423,7 @@
 	.footer--version {
 		font-size: 0.9rem;
 		font-weight: 800;
-		color: #fac53d;
+		color: #363262;
 		text-align: right;
 		margin: 1rem;
 	}
@@ -461,7 +471,6 @@
 
 		.building-logo {
 			height: 6rem;
-			padding-right: 1rem;
 		}
 		.footer--fire {
 			width: 15rem;
