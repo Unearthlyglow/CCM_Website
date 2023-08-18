@@ -15,6 +15,7 @@
 	import linked from '$lib/images/linked.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
+	import kryten from '$lib/images/kryten2.svg';
 	import Body from '$lib/Body.svelte';
 </script>
 
@@ -46,6 +47,7 @@
 		<li role="list" dir="rtl">
 			<p class="tab-intact" aria-haspopup="listbox">Writing</p>
 			<ul role="listbox">
+				<img class="header--tab--picture" src={kryten} alt="Kryten" />
 				<li><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
 				<li>
 					<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank"
@@ -94,6 +96,17 @@
 				</a>
 			</ul>
 			<ul>
+				<a href="/embedded/#body">
+					<li>Embedded Programming</li>
+				</a>
+				<a href="/todos/#body">
+					<li>Website To-Dos</li>
+				</a>
+				<a href="/visual/#body">
+					<li>Visual Media</li>
+				</a>
+			</ul>
+			<ul>
 				<a href="/jazz-manifesto/#body">
 					<li>Jazz Manifesto</li>
 				</a>
@@ -104,40 +117,38 @@
 				<li data-tooltip="Nooo, not yet!">CCM:: Bob's Electronics Blog</li>
 				<li data-tooltip=" Double Nooo, not yet!">CCM:: Milkbar Blog</li>
 			</ul>
-
-			<div class="footer--iconss">
-				<a
-					href="https://github.com/Unearthlyglow"
-					target="_blank"
-					data-tooltip="My Github Repos"
-					class="footer--github"
-				>
-					<img class="footer--icons" alt="Github Logo" src={githubLogo} />
-				</a>
-				<a
-					href="https://www.instagram.com/ccm_employee/"
-					target="_blank"
-					data-tooltip="Instagram"
-					class="footer--ig"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
-				>
-
-				<a
-					href="https://www.linkedin.com/in/award-malisi/"
-					target="_blank"
-					data-tooltip="LinkedIn"
-					class="footer--linkedin"><img class="footer--icons" alt="LinkedIn Logo" src={linked} /></a
-				>
-
-				<a
-					href="https://twitter.com/CCMAnd2Cents"
-					target="_blank"
-					data-tooltip="Twitter"
-					class="footer--twitter"
-					><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
-				>
-			</div>
-
 			<img class="building-logo" alt="The project logo" src={footerLogo} />
+		</div>
+		<div class="footer--iconss">
+			<a
+				href="https://github.com/Unearthlyglow"
+				target="_blank"
+				data-tooltip="My Github Repos"
+				class="footer--github"
+			>
+				<img class="footer--icons" alt="Github Logo" src={githubLogo} />
+			</a>
+			<a
+				href="https://www.instagram.com/ccm_employee/"
+				target="_blank"
+				data-tooltip="Instagram"
+				class="footer--ig"><img class="footer--icons" alt="Instagram Logo" src={IgLogo} /></a
+			>
+
+			<a
+				href="https://www.linkedin.com/in/award-malisi/"
+				target="_blank"
+				data-tooltip="LinkedIn"
+				class="footer--linkedin"><img class="footer--icons" alt="LinkedIn Logo" src={linked} /></a
+			>
+
+			<a
+				href="https://twitter.com/CCMAnd2Cents"
+				target="_blank"
+				data-tooltip="Twitter"
+				class="footer--twitter"
+				><img class="footer--icons" alt="Twitter Logo" src={TwitterLogo} /></a
+			>
 		</div>
 
 		<div class="below--footer">
@@ -147,6 +158,7 @@
 				<div>
 					<img class="CCM-letters" src={CCMLetters} alt="CCM Letters" />
 					<p class="footer--quote">"It's (Almost) Better Than Life"</p>
+					<img class="footer--kryten" src={kryten} alt="Kryten" />
 				</div>
 
 				<img class="footer--fire" src={fire} alt="CCM Letters" />
@@ -254,13 +266,13 @@
 	}
 
 	ul[role='listbox'] {
-		background-color: #d3a632;
+		background-color: rgb(239, 239, 196);
 		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.98);
 		border: none;
 		text-align: center;
 
 		& a {
-			font-size: 1rem;
+			font-size: 0.87rem;
 			color: rgb(13, 81, 90);
 		}
 	}
@@ -280,15 +292,17 @@
 
 	.footer {
 		background-color: #839ba0;
-		padding-top: 5rem;
+		padding-top: 3rem;
 	}
 
 	.footer--above {
-		margin: 1rem;
 		display: flex;
-		flex-direction: row;
 		justify-content: space-around;
 		line-height: 1.3rem;
+	}
+
+	.footer--above > ul > a > li {
+		font-size: 0.9rem;
 	}
 
 	.footer--footloose {
@@ -296,9 +310,7 @@
 		font-weight: 900;
 		display: flex;
 		flex-direction: column;
-		align-content: flex-end;
 		align-items: center;
-		justify-content: flex-end;
 	}
 
 	.footer--friends {
@@ -335,11 +347,17 @@
 		justify-content: space-between;
 	}
 
+	.footer--kryten {
+		display: block;
+		height: 8rem;
+		margin-left: 8rem;
+		transform: translateY(-1.5rem);
+	}
+
 	.footer--quote {
 		font-size: 0.8rem;
 		font-weight: 800;
 		color: #fac53d;
-		margin-top: 2rem;
 		display: inline-block;
 	}
 
@@ -348,7 +366,7 @@
 	}
 
 	.building-logo {
-		height: 6rem;
+		height: 13rem;
 		padding-right: 1rem;
 	}
 
@@ -418,6 +436,9 @@
 	}
 
 	.footer--iconss {
+		text-align: center;
+		font-size: 3rem;
+		padding: 1rem;
 	}
 
 	@media only screen and (max-width: 800px) {
@@ -426,18 +447,33 @@
 			max-width: 10rem;
 		}
 
-		.footer--iconss {
-			display: grid;
-			grid-gap: 1rem;
+		.footer--icons {
+			height: 1.7rem;
 		}
 
+		.footer--iconss {
+			text-align: center;
+			font-size: 2rem;
+		}
+
+		.building-logo {
+			height: 6rem;
+			padding-right: 1rem;
+		}
 		.footer--fire {
 			width: 15rem;
 			height: 15rem;
 		}
 
+		.footer--kryten {
+			display: block;
+			height: 6rem;
+			margin-left: 8rem;
+			transform: translateY(-1.5rem);
+		}
+
 		.footer--above > ul > a > li {
-			font-size: 1rem;
+			font-size: 0.76rem;
 		}
 	}
 </style>

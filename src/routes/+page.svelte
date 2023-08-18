@@ -1,12 +1,13 @@
 <script>
+	
+
 </script>
 
 <h1><span>W</span>elcome Home</h1>
 <div class="paragraph">
-	<p>
-		Hello, sorry for the lack of content at the moment but this website is still being tooled up.
-		Just go ahead and peruse through the website, it's just what curious people do.
-	</p>
+
+	
+
 </div>
 
 <style>
