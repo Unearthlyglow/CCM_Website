@@ -44,11 +44,11 @@
 			</ul> -->
 		</li>
 		<li class="class-divide">||</li>
-		<li role="list" dir="rtl">
+		<li role="list" dir="ltr">
 			<p class="tab-intact" aria-haspopup="listbox">Writing</p>
 			<ul role="listbox">
-				<img class="header--tab--picture" src={kryten} alt="Kryten" />
-				<li><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
+				<li class="manifesto--test"><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
+
 				<li>
 					<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank"
 						>CCM General Blog(MD Book)</a
@@ -104,6 +104,9 @@
 				</a>
 				<a href="/visual/#body">
 					<li>Visual Media</li>
+				</a>
+				<a href="/art/#body">
+					<li>Enjoyable Art</li>
 				</a>
 			</ul>
 			<ul>
