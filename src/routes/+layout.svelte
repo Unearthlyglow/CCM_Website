@@ -380,7 +380,6 @@
 
 	.building-logo {
 		height: 10rem;
-
 	}
 
 	.footer--icons {
@@ -460,6 +459,11 @@
 			max-width: 10rem;
 		}
 
+		.footer--above {
+		
+			margin-left: .5rem;
+		}
+
 		.footer--icons {
 			height: 1.7rem;
 		}
@@ -471,6 +475,8 @@
 
 		.building-logo {
 			height: 6rem;
+			margin-right: 0.5rem;
+			margin-left: 0.5rem;
 		}
 		.footer--fire {
 			width: 15rem;
@@ -480,12 +486,16 @@
 		.footer--kryten {
 			display: block;
 			height: 6rem;
-			margin-left: 8rem;
-			transform: translateY(-1.5rem);
 		}
 
 		.footer--above > ul > a > li {
 			font-size: 0.76rem;
+		}
+	}
+
+	@media only screen and (max-width: 548px) {
+		.footer--kryten {
+			transform: translateX(-6rem);
 		}
 	}
 </style>
