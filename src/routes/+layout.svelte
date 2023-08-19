@@ -460,8 +460,7 @@
 		}
 
 		.footer--above {
-		
-			margin-left: .5rem;
+			margin-left: 0.5rem;
 		}
 
 		.footer--icons {
@@ -476,7 +475,7 @@
 		.building-logo {
 			height: 6rem;
 			margin-right: 0.5rem;
-			margin-left: 0.5rem;
+			margin-left: 1rem;
 		}
 		.footer--fire {
 			width: 15rem;
@@ -495,7 +494,7 @@
 
 	@media only screen and (max-width: 548px) {
 		.footer--kryten {
-			transform: translateX(-6rem);
+			transform: translateX(-5rem);
 		}
 	}
 </style>
