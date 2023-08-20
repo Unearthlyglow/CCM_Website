@@ -295,7 +295,7 @@
 
 	.footer {
 		background-color: rgb(199, 210, 210);
-		padding-top: 3rem;
+		padding-top: 4rem;
 	}
 
 	.footer--above {
@@ -330,7 +330,7 @@
 		margin: 0.3rem;
 		font-size: 0.8rem;
 		font-weight: 900;
-		color: hsl(0, 0%, 100%);
+		color: rgb(13, 81, 90);
 	}
 
 	.below--footer {
@@ -428,7 +428,7 @@
 	}
 
 	.footer--version > span {
-		color: rgb(255, 255, 255);
+		color: rgb(13, 81, 90);
 	}
 
 	.CCM-letters {
