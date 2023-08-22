@@ -23,79 +23,111 @@
 </div>
 <div class="software--details">
 	<p>Technology: BigCommerce | Stencil CLI</p>
-</div>
+	<div class="software--description">
+		<!-- <ul>
+			<li>Description</li>
+			<li>One</li>
+		</ul> -->
+		<p>
+			<span>Description:</span> This website wasc created for the good folks over at The Happy Cactus
+			Apothecary(THCA) in Austin Texas. THCA is a business dedicated to providing herbal products including
+			THC-8, THC-9, and CBD items to locals as well as provide information on said products to help alleviate
+			common physical issues such as body aches, sleeping issues, and stress.
+		</p>
+	</div>
 
-<a href="https://world-self.vercel.app/" target="_blank">
-	<p class="software--title">
-		CCM Website 1.0 |
-		<span>2023</span> |
-	</p>
-</a>
-
-<div class="software--frame">
 	<a href="https://world-self.vercel.app/" target="_blank">
-		<img alt="ccmweb" src={ccmweb} />
+		<p class="software--title">
+			CCM Website 1.0 |
+			<span>2023</span> |
+		</p>
 	</a>
-</div>
 
-<div class="software--details">
-	<p>Technology: Sveltekit | PicoCSS | GSAP</p>
-	<a href="https://github.com/Unearthlyglow/Grid_Flex_Fun" target="_blank">Github Repo</a>
-</div>
+	<div class="software--frame">
+		<a href="https://world-self.vercel.app/" target="_blank">
+			<img alt="ccmweb" src={ccmweb} />
+		</a>
+	</div>
 
-<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank">
-	<p class="software--title">
-		Education Project | Command-Line Rust: Chapter 2: Echor Project |<span>2023</span>|
-	</p>
-</a>
+	<div class="software--details">
+		<p>Technology: Sveltekit | PicoCSS | GSAP</p>
+		<a href="https://github.com/Unearthlyglow/Grid_Flex_Fun" target="_blank">Github Repo</a>
+		<div class="software--description">
+			<p><span>Description:</span> The website of my dreams?</p>
+		</div>
+	</div>
 
-<div class="software--frame">
 	<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank">
-		<img alt="Rustcli-ch2" src={echor} />
+		<p class="software--title">
+			Education Project | Command-Line Rust: Chapter 2: Echor Project |<span>2023</span>|
+		</p>
 	</a>
-</div>
 
-<div class="software--details">
-	<p>Technology: Rust Programming Language</p>
-	<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank"
-		>Github Repo</a
-	>
-</div>
+	<div class="software--frame">
+		<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank">
+			<img alt="Rustcli-ch2" src={echor} />
+		</a>
+	</div>
 
-<h2>In Progress <span>:</span></h2>
-<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">
-	<p class="software--title">
-		Education Project | Zero To Production: Newsletter API | <span>2023</span> |
-	</p>
-</a>
+	<div class="software--details">
+		<p>Technology: Rust Programming Language</p>
+		<p>Crate(s): clap = "2.33"</p>
+		<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank"
+			>Github Repo</a
+		>
+		<div class="software--description">
+			<p>
+				<span>Description:</span> This software is a mini-copy of the echo program made by the Berkeley
+				Software Distribution. This program accepts arguments and writes them to the standard output.
+				This was a beginner project that explored using the clap(Command Line Argument Parser) to handle
+				and ouput arguments as well as organizing a basic help menu.
+			</p>
+		</div>
+	</div>
 
-<div class="software--frame">
+	<h2>In Progress <span>:</span></h2>
 	<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">
-		<img alt="zero-to-prod" src={zerotoprod} />
+		<p class="software--title">
+			Education Project | Zero To Production: Newsletter API | <span>2023</span> |
+		</p>
 	</a>
-</div>
 
-<div class="software--details">
-	<p>Technology: Rust Programming Language</p>
-	<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">Github Repo</a>
-</div>
+	<div class="software--frame">
+		<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">
+			<img alt="zero-to-prod" src={zerotoprod} />
+		</a>
+	</div>
 
-<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">
-	<p class="software--title">
-		Education Project | Philipp Oppermann: Operating System in Rust |
-		<span>2023</span> |
-	</p>
-</a>
+	<div class="software--details">
+		<p>Technology: Rust Programming Language</p>
+		<p>Crate(s): actix-web = "4" | tokio = "1"</p>
+		<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">Github Repo</a>
+		<div class="software--description">
+			<p><span>Description:</span> The website of my dreams?</p>
+		</div>
+	</div>
 
-<div class="software--frame">
 	<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">
-		<img alt="rust-os" src={rustos} />
+		<p class="software--title">
+			Education Project | Philipp Oppermann: Operating System in Rust |
+			<span>2023</span> |
+		</p>
 	</a>
-</div>
 
-<div class="software--details">
-	<p>Technology: Rust Programming Language</p>
-	<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">Github Repo</a>
+	<div class="software--frame">
+		<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">
+			<img alt="rust-os" src={rustos} />
+		</a>
+	</div>
+
+	<div class="software--details">
+		<p>Technology: Rust Programming Language</p>
+		<p>Crate(s): bootloader = "0.9.23"</p>
+		<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">Github Repo</a>
+		<div class="software--description">
+			<p><span>Description:</span> The website of my dreams?</p>
+		</div>
+	</div>
 </div>
 
 <style>
@@ -119,9 +151,25 @@
 		color: #fac53d;
 	}
 
+	.software--description {
+		text-align: start;
+		padding-top: 1rem;
+		display: flex;
+		flex-direction: row;
+		margin: 0.5rem;
+		margin-bottom: 9rem;
+	}
+
+	.software--description > p {
+		font-size: 1.2rem;
+	}
+
+	.software--description > p:hover {
+		color: #dfe6ec;
+	}
+
 	.software--details {
-		margin-bottom: 8rem;
-		margin-top: 2rem;
+		margin-top: 1.5rem;
 		text-align: center;
 	}
 
