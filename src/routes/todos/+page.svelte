@@ -6,7 +6,6 @@
 
 		<li>For the MDBooks, add a home button that gets visitors back to main website.</li>
 		<li>Dress up the MDbooks theme to match website the best I can.</li>
-		<li>Look into another font. <span>Added On 7/31/23</span></li>
 
 		<p>Header:</p>
 
@@ -14,7 +13,8 @@
 		<li>Add library to header, map out design in Figma. <span>Added on 7/31/23</span></li>
 
 		<p>Body:</p>
-		<li>Add a 'Back to the top' button at the bottom right or left hand corner of the body.</li>
+
+		<li>Maybe add a couch image to the bottom of the body <span>Added On 8/21/23</span></li>
 
 		<p>Footer:</p>
 		<li>Add animation to CCM building.</li>
@@ -23,12 +23,17 @@
 			About...or Home..
 		</li>
 	</ul>
+
+	<!-- ---------------------------------------------------- -->
 	<hr />
 	<p>Completed:</p>
 	<ul>
 		<li><strike>Add image and more....something to the 404 page.</strike> <span>8/7/23</span></li>
 		<li><strike>Update favicon.</strike> <span>Added on 7/31/23</span></li>
-		<li><strike>Add paintings to header, map out design in Figma.</strike> <span>Added on 7/31/23</span></li>
+		<li>
+			<strike>Add paintings to header, map out design in Figma.</strike>
+			<span>Added on 7/31/23</span>
+		</li>
 		<li><strike>Add painting on top of the tabs! <span>Added on 8/1/23</span></strike></li>
 		<li>
 			<strike
@@ -38,6 +43,12 @@
 			<span>7/31/23</span>
 		</li>
 		<li><strike>Have arrow next to HOME tab removed.</strike> <span>7/31/23</span></li>
+		<strike><li>Look into another font. <span>Added On 7/31/23</span></li></strike>
+		<strike
+			><li>
+				Add a 'Back to the top' button at the bottom right or left hand corner of the body.
+			</li></strike
+		>
 	</ul>
 </div>
 

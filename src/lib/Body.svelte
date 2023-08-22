@@ -2,6 +2,9 @@
 	import '@fontsource/lato';
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
 	import plant from '$lib/images/planth.svg';
+	import chanda from '$lib/images/chanda.svg';
+	import table from '$lib/images/table.png';
+	import treasure from '$lib/images/treasure.jpg';
 	import { page } from '$app/stores';
 </script>
 
@@ -18,6 +21,9 @@
 		</div>
 
 		<hr class="hr--top" />
+		<div class="chanda">
+			<img alt="chandelier" src={chanda} />
+		</div>
 
 		<slot />
 
@@ -28,11 +34,35 @@
 		<hr class="hr--bottom2" />
 
 		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
-		<img class="body--plant" alt="plant" src={plant} />
+		<div class="body--plant">
+			<img alt="plant" src={plant} />
+		</div>
+
+		<div class="table">
+			<img alt="table" src={table} />
+		</div>
 	</div>
 </div>
 
 <style>
+	.table {
+		text-align: end;
+		padding-bottom: 1rem;
+	}
+
+	.table > img {
+		height: 15rem;
+	}
+
+	.body--plant {
+		height: 3rem;
+		width: 4rem;
+	}
+	.chanda {
+		text-align: center;
+		transform: translateY(-3rem);
+	}
+
 	#body {
 		background-color: rgb(46, 46, 51);
 		min-height: 40rem;
@@ -84,12 +114,6 @@
 		-ms-filter: 'FlipH';
 	}
 
-	.body--plant {
-		height: 15rem;
-		width: 5rem;
-		margin: 0rem;
-		padding: 0rem;
-	}
 	.hr--top {
 		margin-bottom: 3rem;
 		margin-top: 0rem;
@@ -113,19 +137,6 @@
 		background-color: #712828;
 		height: 15px;
 		margin-top: 0rem;
-	}
-
-	.body--box {
-		display: flex;
-	}
-
-	.hr--box {
-		clear: both;
-		transform: translateY(9rem);
-		width: 1rem;
-		background-color: #712828;
-		height: 1.2rem;
-		margin-right: 4rem;
 	}
 
 	.fin {

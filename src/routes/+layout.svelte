@@ -178,7 +178,7 @@
 				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 			</div>
 
-			<p class="footer--version">Version: <span>0.8.3</span></p>
+			<p class="footer--version">Version: <span>0.9.0</span></p>
 
 			<p class="footer--Bottomtext">
 				Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler,
@@ -485,6 +485,7 @@
 		.footer--kryten {
 			display: block;
 			height: 6rem;
+			transform: translateY(-1.5rem);
 		}
 
 		.footer--above > ul > a > li {
@@ -495,6 +496,13 @@
 	@media only screen and (max-width: 548px) {
 		.footer--kryten {
 			transform: translateX(-5rem);
+		}
+	}
+
+	@media only screen and (max-width: 300px) {
+		.footer--kryten {
+			transform: translateY(-1.2rem);
+			margin-left: 1rem;
 		}
 	}
 </style>
