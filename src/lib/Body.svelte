@@ -149,9 +149,9 @@
 		font-size: 1.2rem;
 	}
 
-	@media only screen and (max-width: 300px) {
+	@media only screen and (max-width: 345px) {
 		.body--home > img {
-			height: 3.5rem;
+			height: 5.5rem;
 		}
 	}
 </style>
