@@ -151,7 +151,7 @@
 
 	@media only screen and (max-width: 300px) {
 		.body--home > img {
-			height: 4.5rem;
+			height: 3.5rem;
 		}
 	}
 </style>
