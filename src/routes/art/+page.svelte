@@ -3,7 +3,7 @@
 	export let data;
 </script>
 
-<h1><span>L</span>ike I said, the Art I've Enjoyed</h1>
+<h1><span>A</span>rt I've Enjoyed</h1>
 <div>
 	<ul>
 		<p>TV:</p>

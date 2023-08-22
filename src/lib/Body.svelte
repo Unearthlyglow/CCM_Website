@@ -72,6 +72,9 @@
 		color: white;
 	}
 
+	p {
+	}
+
 	a:hover {
 		color: #fac53d;
 	}
@@ -148,7 +151,7 @@
 
 	@media only screen and (max-width: 300px) {
 		.body--home > img {
-			height: 7rem;
+			height: 5.5rem;
 		}
 	}
 </style>
