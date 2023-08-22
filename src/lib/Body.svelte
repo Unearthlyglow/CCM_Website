@@ -34,30 +34,24 @@
 		<hr class="hr--bottom2" />
 
 		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
-		<div class="body--plant">
+		<div class="body--home">
 			<img alt="plant" src={plant} />
-		</div>
 
-		<div class="table">
 			<img alt="table" src={table} />
 		</div>
 	</div>
 </div>
 
 <style>
-	.table {
-		text-align: end;
-		padding-bottom: 1rem;
+	.body--home {
+		display: flex;
+		justify-content: space-between;
 	}
 
-	.table > img {
-		height: 15rem;
+	.body--home > img {
+		height: 10rem;
 	}
 
-	.body--plant {
-		height: 3rem;
-		width: 4rem;
-	}
 	.chanda {
 		text-align: center;
 		transform: translateY(-3rem);
@@ -150,5 +144,11 @@
 	.body--back-to-top {
 		text-align: center;
 		font-size: 1.2rem;
+	}
+
+	@media only screen and (max-width: 300px) {
+		.body--home > img {
+			height: 7rem;
+		}
 	}
 </style>
