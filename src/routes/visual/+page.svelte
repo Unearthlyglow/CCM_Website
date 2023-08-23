@@ -1,8 +1,16 @@
-
+<script>
+	import card00 from '$lib/images/ccmCard00.png';
+</script>
 
 <h1><span>V</span>isual Media</h1>
 
 <h2>Graphic Design <span>:</span></h2>
+
+<!-- <p class="video--title">Business Card 00 | 2022</p>
+<div class="graphic--window">
+	<img class="graphic--frame" alt="CCM Logo" src={card00} />
+	<img class="graphic--frame" alt="CCM Logo" src={card00} />
+</div> -->
 
 <h2>Video <span>:</span></h2>
 <p class="video--title">
@@ -51,6 +59,10 @@
 		font-size: 2.5rem;
 
 		color: #f2efe5;
+	}
+
+	.graphic--window {
+		display: inline-block;
 	}
 
 	.video--title {

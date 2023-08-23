@@ -29,10 +29,11 @@
 			<li>One</li>
 		</ul> -->
 		<p>
-			<span>Description:</span> This website wasc created for the good folks over at The Happy Cactus
-			Apothecary(THCA) in Austin Texas. THCA is a business dedicated to providing herbal products including
-			THC-8, THC-9, and CBD items to locals as well as provide information on said products to help alleviate
-			common physical issues such as body aches, sleeping issues, and stress.
+			<span>Description:</span> This website was created for the good folks over at The Happy Cactus
+			Apothecary(THCA) in Austin, Texas. THCA is a business dedicated to providing hemp based herbal
+			products that include THC-8, THC-9, and CBD items to patrons as well as provide information on
+			said products to help alleviate common physical issues such as body aches, sleeping issues, and
+			stress.
 		</p>
 	</div>
 
@@ -103,7 +104,12 @@
 		<p>Crate(s): actix-web = "4" | tokio = "1"</p>
 		<a href="https://github.com/Unearthlyglow/Zero2ProdProject" target="_blank">Github Repo</a>
 		<div class="software--description">
-			<p><span>Description:</span> The website of my dreams?</p>
+			<p>
+				<span>Description:</span>This project was started to help me better my knowledge of
+				backend-development using the Rust ecosystem. The end-result will be a fast, secure, and
+				hopefully bug free newsletter that I plan on attaching to my main website. The project
+				follows the book Zero to Production by Luca Palmieri.
+			</p>
 		</div>
 	</div>
 
@@ -125,7 +131,15 @@
 		<p>Crate(s): bootloader = "0.9.23"</p>
 		<a href="https://github.com/Unearthlyglow/rust_os" target="_blank">Github Repo</a>
 		<div class="software--description">
-			<p><span>Description:</span> The website of my dreams?</p>
+			<p>
+				<span>Description:</span>This project is dedicated to creating a basic operating system in
+				the Rust programming language. The project starts with creating a freestanding Rust binary,
+				travels through interrupts, memory management, and lastly multitasking. I too was inspired
+				when I read about Linus Torvalds's creation of the Linux Kernel, and that paired with my
+				current curiosity about how computers work from the lowest level has led me to take quite
+				the gander at what it takes to create an operating system specifically in Rust. The project
+				follows the work of Philipp Oppermann.
+			</p>
 		</div>
 	</div>
 </div>
