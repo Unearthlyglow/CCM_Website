@@ -261,7 +261,7 @@
 	}
 
 	.tab-intact:hover {
-		color: #d60675;
+		color: #942bef;
 	}
 
 	.class-divide {

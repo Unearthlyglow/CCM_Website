@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <h1><span>J</span>azz Manifesto</h1>
 
 <p><span>I.</span> Thou shout learn how to write a manifesto</p>
@@ -26,6 +29,6 @@
 	p {
 		font-size: 1.5rem;
 		text-align: center;
-		color: #839BA0;
+		color: #c6dade;
 	}
 </style>

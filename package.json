@@ -34,6 +34,6 @@
 		"@fontsource/material-icons": "^5.0.1",
 		"@fontsource/roboto": "^5.0.1",
 		"@picocss/pico": "^1.5.10",
-		"gsap": "^3.12.1"
+		"gsap": "^3.12.2"
 	}
 }
