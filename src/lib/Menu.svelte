@@ -11,9 +11,9 @@
 {#if open}
 	<div class="menu">
 		<div class="menu--item"><a href="/#body">Home</a></div>
-		<div class="menu--item"><a href="/#body">Home</a></div>
-		<div class="menu--item"><a href="/#body">Home</a></div>
-		<div class="menu--item"><a href="/#body">Home</a></div>
+		<div class="menu--item"><a href="/#body">Writing</a></div>
+		<div class="menu--item"><a href="/#body">Projects</a></div>
+		<div class="menu--item"><a href="/about/#body">About</a></div>
 	</div>
 
 	<hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
@@ -39,13 +39,8 @@
 		margin: 2rem;
 	}
 
-	p {
-		cursor: pointer;
-		width: max-content;
-		margin: 1rem auto;
-		color: green;
-	}
-	:hover {
+	.menu--item:hover {
 		text-decoration: underline;
+		color: $primary-red;
 	}
 </style>

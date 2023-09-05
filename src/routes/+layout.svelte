@@ -32,7 +32,7 @@
 
 <div class="container-fluid">
 	<div class="hamburger">
-		<Hamburger --color="Green" --active-color="Yellow" --layer-height="3px" bind:open />
+		<Hamburger --color="Green" --active-color="#D3A632" --layer-height="3px" bind:open />
 
 		<Menu bind:open />
 	</div>
@@ -191,7 +191,7 @@
 				<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 			</div>
 
-			<p class="footer--version">Version: <span>0.9.0</span></p>
+			<p class="footer--version">Version: <span>1.0.0</span></p>
 
 			<p class="footer--Bottomtext">
 				Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler,
