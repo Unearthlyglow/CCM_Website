@@ -9,35 +9,43 @@
 </script>
 
 {#if open}
-	<div>
-		{#each ['Home', 'Example', 'About', 'Contact', '/'] as link, i}
-			<p transition:fly={{ y: -15, delay: 50 * i }}>
-				{link}
-			</p>
-			<link rel="stylesheet" href="" />
-		{/each}
+	<div class="menu">
+		<div class="menu--item"><a href="/#body">Home</a></div>
+		<div class="menu--item"><a href="/#body">Home</a></div>
+		<div class="menu--item"><a href="/#body">Home</a></div>
+		<div class="menu--item"><a href="/#body">Home</a></div>
 	</div>
 
 	<hr transition:scale={{ duration: 750, easing: quadOut, opacity: 1 }} />
 {/if}
 
-<style>
-	div {
+<style lang="scss">
+	@import '../lib/styles/global.scss';
+	.menu {
+		display: block;
+		margin-top: 2rem;
 		text-align: center;
 		font-size: 1.5em;
 		letter-spacing: 0.15em;
 		padding: 1em;
 		padding-top: 0;
-		color: #eef;
 		height: 15rem;
 	}
+	div > a {
+		color: $primary-white;
+	}
+
+	.menu--item {
+		margin: 2rem;
+	}
+
 	p {
 		cursor: pointer;
 		width: max-content;
 		margin: 1rem auto;
 		color: green;
 	}
-	p:hover {
+	:hover {
 		text-decoration: underline;
 	}
 </style>

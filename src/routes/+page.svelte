@@ -62,4 +62,11 @@
 		align-items: center;
 		text-align: center;
 	}
+
+	@media only screen and (max-width: 548px) {
+		.paragraph {
+			text-align: start;
+		
+		}
+	}
 </style>

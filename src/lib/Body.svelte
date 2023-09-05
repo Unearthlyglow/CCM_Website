@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<style >
+<style>
 	.body--home {
 		display: flex;
 		justify-content: space-between;
@@ -147,6 +147,12 @@
 	.body--back-to-top {
 		text-align: center;
 		font-size: 1.2rem;
+	}
+
+	@media only screen and (max-width: 548px) {
+		.body--inner {
+			margin: 2rem;
+		}
 	}
 
 	@media only screen and (max-width: 345px) {

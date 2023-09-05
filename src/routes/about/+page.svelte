@@ -79,4 +79,11 @@
 	.about--techstack {
 		margin-bottom: 2rem;
 	}
+
+	@media only screen and (max-width: 548px) {
+		.body {
+			text-align: start;
+			margin-bottom: 5rem;
+		}
+	}
 </style>

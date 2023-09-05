@@ -13,10 +13,9 @@
 // export default {
 // 	config
 // };
-
-import { defineConfig } from 'vite';
+// import preprocess from 'svelte-preprocess';
+// import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
-import preprocess from 'svelte-preprocess';
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
