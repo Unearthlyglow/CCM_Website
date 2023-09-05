@@ -17,14 +17,17 @@
 import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
 import preprocess from 'svelte-preprocess';
-
 import adapter from '@sveltejs/adapter-vercel';
-
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 export default {
 	preprocess: [vitePreprocess()],
-	plugins: [imagetools()]
+	plugins: [imagetools()],
+	kit: {
+		adapter: adapter({
+			// see the 'Deployment configuration' section below
+		})
+	}
 };
 
 // export default defineConfig({
