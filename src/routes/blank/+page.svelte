@@ -1,4 +1,4 @@
-<div />
+<div>Blank Page</div>
 
 <style>
 	div {
