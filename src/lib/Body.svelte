@@ -42,7 +42,7 @@
 	</div>
 </div>
 
-<style>
+<style >
 	.body--home {
 		display: flex;
 		justify-content: space-between;

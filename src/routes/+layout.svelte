@@ -3,7 +3,7 @@
 	import '@fontsource/lato/400.css';
 	import '@fontsource/lato/700.css';
 	import '@fontsource/lato/900.css';
-	import '../app.css';
+
 	import metropolis_building from '$lib/images/metropolis2.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
@@ -17,6 +17,13 @@
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import kryten from '$lib/images/kryten2.svg';
 	import Body from '$lib/Body.svelte';
+	import { Hamburger } from 'svelte-hamburgers';
+	import Menu from '$lib/Menu.svelte';
+
+	/**
+	 * @type {any}
+	 */
+	let open;
 </script>
 
 <svelte:head>
@@ -24,6 +31,12 @@
 </svelte:head>
 
 <div class="container-fluid">
+	<div class="hamburger">
+		<Hamburger --color="Green" --active-color="Yellow" --layer-height="3px" bind:open />
+
+		<Menu bind:open />
+	</div>
+
 	<!-- <h1>Hello {$page.data.page.title}</h1> -->
 
 	<nav>
@@ -189,7 +202,9 @@
 	</footer>
 </div>
 
-<style lang="scss">
+<style lang="scss" global>
+	@import '../lib/styles/global.scss';
+
 	a:link {
 		text-decoration: none;
 	}
@@ -206,6 +221,10 @@
 		text-decoration: none;
 	}
 
+	.hamburger {
+		display: none;
+	}
+
 	.container-fluid {
 		min-height: 100%;
 		min-width: 100%;
@@ -213,9 +232,7 @@
 		grid-template-columns: repeat(auto-fit, 1fr);
 		padding-right: 0px;
 		padding-left: 0px;
-		/* background-color: rgb(33, 125, 137); */
-		/*border-bottom: #8c2525 solid 8px;
-		border-top: #8c2525 solid 6px; */
+		background-color: $primary-white;
 	}
 
 	.logo-building {
@@ -234,7 +251,7 @@
 	}
 
 	nav {
-		background-color: rgb(199, 210, 210);
+		background-color: $primary-white;
 		color: white;
 	}
 
@@ -269,14 +286,14 @@
 	}
 
 	ul[role='listbox'] {
-		background-color: rgb(199, 210, 210);
+		background-color: $primary-white;
 		box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.98);
 		border: none;
 		text-align: center;
 
 		& a {
 			font-size: 0.87rem;
-			color: rgb(13, 81, 90);
+			color: rgb(175, 206, 210);
 		}
 	}
 
@@ -496,6 +513,20 @@
 	@media only screen and (max-width: 548px) {
 		.footer--kryten {
 			transform: translateX(-5rem);
+		}
+
+		.hamburger {
+			display: block;
+
+			background-color: rgb(46, 46, 51);
+			text-decoration: none;
+		}
+
+		.container-tabs {
+			display: none;
+		}
+		.nav--paintings {
+			margin-bottom: 1rem;
 		}
 	}
 
