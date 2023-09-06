@@ -1,7 +1,8 @@
 <script>
 </script>
 
-<h1><span>W</span>elcome Home</h1>
+<h1><span>W</span>elcome Home || Gemütlichkeit</h1>
+
 <div class="paragraph">
 	<p class="one">
 		Welcome, this website has reached a pretty good version 1.0, so thats feels pretty good. For the
@@ -53,10 +54,9 @@
 		color: $primary-yellow;
 		font-weight: 700;
 		margin-top: 3rem;
-		font-size: 1.5rem
+		font-size: 1.5rem;
 	}
 
-	
 	.paragraph {
 		line-height: 3rem;
 

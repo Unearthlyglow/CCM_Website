@@ -70,11 +70,10 @@
 
 	.nav--paintings {
 		justify-content: space-around;
+		margin-bottom: 3rem;
 	}
 
 	.painting1 {
-		max-height: 18rem;
-		max-width: 18rem;
 	}
 
 	@media only screen and (max-width: 900px) {
