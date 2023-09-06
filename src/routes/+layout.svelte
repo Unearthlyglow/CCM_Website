@@ -5,17 +5,9 @@
 	import '@fontsource/lato/900.css';
 
 	import metropolis_building from '$lib/images/metropolis2.svg';
-	import footerLogo from '$lib/images/MetroRod.svg';
-	import CCMLetters from '$lib/images/CCMLetters.svg';
-	import githubLogo from '$lib/images/github-logo.svg';
 	import painting1 from '$lib/images/painting1.avif';
 	import painting2 from '$lib/images/painting2.webp';
 	import painting3 from '$lib/images/painting3.webp';
-	import fire from '$lib/images/fire.svg';
-	import linked from '$lib/images/linked.svg';
-	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
-	import IgLogo from '$lib/images/Ig-logo.svg';
-	import kryten from '$lib/images/kryten2.svg';
 	import Body from '$lib/Body.svelte';
 	import { Hamburger } from 'svelte-hamburgers';
 	import Menu from '$lib/Menu.svelte';
@@ -124,6 +116,13 @@
 		.nav--paintings {
 			margin-bottom: 1rem;
 			height: 8rem;
+		}
+	}
+
+	@media only screen and (max-width: 330px) {
+		.nav--paintings {
+			margin-bottom: 1rem;
+			height: 6rem;
 		}
 	}
 </style>
