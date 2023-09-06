@@ -35,6 +35,10 @@
 		color: $primary-white;
 	}
 
+	a:hover {
+		color: $primary-yellow;
+	}
+
 	.menu--item {
 		margin: 2rem;
 	}

@@ -87,6 +87,7 @@
 		margin-top: 1rem;
 		margin-left: 4rem;
 		margin-right: 4rem;
+
 		/* border-right: 5px #d3a632 solid;
 		border-left: 5px #d3a632 solid; */
 	}
@@ -150,19 +151,12 @@
 	}
 
 	@media only screen and (max-width: 548px) {
-		.body--inner {
-			margin: 2rem;
-		}
-
 		.chanda > img {
 			width: 5rem;
 		}
-		
-	}
 
-	@media only screen and (max-width: 345px) {
 		.body--home > img {
-			height: 5.5rem;
+			height: 7.5rem;
 		}
 	}
 </style>

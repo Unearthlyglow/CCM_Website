@@ -306,7 +306,7 @@
 
 	.footer {
 		background-color: rgb(199, 210, 210);
-		padding-top: 4rem;
+		padding-top: 3rem;
 	}
 
 	.footer--above {
