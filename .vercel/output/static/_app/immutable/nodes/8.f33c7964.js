@@ -1,0 +1,1 @@
+import{S as t,i as o,s as a}from"../chunks/index.e1f5af94.js";function n(){return{page:{title:"art",description:"This page lists art that I have enjoyed"}}}const l=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));class i extends t{constructor(e){super(),o(this,e,null,null,a,{})}}export{i as component,l as universal};

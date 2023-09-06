@@ -26,14 +26,15 @@
 </ul>
 <ul />
 
-<style>
+<style lang="scss">
+	@import '../lib/styles/global.scss';
 	h1 {
 		text-align: center;
 		font-size: 3rem;
 	}
 
 	span {
-		color: #fac53d;
+		color: $primary-yellow;
 		font-weight: 700;
 	}
 
@@ -66,7 +67,6 @@
 	@media only screen and (max-width: 548px) {
 		.paragraph {
 			text-align: start;
-		
 		}
 	}
 </style>

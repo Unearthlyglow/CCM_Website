@@ -42,7 +42,8 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
+	@import '../lib/styles/global.scss';
 	.body--home {
 		display: flex;
 		justify-content: space-between;
@@ -72,9 +73,6 @@
 		color: white;
 	}
 
-	p {
-	}
-
 	a:hover {
 		color: #fac53d;
 	}
@@ -85,8 +83,8 @@
 
 	.body--inner {
 		margin-top: 1rem;
-		margin-left: 4rem;
-		margin-right: 4rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 
 		/* border-right: 5px #d3a632 solid;
 		border-left: 5px #d3a632 solid; */

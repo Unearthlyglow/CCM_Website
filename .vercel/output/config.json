@@ -1,0 +1,149 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/about",
+			"dest": "/about/"
+		},
+		{
+			"src": "/about/",
+			"status": 308,
+			"headers": {
+				"Location": "/about"
+			}
+		},
+		{
+			"src": "/art",
+			"dest": "/art/"
+		},
+		{
+			"src": "/art/",
+			"status": 308,
+			"headers": {
+				"Location": "/art"
+			}
+		},
+		{
+			"src": "/embedded",
+			"dest": "/embedded/"
+		},
+		{
+			"src": "/embedded/",
+			"status": 308,
+			"headers": {
+				"Location": "/embedded"
+			}
+		},
+		{
+			"src": "/film",
+			"dest": "/film/"
+		},
+		{
+			"src": "/film/",
+			"status": 308,
+			"headers": {
+				"Location": "/film"
+			}
+		},
+		{
+			"src": "/jazz-manifesto",
+			"dest": "/jazz-manifesto/"
+		},
+		{
+			"src": "/jazz-manifesto/",
+			"status": 308,
+			"headers": {
+				"Location": "/jazz-manifesto"
+			}
+		},
+		{
+			"src": "/newsoft",
+			"dest": "/newsoft/"
+		},
+		{
+			"src": "/newsoft/",
+			"status": 308,
+			"headers": {
+				"Location": "/newsoft"
+			}
+		},
+		{
+			"src": "/software",
+			"dest": "/software/"
+		},
+		{
+			"src": "/software/",
+			"status": 308,
+			"headers": {
+				"Location": "/software"
+			}
+		},
+		{
+			"src": "/todos",
+			"dest": "/todos/"
+		},
+		{
+			"src": "/todos/",
+			"status": 308,
+			"headers": {
+				"Location": "/todos"
+			}
+		},
+		{
+			"src": "/visual",
+			"dest": "/visual/"
+		},
+		{
+			"src": "/visual/",
+			"status": 308,
+			"headers": {
+				"Location": "/visual"
+			}
+		},
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/fn"
+		}
+	],
+	"overrides": {
+		"index.html": {
+			"path": ""
+		},
+		"about.html": {
+			"path": "about"
+		},
+		"art.html": {
+			"path": "art"
+		},
+		"embedded.html": {
+			"path": "embedded"
+		},
+		"film.html": {
+			"path": "film"
+		},
+		"jazz-manifesto.html": {
+			"path": "jazz-manifesto"
+		},
+		"newsoft.html": {
+			"path": "newsoft"
+		},
+		"software.html": {
+			"path": "software"
+		},
+		"todos.html": {
+			"path": "todos"
+		},
+		"visual.html": {
+			"path": "visual"
+		}
+	}
+}

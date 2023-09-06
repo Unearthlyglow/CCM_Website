@@ -1,3 +1,8 @@
+$primary-white: rgb(199, 210, 210);
+$primary-red: #8C2525;
+$primary-yellow: #D3A632;
+$primary-green: #2b5b51;
+
 p,
 li,
 a {
@@ -12,7 +17,7 @@ li {
 }
 
 li:hover {
-	color: #fac53d;
+	color: $primary-yellow;
 }
 
 a:link {
@@ -30,8 +35,3 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
-
-$primary-white: rgb(199, 210, 210);
-$primary-red: #8C2525;
-$primary-yellow: #D3A632;
-$primary-green: #2b5b51;
