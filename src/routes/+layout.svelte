@@ -78,7 +78,6 @@
 
 	.nav--paintings {
 		justify-content: space-around;
-		
 	}
 
 	.painting1 {
@@ -117,7 +116,7 @@
 	@media only screen and (max-width: 400px) {
 		.nav--paintings {
 			margin-bottom: 1rem;
-			height: 8rem;
+			height: 6rem;
 		}
 	}
 </style>
