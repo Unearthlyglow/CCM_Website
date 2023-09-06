@@ -99,7 +99,6 @@
 		}
 	}
 
-
 	@media only screen and (max-width: 548px) {
 		.hamburger {
 			display: block;
@@ -114,6 +113,10 @@
 		}
 	}
 
-	@media only screen and (max-width: 300px) {
+	@media only screen and (max-width: 400px) {
+		.nav--paintings {
+			margin-bottom: 1rem;
+			height: 8rem;
+		}
 	}
 </style>

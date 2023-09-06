@@ -331,7 +331,14 @@
 		}
 	}
 
-	@media only screen and (max-width: 450px) {
+	@media only screen and (max-width: 500px) {
+		.footer--kryten {
+			transform: translateY(-1.2rem);
+			margin-left: 4rem;
+		}
+	}
+
+	@media only screen and (max-width: 400px) {
 		.footer--kryten {
 			transform: translateY(-1.2rem);
 			margin-left: 1rem;
