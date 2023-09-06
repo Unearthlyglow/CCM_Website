@@ -41,7 +41,7 @@
 	p {
 		font-size: 1.3rem;
 
-		color: rgb(222, 246, 250);
+		color: white;
 	}
 
 	li {
@@ -50,9 +50,13 @@
 
 	.chapter--title {
 		text-align: center;
-		color: rgb(252, 252, 252);
+		color: $primary-yellow;
+		font-weight: 700;
+		margin-top: 3rem;
+		font-size: 1.5rem
 	}
 
+	
 	.paragraph {
 		line-height: 3rem;
 

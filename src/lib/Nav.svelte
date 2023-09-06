@@ -47,6 +47,7 @@
 
 	.single--tab {
 		font-weight: 900;
+		
 	}
 
 	.container-tabs {
@@ -86,15 +87,16 @@
 	}
 
 	ul[role='listbox']:hover {
-		background-color: #005b6d;
+		background-color: $primary-white;
 		transition: background-color 0.5s;
 
 		& a {
-			color: $primary-white;
+			color: $primary-green;
 		}
 
 		& a:hover {
-			background: $primary-yellow;
+			text-decoration: underline;
+			color: $primary-yellow;
 		}
 	}
 

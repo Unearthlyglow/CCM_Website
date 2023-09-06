@@ -78,6 +78,7 @@
 
 	.nav--paintings {
 		justify-content: space-around;
+		
 	}
 
 	.painting1 {

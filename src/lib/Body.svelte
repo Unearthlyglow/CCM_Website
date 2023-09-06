@@ -60,6 +60,9 @@
 
 	#body {
 		background-color: rgb(46, 46, 51);
+		border: 2.5px solid $primary-yellow;
+		border-bottom: 20px solid $primary-yellow;
+		border-top: 20px solid $primary-yellow;
 		min-height: 40rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -155,6 +158,10 @@
 
 		.body--home > img {
 			height: 7.5rem;
+		}
+
+		#body {
+			margin-top: 2rem;
 		}
 	}
 </style>

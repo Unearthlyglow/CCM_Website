@@ -28,7 +28,7 @@
 				<li>About</li>
 			</a>
 			<a href="/software/#body">
-				<li>Software Portfolio</li>
+				<li>Software-Portfolio</li>
 			</a>
 		</ul>
 		<ul>
@@ -133,7 +133,7 @@
 	.footer--above {
 		display: flex;
 		justify-content: space-around;
-		line-height: 1.3rem;
+		line-height: 1.8rem;
 	}
 
 	.footer--above > ul > a > li {
