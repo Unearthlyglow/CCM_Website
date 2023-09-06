@@ -153,6 +153,11 @@
 		.body--inner {
 			margin: 2rem;
 		}
+
+		.chanda > img {
+			width: 5rem;
+		}
+		
 	}
 
 	@media only screen and (max-width: 345px) {

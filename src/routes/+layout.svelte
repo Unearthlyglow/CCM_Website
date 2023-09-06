@@ -37,8 +37,6 @@
 		<Menu bind:open />
 	</div>
 
-	<!-- <h1>Hello {$page.data.page.title}</h1> -->
-
 	<nav>
 		<img class="logo-building" alt="CCM Logo" src={metropolis_building} />
 	</nav>
@@ -51,10 +49,6 @@
 	<nav class="container-tabs">
 		<li>
 			<a href="/#body" class="single--tab"> Home</a>
-			<!-- <ul role="listbox">
-				<li><a href="/jazz-manifesto">Jazz Manifesto</a></li>
-				<li><a href="https://unearthlyglow.github.io/CCMBlog/">CCM General Blog(MD Book)</a></li>
-			</ul> -->
 		</li>
 		<li class="class-divide">||</li>
 		<li role="list" dir="ltr">
@@ -293,7 +287,7 @@
 
 		& a {
 			font-size: 0.87rem;
-			color: rgb(175, 206, 210);
+			color: $primary-green;
 		}
 	}
 
