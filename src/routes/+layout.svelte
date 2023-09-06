@@ -113,10 +113,17 @@
 		}
 	}
 
-	@media only screen and (max-width: 400px) {
+	@media only screen and (max-width: 470px) {
 		.nav--paintings {
 			margin-bottom: 1rem;
-			height: 6rem;
+			height: 10rem;
+		}
+	}
+
+	@media only screen and (max-width: 420px) {
+		.nav--paintings {
+			margin-bottom: 1rem;
+			height: 8rem;
 		}
 	}
 </style>
