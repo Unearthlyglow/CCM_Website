@@ -1,4 +1,5 @@
-<h1><span>Roadside Pinic To</span> Embedded Programming</h1>
+<h1><span>Roadside Pinic To</span></h1>
+<h1>Embedded Programming</h1>
 
 <p>The Big Dream</p>
 <p>
@@ -12,6 +13,8 @@
 		text-align: center;
 		font-size: 4rem;
 		color: #f2efe5;
+		padding: 0rem;
+		margin: 0rem;
 	}
 	span {
 		color: #8c2525;
@@ -20,5 +23,15 @@
 
 	p {
 		font-size: 1.1rem;
+		margin-top: 3rem;
 	}
+
+	@media only screen and (max-width: 500px) { 
+
+		h1 {
+			font-size: 3rem;
+		}
+	}
+
+
 </style>

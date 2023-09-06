@@ -331,7 +331,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 300px) {
+	@media only screen and (max-width: 450px) {
 		.footer--kryten {
 			transform: translateY(-1.2rem);
 			margin-left: 1rem;
