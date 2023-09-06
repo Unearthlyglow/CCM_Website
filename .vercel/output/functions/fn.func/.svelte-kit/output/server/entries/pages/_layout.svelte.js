@@ -5,17 +5,9 @@ const _400 = "";
 const _700 = "";
 const _900 = "";
 const metropolis_building = "/_app/immutable/assets/metropolis2.10dd011f.svg";
-const footerLogo = "/_app/immutable/assets/MetroRod.30ddd57f.svg";
-const CCMLetters = "/_app/immutable/assets/CCMLetters.f4e0f746.svg";
-const githubLogo = "/_app/immutable/assets/github-logo.7c0295c7.svg";
 const painting1 = "/_app/immutable/assets/painting1.240e861b.avif";
 const painting2 = "/_app/immutable/assets/painting2.7c7dae66.webp";
 const painting3 = "/_app/immutable/assets/painting3.1a44be6c.webp";
-const fire = "/_app/immutable/assets/fire.a1a44fd6.svg";
-const linked = "/_app/immutable/assets/linked.cd14eb32.svg";
-const TwitterLogo = "/_app/immutable/assets/Twitter-Logo.e60fd21d.svg";
-const IgLogo = "/_app/immutable/assets/Ig-logo.cc8dbc44.svg";
-const kryten = "/_app/immutable/assets/kryten2.4d8be327.svg";
 const index = "";
 const yellowBuilding = "/_app/immutable/assets/yellowBuilding.c512fda8.svg";
 const plant = "/_app/immutable/assets/planth.e8339dba.svg";
@@ -119,6 +111,14 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			<li class="svelte-16armv6"><a href="/todos/#body" class="svelte-16armv6">Website To-Do List!</a></li></ul></li>
 </nav>`;
 });
+const footerLogo = "/_app/immutable/assets/MetroRod.30ddd57f.svg";
+const CCMLetters = "/_app/immutable/assets/CCMLetters.f4e0f746.svg";
+const githubLogo = "/_app/immutable/assets/github-logo.7c0295c7.svg";
+const fire = "/_app/immutable/assets/fire.a1a44fd6.svg";
+const linked = "/_app/immutable/assets/linked.cd14eb32.svg";
+const TwitterLogo = "/_app/immutable/assets/Twitter-Logo.e60fd21d.svg";
+const IgLogo = "/_app/immutable/assets/Ig-logo.cc8dbc44.svg";
+const kryten = "/_app/immutable/assets/kryten2.4d8be327.svg";
 const Footer_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: 'p.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j,li.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j,a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{font-family:"Lato", sans-serif}li.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{list-style-type:none;font-weight:700;font-size:0.7rem;color:hsl(0, 0%, 100%)}li.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{color:#D3A632}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:link{text-decoration:none}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:visited{text-decoration:none}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{text-decoration:none}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:active{text-decoration:none}.footer.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{background-color:rgb(199, 210, 210);padding-top:3rem}.footer--above.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{display:flex;justify-content:space-around;line-height:1.8rem}.footer--above.svelte-9al24j>ul.svelte-9al24j>a.svelte-9al24j>li.svelte-9al24j{font-size:0.9rem;color:rgb(13, 81, 90)}.footer--above.svelte-9al24j>ul.svelte-9al24j>li.svelte-9al24j.svelte-9al24j{font-size:0.9rem;color:rgb(13, 81, 90)}.footer--above.svelte-9al24j>ul.svelte-9al24j>a.svelte-9al24j>li.svelte-9al24j:hover{color:#8c2525}.footer--footloose.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{font-size:0.7rem;font-weight:900;display:flex;flex-direction:column;align-items:center}.footer--friends.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{margin:0.3rem;font-size:0.8rem;font-weight:900;color:rgb(13, 81, 90)}.below--footer.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{margin:1rem}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{text-decoration:underline;color:#363262}a.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{color:#d60675}.footer--Bottomtext.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{color:#712828;font-weight:700;font-size:0.8rem;margin:1.5rem;text-align:center}.footer--ccmquote.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{display:flex;align-items:center;justify-content:space-between}.footer--kryten.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{display:block;height:8rem;margin-left:8rem;transform:translateY(-1.5rem)}.footer--quote.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{font-size:0.8rem;font-weight:800;color:rgb(13, 81, 90);display:inline-block}.footer--fire.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{align-self:center}.building-logo.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{height:10rem}.footer--icons.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{height:1.3rem;margin:1.3rem}.footer--github.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{background:#f7be2f}.footer--github.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{background:#fddf92}.footer--linkedin.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{background:#363262}.footer--linkedin.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{background:#ba91ef}.footer--twitter.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{background:#860b0b}.footer--twitter.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{background:#dd5050}.footer--ig.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{background:#c4c1c1}.footer--ig.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j:hover{background:#ffffff}.footer--version.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{font-size:0.9rem;font-weight:800;color:#363262;text-align:right;margin:1rem}.footer--version.svelte-9al24j>span.svelte-9al24j.svelte-9al24j.svelte-9al24j{color:rgb(13, 81, 90)}.CCM-letters.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{height:4rem;width:6rem;margin-top:1rem;margin-bottom:0.5rem}hr.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{border:0;clear:both;display:block;width:96%;background-color:#d3a632;height:1px}.footer--iconss.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{text-align:center;font-size:3rem;padding:1rem}@media only screen and (max-width: 800px){.footer--above.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{margin-left:0.5rem}.footer--icons.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{height:1.7rem}.footer--iconss.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{text-align:center;font-size:2rem}.building-logo.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{height:6rem;margin-right:0.5rem;margin-left:1rem}.footer--fire.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{width:15rem;height:15rem}.footer--kryten.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{display:block;height:6rem;transform:translateY(-1.5rem)}.footer--above.svelte-9al24j>ul.svelte-9al24j>a.svelte-9al24j>li.svelte-9al24j{font-size:0.76rem}}@media only screen and (max-width: 548px){.footer--kryten.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{transform:translateX(-5rem)}}@media only screen and (max-width: 500px){.footer--kryten.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{transform:translateY(-1.2rem);margin-left:4rem}}@media only screen and (max-width: 400px){.footer--kryten.svelte-9al24j.svelte-9al24j.svelte-9al24j.svelte-9al24j{transform:translateY(-1.2rem);margin-left:1rem}}',
@@ -163,7 +163,7 @@ const Footer_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 
 			<a href="https://adrianshaynes.com/" class="svelte-9al24j">Adrian&#39;s :: HelloMaryJo</a></div>
 
-		<p class="footer--version svelte-9al24j">Version: <span class="svelte-9al24j">1.0.0</span></p>
+		<p class="footer--version svelte-9al24j">Version: <span class="svelte-9al24j">1.0.1</span></p>
 
 		<p class="footer--Bottomtext svelte-9al24j">Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler, auf
 			die Sie stoßen. Bitte Für Feedback wenden Sie sich bitte an award@capsules.io. Es können alle
@@ -173,7 +173,7 @@ const Footer_1 = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 });
 const _layout_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".hamburger.svelte-1jlryw3{display:none}.container-fluid.svelte-1jlryw3{min-height:100%;min-width:100%;display:grid;grid-template-columns:repeat(auto-fit, 1fr);padding-right:0px;padding-left:0px;background-color:rgb(199, 210, 210)}.logo-building.svelte-1jlryw3{margin-top:1rem}.nav--paintings.svelte-1jlryw3{justify-content:space-around}.painting1.svelte-1jlryw3{max-height:18rem;max-width:18rem}@media only screen and (max-width: 900px){.nav--paintings.svelte-1jlryw3{margin-bottom:1rem;height:15rem}}@media only screen and (max-width: 700px){.nav--paintings.svelte-1jlryw3{margin-bottom:1rem;height:13rem}}@media only screen and (max-width: 548px){.hamburger.svelte-1jlryw3{display:block;background-color:rgb(46, 46, 51);text-decoration:none}.nav--paintings.svelte-1jlryw3{margin-bottom:1rem;height:11rem}}@media only screen and (max-width: 400px){.nav--paintings.svelte-1jlryw3{margin-bottom:1rem;height:8rem}}",
+  code: ".hamburger.svelte-1lsl5gp{display:none}.container-fluid.svelte-1lsl5gp{min-height:100%;min-width:100%;display:grid;grid-template-columns:repeat(auto-fit, 1fr);padding-right:0px;padding-left:0px;background-color:rgb(199, 210, 210)}.logo-building.svelte-1lsl5gp{margin-top:1rem}.nav--paintings.svelte-1lsl5gp{justify-content:space-around;margin-bottom:3rem}@media only screen and (max-width: 900px){.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:15rem}}@media only screen and (max-width: 700px){.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:13rem}}@media only screen and (max-width: 548px){.hamburger.svelte-1lsl5gp{display:block;background-color:rgb(46, 46, 51);text-decoration:none}.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:11rem}}@media only screen and (max-width: 470px){.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:10rem}}@media only screen and (max-width: 420px){.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:8rem}}@media only screen and (max-width: 330px){.nav--paintings.svelte-1lsl5gp{margin-bottom:1rem;height:6rem}}",
   map: null
 };
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -185,7 +185,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$settled = true;
     $$rendered = `${$$result.head += `<!-- HEAD_svelte-6jvds7_START --><meta name="google" content="notranslate"><!-- HEAD_svelte-6jvds7_END -->`, ""}
 
-<div class="container-fluid svelte-1jlryw3"><div class="hamburger svelte-1jlryw3"><div style="display: contents; --color:Green; --active-color:#D3A632; --layer-height:3px;">${validate_component(Hamburger, "Hamburger").$$render(
+<div class="container-fluid svelte-1lsl5gp"><div class="hamburger svelte-1lsl5gp"><div style="display: contents; --color:Green; --active-color:#D3A632; --layer-height:3px;">${validate_component(Hamburger, "Hamburger").$$render(
       $$result,
       { open },
       {
@@ -209,10 +209,10 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       {}
     )}</div>
 
-	<nav><img class="logo-building svelte-1jlryw3" alt="CCM Logo"${add_attribute("src", metropolis_building, 0)}></nav>
-	<nav class="nav--paintings svelte-1jlryw3"><img class="painting1 svelte-1jlryw3"${add_attribute("src", painting1, 0)} alt="CCM Letters">
-		<img class="painting1 svelte-1jlryw3"${add_attribute("src", painting2, 0)} alt="CCM Letters">
-		<img class="painting1 svelte-1jlryw3"${add_attribute("src", painting3, 0)} alt="CCM Letters"></nav>
+	<nav><img class="logo-building svelte-1lsl5gp" alt="CCM Logo"${add_attribute("src", metropolis_building, 0)}></nav>
+	<nav class="nav--paintings svelte-1lsl5gp"><img class="painting1"${add_attribute("src", painting1, 0)} alt="CCM Letters">
+		<img class="painting1"${add_attribute("src", painting2, 0)} alt="CCM Letters">
+		<img class="painting1"${add_attribute("src", painting3, 0)} alt="CCM Letters"></nav>
 
 	${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 	${validate_component(Body, "Body").$$render($$result, {}, {}, {
