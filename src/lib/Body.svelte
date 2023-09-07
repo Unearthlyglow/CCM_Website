@@ -43,7 +43,7 @@
 </div>
 
 <style lang="scss">
-	@import '../lib/styles/global.scss';
+	@import '$lib/styles/global.scss';
 
 	.chanda {
 		text-align: center;
@@ -198,6 +198,12 @@
 		.table {
 			width: 5rem;
 			height: 5rem;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		#body {
+			margin-top: 0rem;
 		}
 	}
 </style>

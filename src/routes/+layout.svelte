@@ -26,7 +26,7 @@
 
 <div class="container-fluid">
 	<div class="hamburger">
-		<Hamburger --color="Green" --active-color="#D3A632" --layer-height="3px" bind:open />
+		<Hamburger --color="green" --active-color="#D3A632" --layer-height="3px" bind:open />
 
 		<Menu bind:open />
 	</div>
@@ -48,7 +48,7 @@
 </div>
 
 <style lang="scss" global>
-	@import '../lib/styles/global.scss';
+	@import '$lib/styles/global.scss';
 
 	.hamburger {
 		display: none;
@@ -99,28 +99,25 @@
 		}
 
 		.nav--paintings {
-			margin-bottom: 1rem;
+			margin-bottom: 0rem;
 			height: 11rem;
 		}
 	}
 
 	@media only screen and (max-width: 470px) {
 		.nav--paintings {
-			margin-bottom: 1rem;
 			height: 10rem;
 		}
 	}
 
 	@media only screen and (max-width: 420px) {
 		.nav--paintings {
-			margin-bottom: 1rem;
 			height: 8rem;
 		}
 	}
 
 	@media only screen and (max-width: 330px) {
 		.nav--paintings {
-			margin-bottom: 1rem;
 			height: 6rem;
 		}
 	}

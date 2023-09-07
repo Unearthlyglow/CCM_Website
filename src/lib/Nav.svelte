@@ -38,7 +38,7 @@
 </nav>
 
 <style lang="scss">
-	@import '../lib/styles/global.scss';
+@import '$lib/styles/global.scss';
 
 	nav {
 		background-color: $primary-white;

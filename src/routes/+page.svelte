@@ -28,7 +28,7 @@
 <ul />
 
 <style lang="scss">
-	@import '../lib/styles/global.scss';
+	@import '$lib/styles/global.scss';
 	h1 {
 		text-align: center;
 		font-size: 3rem;
