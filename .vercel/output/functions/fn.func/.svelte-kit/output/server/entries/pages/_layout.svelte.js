@@ -16,7 +16,7 @@ const table = "/_app/immutable/assets/table.c6189bae.png";
 const couch = "/_app/immutable/assets/Couch.ad490ba8.svg";
 const Body_svelte_svelte_type_style_lang = "";
 const css$5 = {
-  code: 'p.svelte-15yj2ig.svelte-15yj2ig,a.svelte-15yj2ig.svelte-15yj2ig{font-family:"Lato", sans-serif}a.svelte-15yj2ig.svelte-15yj2ig:link{text-decoration:none}a.svelte-15yj2ig.svelte-15yj2ig:visited{text-decoration:none}a.svelte-15yj2ig.svelte-15yj2ig:hover{text-decoration:none}a.svelte-15yj2ig.svelte-15yj2ig:active{text-decoration:none}.body--home.svelte-15yj2ig>img.svelte-15yj2ig{height:6rem}.plant.svelte-15yj2ig.svelte-15yj2ig{width:6rem}.couch.svelte-15yj2ig.svelte-15yj2ig{width:13rem;transform:translateY(1rem)}.table.svelte-15yj2ig.svelte-15yj2ig{width:6rem}.chanda.svelte-15yj2ig.svelte-15yj2ig{text-align:center;transform:translateY(-3rem)}#body.svelte-15yj2ig.svelte-15yj2ig{background-color:rgb(46, 46, 51);border:2.5px solid #fddf92;border-bottom:20px solid #fddf92;border-top:20px solid #fddf92;min-height:40rem;display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr))}p.svelte-15yj2ig.svelte-15yj2ig,a.svelte-15yj2ig.svelte-15yj2ig,div.svelte-15yj2ig.svelte-15yj2ig{font-family:"Lato", sans-serif;color:white}a.svelte-15yj2ig.svelte-15yj2ig:hover{color:#fac53d}.body--inner.svelte-15yj2ig.svelte-15yj2ig{margin-top:1rem;margin-left:2rem;margin-right:2rem}.building-logos.svelte-15yj2ig.svelte-15yj2ig{display:flex;justify-content:space-between}.building-logo.svelte-15yj2ig.svelte-15yj2ig{width:3rem;height:3rem}.body--home.svelte-15yj2ig.svelte-15yj2ig{display:flex;justify-content:space-between}.building-logo2.svelte-15yj2ig.svelte-15yj2ig{width:3rem;height:3rem;-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:"FlipH"}.hr--top.svelte-15yj2ig.svelte-15yj2ig{margin-bottom:3rem;margin-top:0rem;clear:both;display:block;width:100%;background-color:#d3a632;height:7px}.hr--bottom.svelte-15yj2ig.svelte-15yj2ig{margin-top:10rem;width:40%;background-color:#d3a632;height:7px;margin-bottom:0rem}.hr--bottom2.svelte-15yj2ig.svelte-15yj2ig{width:30%;background-color:#712828;height:15px;margin-top:0rem}.fin.svelte-15yj2ig.svelte-15yj2ig{transform:translateY(9rem);font-weight:900;font-size:0.9rem;color:#a84747;text-align:end}.body--back-to-top.svelte-15yj2ig.svelte-15yj2ig{text-align:center;font-size:1.2rem}@media only screen and (max-width: 548px){.chanda.svelte-15yj2ig>img.svelte-15yj2ig{width:5rem}.body--home.svelte-15yj2ig>img.svelte-15yj2ig{height:7.5rem}#body.svelte-15yj2ig.svelte-15yj2ig{margin-top:2rem}.couch.svelte-15yj2ig.svelte-15yj2ig{width:11rem;transform:translateY(1.9rem)}}',
+  code: 'p.svelte-lrl5la.svelte-lrl5la,a.svelte-lrl5la.svelte-lrl5la{font-family:"Lato", sans-serif}a.svelte-lrl5la.svelte-lrl5la:link{text-decoration:none}a.svelte-lrl5la.svelte-lrl5la:visited{text-decoration:none}a.svelte-lrl5la.svelte-lrl5la:hover{text-decoration:none}a.svelte-lrl5la.svelte-lrl5la:active{text-decoration:none}.body--home.svelte-lrl5la>img.svelte-lrl5la{height:6rem}.plant.svelte-lrl5la.svelte-lrl5la{width:6rem}.couch.svelte-lrl5la.svelte-lrl5la{width:13rem;transform:translateY(0.5rem)}.table.svelte-lrl5la.svelte-lrl5la{width:6rem}.chanda.svelte-lrl5la.svelte-lrl5la{text-align:center;transform:translateY(-3rem)}#body.svelte-lrl5la.svelte-lrl5la{background-color:rgb(46, 46, 51);border:2.5px solid #fddf92;border-bottom:20px solid #fddf92;border-top:20px solid #fddf92;min-height:40rem;display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr))}p.svelte-lrl5la.svelte-lrl5la,a.svelte-lrl5la.svelte-lrl5la,div.svelte-lrl5la.svelte-lrl5la{font-family:"Lato", sans-serif;color:white}a.svelte-lrl5la.svelte-lrl5la:hover{color:#fac53d}.body--inner.svelte-lrl5la.svelte-lrl5la{margin-top:1rem;margin-left:2rem;margin-right:2rem}.building-logos.svelte-lrl5la.svelte-lrl5la{display:flex;justify-content:space-between}.building-logo.svelte-lrl5la.svelte-lrl5la{width:3rem;height:3rem}.body--home.svelte-lrl5la.svelte-lrl5la{display:flex;justify-content:space-between}.building-logo2.svelte-lrl5la.svelte-lrl5la{width:3rem;height:3rem;-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:"FlipH"}.hr--top.svelte-lrl5la.svelte-lrl5la{margin-bottom:3rem;margin-top:0rem;clear:both;display:block;width:100%;background-color:#d3a632;height:7px}.hr--bottom.svelte-lrl5la.svelte-lrl5la{margin-top:10rem;width:40%;background-color:#d3a632;height:7px;margin-bottom:0rem}.hr--bottom2.svelte-lrl5la.svelte-lrl5la{width:30%;background-color:#712828;height:15px;margin-top:0rem}.fin.svelte-lrl5la.svelte-lrl5la{transform:translateY(9rem);font-weight:900;font-size:0.9rem;color:#a84747;text-align:end}.body--back-to-top.svelte-lrl5la.svelte-lrl5la{text-align:center;font-size:1.2rem}@media only screen and (max-width: 548px){.chanda.svelte-lrl5la>img.svelte-lrl5la{width:5rem}.body--home.svelte-lrl5la>img.svelte-lrl5la{height:7.5rem}#body.svelte-lrl5la.svelte-lrl5la{margin-top:2rem}.couch.svelte-lrl5la.svelte-lrl5la{width:11rem;transform:translateY(1.9rem)}}',
   map: null
 };
 const Body = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -26,24 +26,24 @@ const Body = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$unsubscribe_page();
   return `${$$result.head += `<!-- HEAD_svelte-1d2qaa2_START -->${$$result.title = `<title>CCM | ${escape($page.data.page.title)}</title>`, ""}<meta name="description"${add_attribute("content", $page.data.page.description, 0)}><!-- HEAD_svelte-1d2qaa2_END -->`, ""}
 
-<div id="body" class="svelte-15yj2ig"><div class="body--inner svelte-15yj2ig"><div class="building-logos svelte-15yj2ig"><img class="building-logo svelte-15yj2ig" alt="The project logo"${add_attribute("src", yellowBuilding, 0)}>
-			<img class="building-logo2 svelte-15yj2ig" alt="The project logo"${add_attribute("src", yellowBuilding, 0)}></div>
+<div id="body" class="svelte-lrl5la"><div class="body--inner svelte-lrl5la"><div class="building-logos svelte-lrl5la"><img class="building-logo svelte-lrl5la" alt="The project logo"${add_attribute("src", yellowBuilding, 0)}>
+			<img class="building-logo2 svelte-lrl5la" alt="The project logo"${add_attribute("src", yellowBuilding, 0)}></div>
 
-		<hr class="hr--top svelte-15yj2ig">
-		<div class="chanda svelte-15yj2ig"><img alt="chandelier"${add_attribute("src", chanda, 0)} class="svelte-15yj2ig"></div>
+		<hr class="hr--top svelte-lrl5la">
+		<div class="chanda svelte-lrl5la"><img alt="chandelier"${add_attribute("src", chanda, 0)} class="svelte-lrl5la"></div>
 
 		${slots.default ? slots.default({}) : ``}
 
-		<p class="fin svelte-15yj2ig">フィン</p>
+		<p class="fin svelte-lrl5la">フィン</p>
 
-		<hr class="hr--bottom svelte-15yj2ig">
+		<hr class="hr--bottom svelte-lrl5la">
 
-		<hr class="hr--bottom2 svelte-15yj2ig">
+		<hr class="hr--bottom2 svelte-lrl5la">
 
-		<p class="body--back-to-top svelte-15yj2ig"><a href="${"/" + escape($page.data.page.title, true) + "#body"}" class="svelte-15yj2ig">Back to Top</a></p>
-		<div class="body--home svelte-15yj2ig"><img class="plant svelte-15yj2ig" alt="plant"${add_attribute("src", plant, 0)}>
-			<img class="couch svelte-15yj2ig" alt="table"${add_attribute("src", couch, 0)}>
-			<img class="table svelte-15yj2ig" alt="table"${add_attribute("src", table, 0)}></div></div>
+		<p class="body--back-to-top svelte-lrl5la"><a href="${"/" + escape($page.data.page.title, true) + "#body"}" class="svelte-lrl5la">Back to Top</a></p>
+		<div class="body--home svelte-lrl5la"><img class="plant svelte-lrl5la" alt="plant"${add_attribute("src", plant, 0)}>
+			<img class="couch svelte-lrl5la" alt="table"${add_attribute("src", couch, 0)}>
+			<img class="table svelte-lrl5la" alt="table"${add_attribute("src", table, 0)}></div></div>
 </div>`;
 });
 const Hamburger_svelte_svelte_type_style_lang = "";
