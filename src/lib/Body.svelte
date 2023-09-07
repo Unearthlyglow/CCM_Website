@@ -35,31 +35,15 @@
 
 		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
 		<div class="body--home">
-			<img class="plant" alt="plant" src={plant} />
-			<img class="couch" alt="table" src={couch} />
-			<img class="table" alt="table" src={table} />
+			<div><img class="plant" alt="plant" src={plant} /></div>
+			<div><img class="couch" alt="table" src={couch} /></div>
+			<div><img class="table" alt="table" src={table} /></div>
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
 	@import '../lib/styles/global.scss';
-
-	.body--home > img {
-		height: 6rem;
-	}
-
-	.plant {
-		width: 6rem;
-	}
-
-	.couch {
-		width: 13rem;
-	}
-
-	.table {
-		width: 6rem;
-	}
 
 	.chanda {
 		text-align: center;
@@ -112,7 +96,29 @@
 
 	.body--home {
 		display: flex;
+
 		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.body--home > img {
+		height: 10rem;
+		width: 10rem;
+	}
+
+	.plant {
+		height: 10rem;
+		width: 10rem;
+	}
+
+	.couch {
+		width: 16rem;
+		height: 10rem;
+	}
+
+	.table {
+		width: 10rem;
+		height: 10rem;
 	}
 
 	.building-logo2 {
@@ -164,21 +170,32 @@
 		font-size: 1.2rem;
 	}
 
-	@media only screen and (max-width: 548px) {
+	@media only screen and (max-width: 700px) {
 		.chanda > img {
 			width: 5rem;
-		}
-
-		.body--home > img {
-			height: 7.5rem;
 		}
 
 		#body {
 			margin-top: 2rem;
 		}
 
-		.couch > img {
+		.body--home {
+			height: 10rem;
+		}
+
+		.plant {
 			width: 5rem;
+			height: 6rem;
+		}
+
+		.couch {
+			width: 10rem;
+			height: 5rem;
+		}
+
+		.table {
+			width: 5rem;
+			height: 5rem;
 		}
 	}
 </style>

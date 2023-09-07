@@ -125,7 +125,6 @@
 		display: flex;
 		justify-content: space-around;
 		line-height: 1.8rem;
-		
 	}
 
 	.footer--above > ul > a > li {
@@ -320,19 +319,21 @@
 		}
 	}
 
+	
+
 	@media only screen and (max-width: 548px) {
 		.footer--above > ul > li {
 			font-size: 0.65rem;
 			color: rgb(13, 81, 90);
 			list-style-type: katakana;
-			margin-left: 2rem;
+			margin-left: 1.5rem;
 		}
 
 		.footer--above > ul > a > li {
 			font-size: 0.65rem;
 			color: rgb(13, 81, 90);
 			list-style-type: katakana;
-			margin-left: 2rem;
+			margin-left: 1.5rem;
 		}
 
 		.footer--kryten {
@@ -347,10 +348,10 @@
 		}
 	}
 
-	@media only screen and (max-width: 400px) {
+	@media only screen and (max-width: 450px) {
 		.footer--kryten {
-			transform: translateY(-1.2rem);
-			margin-left: 1rem;
+			transform: translateY(-1rem);
+			margin-left: 2rem;
 		}
 	}
 </style>
