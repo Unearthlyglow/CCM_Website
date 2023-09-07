@@ -55,7 +55,6 @@
 
 	.couch {
 		width: 13rem;
-		transform: translateY(0.5rem);
 	}
 
 	.table {
