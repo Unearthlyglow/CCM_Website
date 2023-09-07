@@ -109,16 +109,18 @@
 	.plant {
 		height: 10rem;
 		width: 10rem;
+		transform: translateX(-2rem);
 	}
 
 	.couch {
-		width: 16rem;
-		height: 10rem;
+		width: 18rem;
+		height: 7rem;
 	}
 
 	.table {
 		width: 10rem;
 		height: 10rem;
+		transform: translateX(1rem);
 	}
 
 	.building-logo2 {
@@ -190,7 +192,7 @@
 
 		.couch {
 			width: 10rem;
-			height: 5rem;
+			height: 6rem;
 		}
 
 		.table {
