@@ -4,7 +4,7 @@
 	import plant from '$lib/images/planth.svg';
 	import chanda from '$lib/images/chanda.svg';
 	import table from '$lib/images/table.png';
-	import couch from '$lib/images/Couch.svg';
+	// import couch from '$lib/images/Couch.svg';
 	import { page } from '$app/stores';
 </script>
 
@@ -36,7 +36,7 @@
 		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
 		<div class="body--home">
 			<img class="plant" alt="plant" src={plant} />
-			<img class="couch" alt="table" src={couch} />
+			<!-- <img class="couch" alt="table" src={couch} /> -->
 			<img class="table" alt="table" src={table} />
 		</div>
 	</div>
@@ -54,13 +54,11 @@
 	}
 
 	.couch {
-
 		width: 13rem;
 		transform: translateY(0.5rem);
 	}
 
 	.table {
-
 		width: 6rem;
 	}
 
@@ -181,9 +179,8 @@
 		}
 
 		.couch {
-
-width: 11rem;
-transform: translateY(1.9rem);
-}
+			width: 11rem;
+			transform: translateY(1.9rem);
+		}
 	}
 </style>
