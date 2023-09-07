@@ -113,7 +113,7 @@
 			<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 		</div>
 
-		<p class="footer--version">Version: <span>1.0.1</span></p>
+		<p class="footer--version">Version: <span>1.0.2</span></p>
 
 		<p class="footer--Bottomtext">
 			Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler, auf
