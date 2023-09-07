@@ -4,7 +4,7 @@
 	import plant from '$lib/images/planth.svg';
 	import chanda from '$lib/images/chanda.svg';
 	import table from '$lib/images/table.png';
-	import treasure from '$lib/images/treasure.jpg';
+	import couch from '$lib/images/Couch.svg';
 	import { page } from '$app/stores';
 </script>
 
@@ -35,22 +35,33 @@
 
 		<p class="body--back-to-top"><a href="/{$page.data.page.title}#body">Back to Top</a></p>
 		<div class="body--home">
-			<img alt="plant" src={plant} />
-
-			<img alt="table" src={table} />
+			<img class="plant" alt="plant" src={plant} />
+			<img class="couch" alt="table" src={couch} />
+			<img class="table" alt="table" src={table} />
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
 	@import '../lib/styles/global.scss';
-	.body--home {
-		display: flex;
-		justify-content: space-between;
-	}
 
 	.body--home > img {
-		height: 10rem;
+		height: 6rem;
+	}
+
+	.plant {
+		width: 6rem;
+	}
+
+	.couch {
+
+		width: 13rem;
+		transform: translateY(1rem);
+	}
+
+	.table {
+
+		width: 6rem;
 	}
 
 	.chanda {
@@ -100,6 +111,11 @@
 	.building-logo {
 		width: 3rem;
 		height: 3rem;
+	}
+
+	.body--home {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.building-logo2 {
@@ -163,5 +179,11 @@
 		#body {
 			margin-top: 2rem;
 		}
+
+		.couch {
+
+width: 11rem;
+transform: translateY(1.9rem);
+}
 	}
 </style>

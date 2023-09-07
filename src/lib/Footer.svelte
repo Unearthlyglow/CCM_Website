@@ -139,15 +139,18 @@
 	.footer--above > ul > a > li {
 		font-size: 0.9rem;
 		color: rgb(13, 81, 90);
+		list-style-type: katakana;
 	}
 
 	.footer--above > ul > li {
 		font-size: 0.9rem;
 		color: rgb(13, 81, 90);
+		list-style-type: katakana;
 	}
 
 	.footer--above > ul > a > li:hover {
 		color: #8c2525;
+		text-decoration: underline;
 	}
 
 	.footer--footloose {
