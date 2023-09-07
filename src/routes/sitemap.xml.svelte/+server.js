@@ -1,7 +1,17 @@
 // @ts-nocheck
-const pages = ['about', 'art', 'embedded', 'graphic-design', 'jazz-manifesto', 'software', 'todos', 'visual'];
+const pages = [
+	'about',
+	'art',
+	'embedded',
+	'graphic-design',
+	'jazz-manifesto',
+	'software',
+	'todos',
+	'visual',
+	'writingmap'
+];
 
-const site = 'https://world-self.vercel.app/';
+const site = 'https://capsulescure.io/';
 
 /** @type {import('./$types').RequestHandler} */
 // eslint-disable-next-line no-unused-vars
