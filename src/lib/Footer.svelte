@@ -1,21 +1,12 @@
 <script>
-	import metropolis_building from '$lib/images/metropolis2.svg';
 	import footerLogo from '$lib/images/MetroRod.svg';
 	import CCMLetters from '$lib/images/CCMLetters.svg';
 	import githubLogo from '$lib/images/github-logo.svg';
-	import painting1 from '$lib/images/painting1.avif';
-	import painting2 from '$lib/images/painting2.webp';
-	import painting3 from '$lib/images/painting3.webp';
 	import fire from '$lib/images/fire.svg';
 	import linked from '$lib/images/linked.svg';
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import kryten from '$lib/images/kryten2.svg';
-	import Body from '$lib/Body.svelte';
-	import { Hamburger } from 'svelte-hamburgers';
-	import Menu from '$lib/Menu.svelte';
-	import Nav from '$lib/Nav.svelte';
-	import Footer from '$lib/Footer.svelte';
 </script>
 
 <footer class="footer">
@@ -127,23 +118,24 @@
 	@import '../lib/styles/global.scss';
 	.footer {
 		background-color: rgb(199, 210, 210);
-		padding-top: 3rem;
+		padding-top: 2rem;
 	}
 
 	.footer--above {
 		display: flex;
 		justify-content: space-around;
 		line-height: 1.8rem;
+		
 	}
 
 	.footer--above > ul > a > li {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: rgb(13, 81, 90);
 		list-style-type: katakana;
 	}
 
 	.footer--above > ul > li {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		color: rgb(13, 81, 90);
 		list-style-type: katakana;
 	}
@@ -309,7 +301,7 @@
 
 		.building-logo {
 			height: 6rem;
-			margin-right: 0.5rem;
+			margin-right: 1.5rem;
 			margin-left: 1rem;
 		}
 		.footer--fire {
@@ -329,6 +321,20 @@
 	}
 
 	@media only screen and (max-width: 548px) {
+		.footer--above > ul > li {
+			font-size: 0.65rem;
+			color: rgb(13, 81, 90);
+			list-style-type: katakana;
+			margin-left: 2rem;
+		}
+
+		.footer--above > ul > a > li {
+			font-size: 0.65rem;
+			color: rgb(13, 81, 90);
+			list-style-type: katakana;
+			margin-left: 2rem;
+		}
+
 		.footer--kryten {
 			transform: translateX(-5rem);
 		}

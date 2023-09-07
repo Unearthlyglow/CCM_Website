@@ -177,9 +177,8 @@
 			margin-top: 2rem;
 		}
 
-		.couch {
-			width: 11rem;
-			transform: translateY(1.9rem);
+		.couch > img {
+			width: 5rem;
 		}
 	}
 </style>
