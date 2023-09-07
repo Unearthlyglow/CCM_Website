@@ -4,7 +4,7 @@
 	import plant from '$lib/images/planth.svg';
 	import chanda from '$lib/images/chanda.svg';
 	import table from '$lib/images/table.png';
-	import couch from '$lib/images/couch.svg';
+	import couch from '$lib/images/couch.png';
 	import { page } from '$app/stores';
 </script>
 
