@@ -41,7 +41,8 @@
 <li>S-VHS Camcorders & Tape Decks</li>
 <li>RPG Maker MV</li>
 
-<style>
+<style lang="scss">
+	@import '$lib/styles/global.scss';
 	.body {
 		text-align: center;
 	}
@@ -52,6 +53,8 @@
 
 	h2 {
 		text-align: center;
+		text-decoration: underline;
+		text-decoration-color: $primary-yellow;
 	}
 
 	h3 {
@@ -74,6 +77,11 @@
 
 	p {
 		font-size: 1.5rem;
+		color: white;
+	}
+
+	p:hover {
+		color: $primary-yellow;
 	}
 
 	.about--techstack {
