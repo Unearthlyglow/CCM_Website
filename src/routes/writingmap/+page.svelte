@@ -5,14 +5,25 @@
 </script>
 
 <div>
-	<h2>Jazz Manifesto</h2>
-	<img class="book1" alt="CCM Logo" src={jazzbook} />
+	<h2><a href="/jazz-manifesto/#body">Jazz Manifesto</a></h2>
+	<a href="jazz-manifesto/#body"> <img class="book1" alt="CCM Logo" src={jazzbook} /></a>
+
 	<hr class="hr--top" />
-	<h2>Completed Articles(<span>None</span>)</h2>
-	<img class="book1" alt="CCM Logo" src={ccmbook} />
+	<h2>
+		Completed Articles(<span>None</span>)
+	</h2>
+
+	<div data-tooltip="Nooo, not yet!">
+		<img class="book1" alt="CCM Logo" src={ccmbook} />
+	</div>
+
 	<hr class="hr--top" />
-	<h2>Ideas(<span>Some</span>)</h2>
-	<img class="book2" alt="CCM Logo" src={ckmbook} />
+	<h2>
+		<a href="https://unearthlyglow.github.io/CCMBlog/">Ideas(<span>Some</span>)</a>
+	</h2>
+	<a href="https://unearthlyglow.github.io/CCMBlog/">
+		<img class="book2" alt="CCM Logo" src={ckmbook} /></a
+	>
 </div>
 
 <style lang="scss">
@@ -20,8 +31,12 @@
 
 	h2 {
 		text-align: center;
+
 	}
 
+	a {
+		color: $primary-white;
+	}
 	span {
 		color: $primary-red;
 	}
