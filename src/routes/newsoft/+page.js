@@ -1,7 +1,7 @@
 export function load() {
 	return {
 		page: {
-			title: `art`,
+			title: `newsoft`,
 			description: 'This page lists art that I have enjoyed'
 		}
 	};

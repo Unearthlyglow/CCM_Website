@@ -24,8 +24,9 @@
 		<div class="chanda">
 			<img alt="chandelier" src={chanda} />
 		</div>
-
-		<slot />
+		<div class="content">
+			<slot />
+		</div>
 
 		<p class="fin">フィン</p>
 
@@ -66,6 +67,11 @@
 	div {
 		font-family: 'Lato', sans-serif;
 		color: white;
+	}
+
+	.content {
+		margin-left: 10rem;
+		margin-right: 10rem;
 	}
 
 	a:hover {
@@ -170,6 +176,13 @@
 	.body--back-to-top {
 		text-align: center;
 		font-size: 1.2rem;
+	}
+
+	@media only screen and (max-width: 1200px) {
+		.content {
+			margin-left: 0rem;
+			margin-right: 0rem;
+		}
 	}
 
 	@media only screen and (max-width: 700px) {

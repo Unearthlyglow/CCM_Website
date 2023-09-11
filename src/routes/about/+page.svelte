@@ -6,7 +6,7 @@
 		My name is Award Malisi. I play music and work with software. I apologize in advance if anything
 		you see here offends you, I honestly mean no harm or offense. Forgive me for God’s sake.
 	</p>
-	<h2>Objective:</h2>
+	<h2>Objective of CCM:</h2>
 
 	<p>To collect, reflect, and share all the knowledge and information that I accumulate.</p>
 </div>
