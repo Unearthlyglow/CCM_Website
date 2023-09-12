@@ -9,8 +9,8 @@
 </script>
 
 <div>
-	<h2><a href="/software#body">Software Portfolio(<span>Some</span>)</a></h2>
-	<a href="/software#body"> <img class="book1" alt="CCM Logo" src={software} /></a>
+	<h2><a href="/softwaremap#body">Software Portfolio(<span>Some</span>)</a></h2>
+	<a href="/softwaremap#body"> <img class="book1" alt="CCM Logo" src={software} /></a>
 
 	<hr class="hr--top" />
 	<h2>

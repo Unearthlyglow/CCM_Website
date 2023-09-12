@@ -48,5 +48,3 @@
 		color: $primary-red;
 	}
 </style>
-
-
