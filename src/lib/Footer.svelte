@@ -104,18 +104,17 @@
 			<a href="https://adrianshaynes.com/">Adrian's :: HelloMaryJo</a>
 		</div>
 
-		<p class="footer--version">Version: <span>1.0.3</span></p>
-
 		<p class="footer--Bottomtext">
 			Ich bin immer noch dabei, das herauszufinden, also verzeihen Sie mir bitte etwaige Fehler, auf
 			die Sie stoßen. Bitte Für Feedback wenden Sie sich bitte an award@capsules.io. Es können alle
 			unlustigen Beschwerden eingereicht werden an DoNotReply@capsules.io.
 		</p>
+		<p class="footer--version">Version: <span>1.0.3</span></p>
 	</div>
 </footer>
 
 <style lang="scss" global>
-@import '$lib/styles/global.scss';
+	@import '$lib/styles/global.scss';
 	.footer {
 		background-color: rgb(199, 210, 210);
 		padding-top: 2rem;
@@ -318,8 +317,6 @@
 			font-size: 0.76rem;
 		}
 	}
-
-	
 
 	@media only screen and (max-width: 548px) {
 		.footer--above > ul > li {

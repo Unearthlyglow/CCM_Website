@@ -1,16 +1,21 @@
 <script>
 	import thca from '$lib/images/thca.svg';
+	import lion from '$lib/images/lion.png';
+	import items from '$lib/images/items.png';
+	import store from '$lib/images/store.png';
 </script>
 
 <div>
+	<div class="thca">
+		<a href="https://thehappycactusatx.com/"
+			><img class="thca--logo" src={thca} alt="The Happy Cactus Logo" />
+		</a>
+	</div>
 	<p class="date">Year:</p>
 	<div class="header">
-		<h1>The Happy Cactus Apothecary</h1>
+		<a href="https://thehappycactusatx.com/"><h1>The Happy Cactus Apothecary</h1></a>
 
 		<p class="year">202<span>2</span></p>
-	</div>
-	<div class="thca">
-		<img class="thca--logo" src={thca} alt="The Happy Cactus Logo" />
 	</div>
 
 	<p>
@@ -40,11 +45,24 @@
 			</ul>
 		</div>
 	</div>
-	<p class="link"><a href="https://thehappycactusatx.com/">Website Link </a></p>
+	<hr class="hr--top" />
+	<img class="pic1" src={lion} alt="The Happy Cactus Logo" />
+	<img class="pic2" src={items} alt="The Happy Cactus Logo" />
+	<img class="pic2" src={store} alt="The Happy Cactus Logo" />
 </div>
 
 <style lang="scss">
 	@import '$lib/styles/global.scss';
+
+	.hr--top {
+		margin-bottom: 3rem;
+		margin-top: 0rem;
+		clear: both;
+		display: block;
+		width: 100%;
+		background-color: #d3a632;
+		height: 7px;
+	}
 
 	.deliverables {
 		display: block;
@@ -54,13 +72,22 @@
 		text-align: center;
 	}
 
+	.pic1 {
+		margin-top: 2rem;
+	}
+
+	.pic2 {
+		margin-top: 2rem;
+	}
+
 	p {
 		color: white;
 	}
 	h1 {
-		font-size: 2.7rem;
+		font-size: 3.2rem;
 		font-weight: 700;
 	}
+  
 
 	ul {
 		text-align: center;
@@ -73,14 +100,8 @@
 
 	.thca {
 		text-align: center;
-		transform: translateY(-4rem);
-		margin-bottom: 1rem;
-		margin-top: 0rem;
-		height: 9rem;
-	}
-
-	.thca > img {
-		height: 15rem;
+		border: 5px solid rgb(23, 55, 72);
+    margin-bottom: 4rem;
 	}
 
 	.monsters {
@@ -105,10 +126,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+    
 	}
 
 	.header > img {
 		display: block;
+  
 	}
 
 	.year {
@@ -123,6 +146,8 @@
 		text-align: end;
 		margin-right: 10rem;
 		transform: translateY(2rem);
+		color: $primary-yellow;
+		font-weight: 700;
 	}
 
 	span {
@@ -132,12 +157,13 @@
 	@media only screen and (max-width: 735px) {
 		.date {
 			transform: translateY(4rem);
+			align-items: end;
 		}
 	}
 
 	@media only screen and (max-width: 548px) {
 		h1 {
-			font-size: 1.8rem;
+			font-size: 2.8rem;
 			text-align: start;
 		}
 
