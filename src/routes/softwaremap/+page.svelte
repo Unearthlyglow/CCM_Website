@@ -27,8 +27,6 @@
 
 	h2 {
 		text-align: center;
-		text-decoration: underline;
-		text-decoration-color: $primary-yellow;
 	}
 
 	div {
