@@ -31,6 +31,7 @@
 	div {
 		background-color: rgb(58, 58, 79);
 		border: solid 10px rgb(204, 196, 196);
+		padding: 2rem;
 	}
 
 	p {

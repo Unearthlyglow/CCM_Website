@@ -31,7 +31,11 @@
 
 	h2 {
 		text-align: center;
+	}
 
+	div {
+	text-align: center;
+	
 	}
 
 	a {
@@ -44,12 +48,14 @@
 		margin-bottom: 4rem;
 		margin-left: auto;
 		margin-right: auto;
+		border: 10px solid $primary-white;
 	}
 
 	.book2 {
 		margin-bottom: 4rem;
 		margin-left: auto;
 		margin-right: auto;
+		border: 10px solid $primary-white;
 	}
 
 	.hr--top {

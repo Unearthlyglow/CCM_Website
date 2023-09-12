@@ -12,7 +12,7 @@
 	<div class="menu">
 		<div class="menu--item"><a href="/#body">Home</a></div>
 		<div class="menu--item"><a href="/writingmap/#body">Writing</a></div>
-		<div class="menu--item"><a href="/#body">Projects</a></div>
+		<div class="menu--item"><a href="/projectmap#body">Projects</a></div>
 		<div class="menu--item"><a href="/about/#body">About</a></div>
 	</div>
 
