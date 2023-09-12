@@ -99,7 +99,7 @@
 		}
 
 		.nav--paintings {
-			margin-bottom: 0rem;
+			margin-bottom: 3rem;
 			height: 11rem;
 		}
 	}
