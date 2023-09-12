@@ -24,7 +24,7 @@
 	<li>Github</li>
 	<li>Docker</li>
 	<li>The very helpful and useful packages at https://www.npmjs.com/</li>
-	<li>A number of other utility tool: (Gulp, Vercel, Shell, Notion, etc…)</li>
+	<li>A number of other utility tools: (Gulp, Vercel, Shell, Notion, etc…)</li>
 </ul>
 
 <h3>General Purpose Programming</h3>

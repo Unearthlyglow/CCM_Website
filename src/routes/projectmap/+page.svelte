@@ -17,7 +17,7 @@
 		<a href="/art#body">Art I've Enjoyed(<span>Some</span>)</a>
 	</h2>
 
-	<div data-tooltip="Nooo, not yet!">
+	<div>
 		<a href="/art#body"><img class="book1" alt="CCM Logo" src={stars} /></a>
 	</div>
 
@@ -46,8 +46,7 @@
 	}
 
 	div {
-	text-align: center;
-	
+		text-align: center;
 	}
 
 	a {
