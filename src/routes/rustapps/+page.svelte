@@ -1,63 +1,13 @@
 <script>
-	import thca from '$lib/images/thca.png';
-	import ccmweb from '$lib/images/ccmweb.png';
 	import echor from '$lib/images/echor.png';
 	import zerotoprod from '$lib/images/zerotoprod.png';
 	import rustos from '$lib/images/rustos.png';
 </script>
 
-<h1><span>S</span>oftware</h1>
-
+<h1>Rust Software</h1>
 <h2>Completed <span>:</span></h2>
-<a href="https://thehappycactusatx.com/" target="_blank">
-	<p class="software--title">
-		The Happy Cactus Apothecary |
-		<span>2022</span> |
-	</p>
-</a>
 
-<div class="software--frame">
-	<a href="https://thehappycactusatx.com/" target="_blank">
-		<img alt="The Happy Cactus Apothecary" src={thca} />
-	</a>
-</div>
-<div class="software--details">
-	<p>Technology: BigCommerce | Stencil CLI</p>
-	<div class="software--description">
-		<!-- <ul>
-			<li>Description</li>
-			<li>One</li>
-		</ul> -->
-		<p>
-			<span>Description:</span> This website was created for the good folks over at The Happy Cactus
-			Apothecary(THCA) in Austin, Texas. THCA is a business dedicated to providing hemp based herbal
-			products that include THC-8, THC-9, and CBD items to patrons as well as provide information on
-			said products to help alleviate common physical issues such as body aches, sleeping issues, and
-			stress.
-		</p>
-	</div>
-
-	<a href="https://world-self.vercel.app/" target="_blank">
-		<p class="software--title">
-			CCM Website 1.0 |
-			<span>2023</span> |
-		</p>
-	</a>
-
-	<div class="software--frame">
-		<a href="https://world-self.vercel.app/" target="_blank">
-			<img alt="ccmweb" src={ccmweb} />
-		</a>
-	</div>
-
-	<div class="software--details">
-		<p>Technology: Sveltekit | PicoCSS | GSAP</p>
-		<a href="https://github.com/Unearthlyglow/Grid_Flex_Fun" target="_blank">Github Repo</a>
-		<div class="software--description">
-			<p><span>Description:</span> The website of my dreams?</p>
-		</div>
-	</div>
-
+<div>
 	<a href="https://github.com/Unearthlyglow/rust_Cli_book_ch2-Completed" target="_blank">
 		<p class="software--title">
 			Education Project | Command-Line Rust: Chapter 2: Echor Project |<span>2023</span>|
@@ -144,26 +94,38 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	@import '$lib/styles/global.scss';
-	h1 {
-		text-align: center;
-		font-size: 4rem;
-		color: #f2efe5;
-	}
 	span {
 		color: #dfb1f3;
 		font-weight: 700;
 	}
 
+	h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		color: #f2efe5;
+	}
+
 	h2 {
 		font-size: 2.5rem;
-
+		text-align: center;
 		color: #f2efe5;
+	}
+
+	h1:hover {
+		color: $primary-yellow;
+	}
+	h2:hover {
+		color: $primary-yellow;
 	}
 
 	p:hover {
 		color: #fac53d;
+	}
+
+	img {
+		border: 10px solid $primary-white;
 	}
 
 	.software--description {
@@ -172,7 +134,7 @@
 		display: flex;
 		flex-direction: row;
 		margin: 0.5rem;
-		margin-bottom: 9rem;
+		margin-bottom: 5rem;
 	}
 
 	.software--description > p {

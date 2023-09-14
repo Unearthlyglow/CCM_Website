@@ -9,16 +9,16 @@
 	<a href="/newsoft#body"> <img class="book1" alt="CCM Logo" src={thcawebsite} /></a>
 	<hr class="hr--top" />
 	<h2>
-		<a href="">CC<span>M</span> Website</a>
+		<a href="/ccmwebsite#body">CC<span>M</span> Website</a>
 	</h2>
 	<div>
-		<a href=""><img class="book1" alt="CCM Logo" src={capsuleswebsite} /></a>
+		<a href="/ccmwebsite#body"><img class="book1" alt="CCM Logo" src={capsuleswebsite} /></a>
 	</div>
 	<hr class="hr--top" />
 	<h2>
-		<a href="/visual#body"><span>R</span>ust Applications</a>
+		<a href="/rustapps#body"><span>R</span>ust Applications</a>
 	</h2>
-	<a href="/visual#body"> <img class="book1" alt="CCM Logo" src={rustapps} /></a>
+	<a href="/rustapps#body"> <img class="book1" alt="CCM Logo" src={rustapps} /></a>
 	<hr class="hr--top" />
 </div>
 

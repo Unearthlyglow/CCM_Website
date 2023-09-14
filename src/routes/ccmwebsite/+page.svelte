@@ -1,47 +1,39 @@
 <script>
-	import thca from '$lib/images/thca.svg';
-	import lion from '$lib/images/lion.png';
-	import items from '$lib/images/items.png';
-	import store from '$lib/images/store.png';
+	import lion from '$lib/images/ss1.png';
+	import items from '$lib/images/ss2.png';
+	import store from '$lib/images/ss4.png';
+	import ss4 from '$lib/images/ss4.png';
+	import ccmweb from '$lib/images/wildwest.png';
 </script>
 
 <div>
 	<div class="thca">
-		<a href="https://thehappycactusatx.com/"
-			><img class="thca--logo" src={thca} alt="The Happy Cactus Logo" />
+		<a href="https://www.capsulescure.io/"
+			><img class="thca--logo" src={ccmweb} alt="The Happy Cactus Logo" />
 		</a>
 	</div>
 	<p class="date">Year:</p>
 	<div class="header">
-		<a href="https://thehappycactusatx.com/"><h1>The Happy Cactus Apothecary</h1></a>
+		<a href="https://www.capsulescure.io/"><h1>Capsules Cure Metropolis</h1></a>
 
 		<p class="year">202<span>2</span></p>
 	</div>
 
-	<p>
-		This website was created for the good folks over at The Happy Cactus Apothecary(THCA) in Austin,
-		Texas. THCA is a business dedicated to providing hemp based herbal products that include THC-8,
-		THC-9, and CBD items to patrons as well as provide information on said products to help
-		alleviate common physical issues such as body aches, sleeping issues, and stress.
-	</p>
+	<p>The website of my dreams. This site will be a work in progress forever.</p>
 
 	<div class="monsters">
 		<div>
 			CCM Deliverables:
 
 			<ul class="deliverables">
-				<li>Graphic Design</li>
-				<li>Custom Code With Stencle CLI</li>
-				<li>Overall Site Construction</li>
+				<li>Little bit of everything</li>
 			</ul>
 		</div>
 
 		<div>
 			Team:
 			<ul class="team">
-				<li>The Happy Cactus Boys</li>
 				<li>CCM::Award Malisi</li>
-				<li>Ricky Valenzuela</li>
 			</ul>
 		</div>
 	</div>
@@ -87,10 +79,13 @@
 		font-size: 3.2rem;
 		font-weight: 700;
 	}
-  
 
 	ul {
 		text-align: center;
+	}
+
+	img {
+		border: 10px solid $primary-white;
 	}
 
 	li {
@@ -98,14 +93,10 @@
 		display: block;
 	}
 
-	img {
-		border: 10px solid $primary-white;
-	}
-
 	.thca {
 		text-align: center;
 		border: 5px solid rgb(23, 55, 72);
-    margin-bottom: 4rem;
+		margin-bottom: 4rem;
 	}
 
 	.monsters {
@@ -115,7 +106,7 @@
 		text-align: center;
 		font-size: 1.1rem;
 		font-weight: 700;
-		color: $primary-yellow;
+		color: rgb(7, 103, 181);
 	}
 
 	.monsters > .deliverables > {
@@ -130,12 +121,10 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-    
 	}
 
 	.header > img {
 		display: block;
-  
 	}
 
 	.year {
@@ -155,7 +144,7 @@
 	}
 
 	span {
-		color: rgb(181, 152, 7);
+		color: rgb(7, 103, 181);
 	}
 
 	@media only screen and (max-width: 735px) {
