@@ -6,7 +6,7 @@
 
 <div>
 	<h2><a href="/newsoft#body">The <span>H</span>appy Cactus Apothecary Website</a></h2>
-	<a href="/newsoft#body"> <img class="book0" alt="CCM Logo" src={thcawebsite} /></a>
+	<a href="/newsoft#body"> <img class="book1" alt="CCM Logo" src={thcawebsite} /></a>
 	<hr class="hr--top" />
 	<h2>
 		<a href="">CC<span>M</span> Website</a>
@@ -18,7 +18,7 @@
 	<h2>
 		<a href="/visual#body"><span>R</span>ust Applications</a>
 	</h2>
-	<a href="/visual#body"> <img class="book2" alt="CCM Logo" src={rustapps} /></a>
+	<a href="/visual#body"> <img class="book1" alt="CCM Logo" src={rustapps} /></a>
 	<hr class="hr--top" />
 </div>
 
@@ -36,16 +36,15 @@
 	a {
 		color: $primary-white;
 	}
-	span {
-		color: $primary-red;
-	}
-	.book1 {
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 2rem;
+
+	a:hover {
+		color: $primary-yellow;
 	}
 
-	.book2 {
+	// span {
+	// 	color: $primary-red;
+	// }
+	.book1 {
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 3rem;
@@ -57,5 +56,6 @@
 		width: 100%;
 		background-color: #094a6b;
 		height: 7px;
+		margin-bottom: 3rem;
 	}
 </style>
