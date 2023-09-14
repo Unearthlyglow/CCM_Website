@@ -23,7 +23,7 @@
 
 	<hr class="hr--top" />
 	<h2>
-		<a href="/visual#body">Visual Media(<span>None</span>)</a>
+		<a href="/visual#body">Visual Media(<span>Some</span>)</a>
 	</h2>
 	<a href="/visual#body"> <img class="book2" alt="CCM Logo" src={visual} /></a>
 	<hr class="hr--top" />

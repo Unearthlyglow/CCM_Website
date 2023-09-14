@@ -12,34 +12,45 @@
 </div>
 
 <h2 class="about--techstack">Tech Stack & Tools:</h2>
-<h3>Web Development Programming</h3>
 
-<ul>
-	<li>HTML</li>
-	<li>CSS & SASS</li>
-	<li>Javascript, Typescript</li>
-	<li>Vue/Nuxt, Svelte/Sveltekit</li>
-	<li>Node.js, Express.js</li>
-	<li>SQL, SQLite, PostgresSQL</li>
-	<li>Github</li>
-	<li>Docker</li>
-	<li>The very helpful and useful packages at https://www.npmjs.com/</li>
-	<li>A number of other utility tools: (Gulp, Vercel, Shell, Notion, etc…)</li>
-</ul>
+<div>
+	<h3>Web Development Programming</h3>
 
-<h3>General Purpose Programming</h3>
-<li>Rust Programming Langauge</li>
-<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
+	<ul>
+		<li>HTML</li>
+		<li>CSS & SASS</li>
+		<li>Javascript, Typescript</li>
+		<li>Vue/Nuxt, Svelte/Sveltekit</li>
+		<li>Node.js, Express.js</li>
+		<li>SQL, SQLite, PostgresSQL</li>
+		<li>Github</li>
+		<li>Docker</li>
+		<li>The very helpful and useful packages at https://www.npmjs.com/</li>
+		<li>A number of other utility tools: (Gulp, Vercel, Shell, Notion, etc…)</li>
+	</ul>
+</div>
 
-<h3>Visual Design</h3>
-<li>Inkscape</li>
-<li>Figma</li>
-<li>Gimp</li>
-<li>Blender</li>
-<li>OpenToonz</li>
-<li>Final Cut Pro</li>
-<li>S-VHS Camcorders & Tape Decks</li>
-<li>RPG Maker MV</li>
+<div>
+	<h3>General Purpose Programming</h3>
+	<ul>
+		<li>Rust Programming Langauge</li>
+		<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
+	</ul>
+</div>
+
+<div>
+	<h3>Visual Design</h3>
+	<ul>
+		<li>Inkscape</li>
+		<li>Figma</li>
+		<li>Gimp</li>
+		<li>Blender</li>
+		<li>OpenToonz</li>
+		<li>Final Cut Pro</li>
+		<li>S-VHS Camcorders & Tape Decks</li>
+		<li>RPG Maker MV</li>
+	</ul>
+</div>
 
 <style lang="scss">
 	@import '$lib/styles/global.scss';
@@ -55,6 +66,7 @@
 		text-align: center;
 		text-decoration: underline;
 		text-decoration-color: $primary-yellow;
+	
 	}
 
 	h3 {
@@ -62,6 +74,11 @@
 		color: rgb(137, 118, 197);
 		margin-bottom: 0rem;
 		margin-top: 0rem;
+		
+	}
+
+	ul {
+		margin-bottom: 3rem;
 	}
 
 	li {

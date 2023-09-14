@@ -22,6 +22,7 @@
 
 <svelte:head>
 	<meta name="google" content="notranslate" />
+	<meta title="Capsules Cure Metropolis" />
 </svelte:head>
 
 <div class="container-fluid">
