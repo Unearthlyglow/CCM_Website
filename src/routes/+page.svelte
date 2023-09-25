@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<h1><span>W</span>elcome Home || Gemütlichkeit</h1>
+<h1><span>W</span>elcome Home <span class="jessie">|| </span> Gemütlichkeit</h1>
 
 <div class="paragraph">
 	<p class="one">
@@ -49,6 +49,9 @@
 		font-size: 1rem;
 	}
 
+	.jessie {
+		color: $primary-red;
+	}
 	.chapter--title {
 		text-align: center;
 		color: $primary-yellow;
