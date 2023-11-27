@@ -19,9 +19,9 @@
 
 	<hr class="hr--top" />
 	<h2>
-		<a href="https://unearthlyglow.github.io/CCMBlog/">Ideas(<span>Some</span>)</a>
+		<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/">Ideas(<span>Some</span>)</a>
 	</h2>
-	<a href="https://unearthlyglow.github.io/CCMBlog/">
+	<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/">
 		<img class="book2" alt="CCM Logo" src={ckmbook} /></a
 	>
 </div>
@@ -34,8 +34,7 @@
 	}
 
 	div {
-	text-align: center;
-	
+		text-align: center;
 	}
 
 	a {

@@ -9,7 +9,7 @@
 			<li class="manifesto--test"><a href="/jazz-manifesto/#body">Jazz Manifesto</a></li>
 
 			<li>
-				<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank"
+				<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/" target="_blank"
 					>CCM General Blog(MD Book)</a
 				>
 			</li>

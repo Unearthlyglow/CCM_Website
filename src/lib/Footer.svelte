@@ -40,7 +40,7 @@
 			<a href="/jazz-manifesto/#body">
 				<li>Jazz Manifesto</li>
 			</a>
-			<a href="https://unearthlyglow.github.io/CCMBlog/" target="_blank">
+			<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/" target="_blank">
 				<li>CCM:: General Blog</li>
 			</a>
 
