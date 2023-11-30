@@ -33,6 +33,7 @@
 <div>
 	<h3>General Purpose Programming</h3>
 	<ul>
+		<li>Go Programming Langauge</li>
 		<li>Rust Programming Langauge</li>
 		<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
 	</ul>
@@ -66,7 +67,6 @@
 		text-align: center;
 		text-decoration: underline;
 		text-decoration-color: $primary-yellow;
-	
 	}
 
 	h3 {
@@ -74,7 +74,6 @@
 		color: rgb(137, 118, 197);
 		margin-bottom: 0rem;
 		margin-top: 0rem;
-		
 	}
 
 	ul {
