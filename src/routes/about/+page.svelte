@@ -33,8 +33,8 @@
 <div>
 	<h3>General Purpose Programming</h3>
 	<ul>
-		<li>Go Programming Langauge</li>
-		<li>Rust Programming Langauge</li>
+		<li>Go</li>
+		<li>Rust</li>
 		<li>The very beautiful crates made by the many contributors on https://crates.io/</li>
 	</ul>
 </div>
