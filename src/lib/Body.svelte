@@ -56,6 +56,8 @@
 
 		border-bottom: 60px solid rgb(32, 26, 56);
 		border-top: 14px solid #fddf92;
+		border-left: 7px solid #fddf92;
+		border-right: 7px solid #fddf92;
 		min-height: 40rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
