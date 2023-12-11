@@ -21,7 +21,8 @@
 		<li>CSS & SASS</li>
 		<li>Javascript, Typescript</li>
 		<li>Vue/Nuxt, Svelte/Sveltekit</li>
-		<li>Node.js, Express.js</li>
+		<li>Node.js, Express.js</li>\
+		
 		<li>SQL, SQLite, PostgresSQL</li>
 		<li>Github</li>
 		<li>Docker</li>

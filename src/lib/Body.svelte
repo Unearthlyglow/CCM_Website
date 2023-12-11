@@ -53,9 +53,9 @@
 
 	#body {
 		background-color: rgb(46, 46, 51);
-		border: 2.5px solid #fddf92;
-		border-bottom: 20px solid #fddf92;
-		border-top: 20px solid #fddf92;
+
+		border-bottom: 60px solid rgb(32, 26, 56);
+		border-top: 14px solid #fddf92;
 		min-height: 40rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -84,8 +84,8 @@
 
 	.body--inner {
 		margin-top: 1rem;
-		margin-left: 2rem;
-		margin-right: 2rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 
 		/* border-right: 5px #d3a632 solid;
 		border-left: 5px #d3a632 solid; */
@@ -116,17 +116,20 @@
 		height: 10rem;
 		width: 10rem;
 		transform: translateX(-2rem);
+		transform: translateY(1rem);
 	}
 
 	.couch {
 		width: 18rem;
 		height: 7rem;
+		transform: translateY(2.2rem);
 	}
 
 	.table {
 		width: 10rem;
 		height: 10rem;
 		transform: translateX(1rem);
+		transform: translateY(1rem);
 	}
 
 	.building-logo2 {
@@ -178,14 +181,24 @@
 		font-size: 1.2rem;
 	}
 
-	@media only screen and (max-width: 1200px) {
-		.content {
-			margin-left: 0rem;
-			margin-right: 0rem;
+	@media only screen and (min-width: 1800px) {
+		.body--inner {
+			margin-left: 10rem;
+			margin-right: 10rem;
 		}
 	}
 
 	@media only screen and (max-width: 700px) {
+		.body--inner {
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+
+		.content {
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
+
 		.chanda > img {
 			width: 5rem;
 		}
