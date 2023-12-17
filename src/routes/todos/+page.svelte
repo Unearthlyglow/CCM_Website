@@ -25,31 +25,6 @@
 	</ul>
 
 	<!-- ---------------------------------------------------- -->
-	<hr />
-	<p>Completed:</p>
-	<ul>
-		<li><strike>Add image and more....something to the 404 page.</strike> <span>8/7/23</span></li>
-		<li><strike>Update favicon.</strike> <span>Added on 7/31/23</span></li>
-		<li>
-			<strike>Add paintings to header, map out design in Figma.</strike>
-			<span>Added on 7/31/23</span>
-		</li>
-		<li><strike>Add painting on top of the tabs! <span>Added on 8/1/23</span></strike></li>
-		<li>
-			<strike
-				>Look into having the drop-down box go away once a visitor navigates to a link and removes
-				cursor from drop-down.
-			</strike>
-			<span>7/31/23</span>
-		</li>
-		<li><strike>Have arrow next to HOME tab removed.</strike> <span>7/31/23</span></li>
-		<strike><li>Look into another font. <span>Added On 7/31/23</span></li></strike>
-		<strike
-			><li>
-				Add a 'Back to the top' button at the bottom right or left hand corner of the body.
-			</li></strike
-		>
-	</ul>
 </div>
 
 <style>
