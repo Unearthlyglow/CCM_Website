@@ -56,8 +56,8 @@
 
 		border-bottom: 60px solid rgb(32, 26, 56);
 		border-top: 14px solid #fddf92;
-		border-left: 7px solid #fddf92;
-		border-right: 7px solid #fddf92;
+		border-left: 2.5px solid #fddf92;
+		border-right: 2.5px solid #fddf92;
 		min-height: 40rem;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -185,12 +185,12 @@
 
 	@media only screen and (min-width: 1800px) {
 		.body--inner {
-			margin-left: 10rem;
-			margin-right: 10rem;
+			margin-left: 2rem;
+			margin-right: 2rem;
 		}
 	}
 
-	@media only screen and (max-width: 700px) {
+	@media only screen and (max-width: 900px) {
 		.body--inner {
 			margin-left: 1rem;
 			margin-right: 1rem;

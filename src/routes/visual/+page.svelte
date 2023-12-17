@@ -4,7 +4,7 @@
 
 <h1><span>V</span>isual Media</h1>
 
-<h2>Graphic Design <span>:</span></h2>
+<!-- <h2>Graphic Design <span>:</span></h2> -->
 
 <!-- <p class="video--title">Business Card 00 | 2022</p>
 <div class="graphic--window">
@@ -12,10 +12,10 @@
 	<img class="graphic--frame" alt="CCM Logo" src={card00} />
 </div> -->
 
-<h2>Video <span>:</span></h2>
+<h2>Video <span>-</span></h2>
 <p class="video--title">
 	The Super Emergency Morning Show: State of Texas Unemployment
-	<span>[General] Tips</span> | 2021
+	<span>General Tips</span> | 2021
 </p>
 <div class="video--frame">
 	<iframe
@@ -44,7 +44,8 @@
 	/>
 </div>
 
-<style>
+<style lang="scss">
+	@import '$lib/styles/global.scss';
 	h1 {
 		text-align: center;
 		font-size: 4rem;
@@ -56,7 +57,7 @@
 	}
 
 	h2 {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
 
 		color: #f2efe5;
 	}
@@ -68,13 +69,37 @@
 	.video--title {
 		font-weight: 700;
 		color: #f2efe5;
-		letter-spacing: 0.04rem;
+		letter-spacing: 0.09rem;
 		text-align: center;
+		/* border: #8c2525 solid 3px; */
+		padding: 0.5rem;
 	}
 	.video--frame {
 		display: flex;
 		align-items: center;
 		margin-bottom: 5rem;
 		justify-content: center;
+		border: #4a1919 solid 4px;
+		padding: 0.5rem;
+		background-color: $primary-yellow;
+	}
+
+	@media only screen and (max-width: 2800px) {
+		.video--frame {
+			display: flex;
+			align-items: center;
+			margin-bottom: 5rem;
+			justify-content: center;
+			border: #4a1919 solid 4px;
+			padding: 0.5rem;
+			background-color: rgba(0, 0, 0, 0.268);
+			box-sizing: content-box;
+			background-color: none;
+		}
+		@media only screen and (max-width: 1500px) {
+			.video--frame {
+				background-color: $primary-yellow;
+			}
+		}
 	}
 </style>

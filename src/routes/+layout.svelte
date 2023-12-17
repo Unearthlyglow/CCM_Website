@@ -74,8 +74,8 @@
 		margin-bottom: 3rem;
 	}
 
-	.painting1 {
-	}
+	// .painting1 {
+	// }
 
 	@media only screen and (max-width: 900px) {
 		.nav--paintings {
