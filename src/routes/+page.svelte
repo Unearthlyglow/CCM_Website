@@ -50,7 +50,6 @@
 		border-left: solid 10px $primary-red;
 		border-bottom: solid 10px $primary-green;
 		height: 40rem;
-		padding-left: 2rem;
 	}
 
 	.jessie {
