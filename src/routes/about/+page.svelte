@@ -5,6 +5,7 @@
 </script>
 
 <div class="body">
+	<h1><span>A</span>bout Me</h1>
 	<div class="painting1">
 		<img src={painting2} alt="CCM Letters" />
 	</div>
@@ -131,6 +132,7 @@
 	h1 {
 		text-align: center;
 		margin-top: 2rem;
+		font-size: 3rem;
 	}
 
 	h2 {
