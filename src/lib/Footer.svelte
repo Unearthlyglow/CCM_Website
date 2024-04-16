@@ -116,7 +116,7 @@
 <style lang="scss" global>
 	@import '$lib/styles/global.scss';
 	.footer {
-		background-color: rgb(199, 210, 210);
+		background-color:rgb(249, 232, 219);
 		padding-top: 2rem;
 	}
 
