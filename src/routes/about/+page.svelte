@@ -9,6 +9,8 @@
 	<div class="painting1">
 		<img src={painting2} alt="CCM Letters" />
 	</div>
+<!-- 
+	**commit up** -->
 
 	<p class="heart">When it Come's From The Heart, It's Easy</p>
 	<hr class="hr--bottom" />
