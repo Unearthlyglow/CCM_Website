@@ -1,7 +1,7 @@
 ---
 name: 'Bug Report'
 about: Reporting a Bug 
-title: 'Bug Report:
+title: 'Bug Report:'
 labels: 'bug'
 assignees: Unearthlyglow
 
@@ -25,5 +25,5 @@ assignees: Unearthlyglow
 
 **Reproduces how often:**
 
-#### Version(s) Affected:
+**Version(s) Affected:**
 
