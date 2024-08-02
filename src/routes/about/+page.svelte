@@ -31,6 +31,7 @@
 
 <hr class="hr--box-2" />
 
+
 <h2 class="about--techstack">Tech Stack & Tools:</h2>
 
 <div>
