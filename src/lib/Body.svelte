@@ -8,6 +8,8 @@
 	import { page } from '$app/stores';
 </script>
 
+<!-- git testing 8/2/24 -->
+
 <svelte:head>
 	<title>CCM | {$page.data.page.title}</title>
 	<meta name="description" content={$page.data.page.description} />
