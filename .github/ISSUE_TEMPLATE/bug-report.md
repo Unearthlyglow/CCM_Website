@@ -1,7 +1,7 @@
 ---
 name: 'Bug Report'
-about: Reporting a Bug (Issue With The Software)
-title: 'Bug Report: <Title Here>'
+about: Reporting a Bug 
+title: 'Bug Report: 
 labels: 'bug'
 assignees: Unearthlyglow
 
