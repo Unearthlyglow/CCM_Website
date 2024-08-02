@@ -1,43 +1,47 @@
 {
-	"name": "grid-flex",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/adapter-vercel": "^3.0.3",
-		"@sveltejs/kit": "^1.5.0",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-svelte": "^2.26.0",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.8.1",
-		"sass": "^1.66.1",
-		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
-		"svelte-hamburgers": "^4.1.1",
-		"svelte-preprocess": "^5.0.4",
-		"typescript": "^5.0.0",
-		"vite": "^4.3.0",
-		"vite-imagetools": "^5.0.7"
-	},
-	"type": "module",
-	"dependencies": {
-		"@fontsource/caveat-brush": "^5.0.1",
-		"@fontsource/lato": "^5.0.8",
-		"@fontsource/material-icons": "^5.0.1",
-		"@fontsource/roboto": "^5.0.1",
-		"@picocss/pico": "^1.5.10",
-		"@vercel/analytics": "^1.0.2",
-		"gsap": "^3.12.2",
-		"npm": "^10.2.5"
-	}
+  "name": "grid-flex",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "lint": "prettier --plugin-search-dir . --check . && eslint .",
+    "format": "prettier --plugin-search-dir . --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-vercel": "^3.0.3",
+    "@sveltejs/kit": "^1.5.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte": "^2.26.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.8.1",
+    "sass": "^1.66.1",
+    "svelte": "^3.54.0",
+    "svelte-check": "^3.0.1",
+    "svelte-hamburgers": "^4.1.1",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "^5.0.0",
+    "vite": "^4.3.0",
+    "vite-imagetools": "^5.0.7"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/caveat-brush": "^5.0.1",
+    "@fontsource/lato": "^5.0.8",
+    "@fontsource/material-icons": "^5.0.1",
+    "@fontsource/roboto": "^5.0.1",
+    "@picocss/pico": "^1.5.10",
+    "@vercel/analytics": "^1.0.2",
+    "gsap": "^3.12.2",
+    "npm": "^10.2.5"
+  },
+  "description": "I started this project as an educational/cook-book-example/template for my journey with sveltekit, then I decided I wanted a new main website.",
+  "main": "svelte.config.js",
+  "author": "",
+  "license": "ISC"
 }
