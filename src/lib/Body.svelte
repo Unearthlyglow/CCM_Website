@@ -3,12 +3,11 @@
 	import yellowBuilding from '$lib/images/yellowBuilding.svg';
 	import plant from '$lib/images/planth.svg';
 	import chanda from '$lib/images/chanda.svg';
-	import table from '$lib/images/table.png';
-	import couch from '$lib/images/couch.png';
+	import table from '$lib/images/table.avif';
+	import couch from '$lib/images/couch.avif';
 	import { page } from '$app/stores';
 </script>
 
-<!-- git testing 8/2/24 -->
 
 <svelte:head>
 	<title>CCM | {$page.data.page.title}</title>

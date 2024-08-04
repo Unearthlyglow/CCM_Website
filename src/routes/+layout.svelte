@@ -6,8 +6,8 @@
 
 	import metropolis_building from '$lib/images/metropolis2.svg';
 	import painting1 from '$lib/images/painting1.avif';
-	import painting2 from '$lib/images/painting2.webp';
-	import painting3 from '$lib/images/painting3.webp';
+	import painting2 from '$lib/images/painting2.avif';
+	import painting3 from '$lib/images/painting3.avif';
 	import Body from '$lib/Body.svelte';
 	import { Hamburger } from 'svelte-hamburgers';
 	import Menu from '$lib/Menu.svelte';
