@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<h1><span>W</span>elcome Home <span class="jessie">|| </span> Gemütlichkeit</h1>
+<!-- <h1><span>W</span>elcome Home <span class="jessie">|| </span> Gemütlichkeit</h1> -->
 
 <h1>Welcome Home Testing Block</h1>
 
@@ -19,7 +19,7 @@
 	@import '$lib/styles/global.scss';
 	
 	h1 {
-		color: $primary-white;
+		color: $primary-yellow;
 		text-align: center;
 		font-size: 3rem;
 	}
