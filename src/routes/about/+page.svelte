@@ -1,7 +1,7 @@
 <script>
 	import painting1 from '$lib/images/painting1.avif';
-	import painting2 from '$lib/images/painting2.webp';
-	import painting3 from '$lib/images/painting3.webp';
+	import painting2 from '$lib/images/painting2.avif';
+	import painting3 from '$lib/images/painting3.avif';
 </script>
 
 <div class="body">

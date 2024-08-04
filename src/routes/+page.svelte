@@ -3,7 +3,7 @@
 
 
 
-<h1>Welcome Home - Gemütlichkeit</h1>
+<h1>Welcome Home - Gemütlichkeit -</h1>
 
 <div class="paragraph">
 	<p class="one">
