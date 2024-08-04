@@ -2,7 +2,6 @@
 </script>
 
 <h1><span>W</span>elcome Home <span class="jessie">|| </span> Gemütlichkeit</h1>
-<h1>Welcome Home Testing Text</h1>
 
 <div class="paragraph">
 	<p class="one">
@@ -12,22 +11,13 @@
 		this website. Good luck to you all.
 	</p>
 </div>
-<div class="play">
-	<p class="chapter--title">v1.0 → v1.5: Infrastructure Junction City</p>
-	<p class="chapter--title-sub">Chapter 1: “Is this street suppose to lead to no where?”</p>
-	<ul>
-		<li>Clean up class names</li>
-		<li>A whole lotta animations need to be added</li>
-		<li>Make sure all images are .avif, unless they need to be an svg for animation purposes</li>
-		<li>Look into a CMS</li>
-		<li>More scratch ideas for the General blog</li>
-	</ul>
-	<ul />
-</div>
+
 
 <style lang="scss">
 	@import '$lib/styles/global.scss';
+	
 	h1 {
+		color: $primary-white;
 		text-align: center;
 		font-size: 3rem;
 	}
@@ -39,8 +29,6 @@
 
 	p {
 		font-size: 1.3rem;
-
-		color: white;
 	}
 
 	li {
@@ -48,7 +36,6 @@
 	}
 
 	.play {
-		border-left: solid 10px $primary-red;
 		border-bottom: solid 10px $primary-green;
 		height: 40rem;
 	}
@@ -75,11 +62,8 @@
 
 	.paragraph {
 		line-height: 3rem;
-
 		display: flex;
-
 		justify-content: center;
-
 		align-items: center;
 		text-align: center;
 	}

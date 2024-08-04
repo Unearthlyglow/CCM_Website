@@ -333,8 +333,17 @@
 			margin-left: 1.5rem;
 		}
 
+		.CCM-letters {
+		margin-left: 3rem;
+	}
+
+		.footer--quote {
+		margin-left: 1rem;
+	}
+
 		.footer--kryten {
 			transform: translateX(-5rem);
+			margin-top: 1rem;
 		}
 	}
 

@@ -9,13 +9,14 @@ p,
 li,
 a {
 	font-family: 'Lato', sans-serif;
+	color: $primary-white;
 }
 
 li {
 	list-style-type: none;
 	font-weight: 700;
 	font-size: 0.7rem;
-	color: hsl(0, 0%, 100%);
+	color: $primary-white;
 }
 
 li:hover {

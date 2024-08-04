@@ -69,7 +69,6 @@
 	a,
 	div {
 		font-family: 'Lato', sans-serif;
-		color: white;
 	}
 
 	.content {

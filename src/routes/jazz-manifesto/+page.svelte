@@ -44,11 +44,7 @@
 		color: #c6dade;
 	}
 
-	.inner-ring {
-		border: solid 3px rgb(204, 196, 196);
-		padding: 2rem;
-		z-index: 1;
-	}
+
 
 	.outer-ring {
 		/* background-color: #fac53d; */
