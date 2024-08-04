@@ -2,6 +2,7 @@
 </script>
 
 <h1><span>W</span>elcome Home <span class="jessie">|| </span> Gemütlichkeit</h1>
+<h1>Welcome Home Testing Text</h1>
 
 <div class="paragraph">
 	<p class="one">
