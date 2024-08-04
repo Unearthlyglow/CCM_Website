@@ -5,7 +5,7 @@
 		<li>Add a "Tournaments" page.</li>
 
 		<li>For the MDBooks, add a home button that gets visitors back to main website.</li>
-		<li>Dress up the MDbooks theme to match website the best I can.</li>
+		<li>Dress up the MDbooks  to match website the best I can.</li>
 
 		<p>Header:</p>
 
