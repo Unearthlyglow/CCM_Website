@@ -19,9 +19,9 @@
 
 	<hr class="hr--top" />
 	<h2>
-		<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/">Ideas(<span>Some</span>)</a>
+		<a href="https://capsules-cure-metropolis.github.io/MDBook-CCMBlog/">Ideas(<span>Some</span>)</a>
 	</h2>
-	<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/">
+	<a href="https://capsules-cure-metropolis.github.io/MDBook-CCMBlog/">
 		<img class="book2" alt="CCM Logo" src={ckmbook} /></a
 	>
 </div>

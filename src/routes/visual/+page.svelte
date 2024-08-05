@@ -12,7 +12,7 @@
 	<img class="graphic--frame" alt="CCM Logo" src={card00} />
 </div> -->
 
-<h2>Video <span>-</span></h2>
+<h2>Video <span>::</span></h2>
 <p class="video--title">
 	The Super Emergency Morning Show: State of Texas Unemployment
 	<span>General Tips</span> | 2021

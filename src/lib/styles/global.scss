@@ -1,4 +1,5 @@
 $primary-white: rgb(249, 232, 219);
+$primary-white-text: rgb(251, 243, 238);
 $primary-red: #8C2525;
 $primary-yellow: #D3A632;
 $primary-yellow-light: #eec96b;
@@ -10,14 +11,14 @@ li,
 h1,
 a {
 	font-family: 'Lato', sans-serif;
-	color: $primary-white;
+	color: $primary-white-text;
 }
 
 li {
 	list-style-type: none;
 	font-weight: 700;
 	font-size: 0.7rem;
-	color: $primary-white;
+	color: $primary-white-text;
 }
 
 li:hover {

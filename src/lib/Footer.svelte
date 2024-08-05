@@ -13,39 +13,39 @@
 	<div class="footer--above">
 		<ul>
 			<a href="/#body">
-				<li><span>||</span> Home</li>
+				<li><span>||></span> Home</li>
 			</a>
 			<a href="/about/#body">
-				<li><span>||</span> About</li>
+				<li><span>||></span> About</li>
 			</a>
 			<a href="/software/#body">
-				<li><span>||</span> Software-Portfolio</li>
+				<li><span>||></span> Software-Portfolio</li>
 			</a>
 		</ul>
 		<ul>
 			<a href="/embedded/#body">
-				<li><span>||</span> Embedded Programming</li>
+				<li><span>||></span> Embedded Programming</li>
 			</a>
 			<a href="/todos/#body">
-				<li><span>||</span> Website To-Dos</li>
+				<li><span>||></span> Website To-Dos</li>
 			</a>
 			<a href="/visual/#body">
-				<li><span>||</span> Visual Media</li>
+				<li><span>||></span> Visual Media</li>
 			</a>
 			<a href="/art/#body">
-				<li><span>||</span> Enjoyable Art</li>
+				<li><span>||></span> Enjoyable Art</li>
 			</a>
 		</ul>
 		<ul>
 			<a href="/jazz-manifesto/#body">
-				<li><span>||</span> Jazz Manifesto</li>
+				<li><span>||></span> Jazz Manifesto</li>
 			</a>
-			<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/" target="_blank">
-				<li><span>||</span> CCM:: General Blog</li>
+			<a href="https://capsules-cure-metropolis.github.io/MDBook-CCMBlog/" target="_blank">
+				<li><span>||></span> CCM:: General Blog</li>
 			</a>
 
-			<li data-tooltip="Nooo, not yet!"><span>||</span> CCM:: Bob's Electronics Blog</li>
-			<li data-tooltip=" Double Nooo, not yet!"><span>||</span> CCM:: Milkbar Blog</li>
+			<li data-tooltip="Nooo, not yet!"><span>||></span> CCM:: Bob's Electronics Blog</li>
+			<li data-tooltip=" Double Nooo, not yet!"><span>||></span> CCM:: Milkbar Blog</li>
 		</ul>
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
@@ -370,4 +370,5 @@
 			margin-left: 2rem;
 		}
 	}
+
 </style>
