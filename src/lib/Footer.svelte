@@ -13,39 +13,39 @@
 	<div class="footer--above">
 		<ul>
 			<a href="/#body">
-				<li>Home</li>
+				<li><span>||</span> Home</li>
 			</a>
 			<a href="/about/#body">
-				<li>About</li>
+				<li><span>||</span> About</li>
 			</a>
 			<a href="/software/#body">
-				<li>Software-Portfolio</li>
+				<li><span>||</span> Software-Portfolio</li>
 			</a>
 		</ul>
 		<ul>
 			<a href="/embedded/#body">
-				<li>Embedded Programming</li>
+				<li><span>||</span> Embedded Programming</li>
 			</a>
 			<a href="/todos/#body">
-				<li>Website To-Dos</li>
+				<li><span>||</span> Website To-Dos</li>
 			</a>
 			<a href="/visual/#body">
-				<li>Visual Media</li>
+				<li><span>||</span> Visual Media</li>
 			</a>
 			<a href="/art/#body">
-				<li>Enjoyable Art</li>
+				<li><span>||</span> Enjoyable Art</li>
 			</a>
 		</ul>
 		<ul>
 			<a href="/jazz-manifesto/#body">
-				<li>Jazz Manifesto</li>
+				<li><span>||</span> Jazz Manifesto</li>
 			</a>
 			<a href="https://unearthlyglow.github.io/RustMDBooks-CCMBlog/" target="_blank">
-				<li>CCM:: General Blog</li>
+				<li><span>||</span> CCM:: General Blog</li>
 			</a>
 
-			<li data-tooltip="Nooo, not yet!">CCM:: Bob's Electronics Blog</li>
-			<li data-tooltip=" Double Nooo, not yet!">CCM:: Milkbar Blog</li>
+			<li data-tooltip="Nooo, not yet!"><span>||</span> CCM:: Bob's Electronics Blog</li>
+			<li data-tooltip=" Double Nooo, not yet!"><span>||</span> CCM:: Milkbar Blog</li>
 		</ul>
 		<img class="building-logo" alt="The project logo" src={footerLogo} />
 	</div>
@@ -138,8 +138,13 @@
 		list-style-type: katakana;
 	}
 
-	.footer--above > ul > a > li:hover {
+	.footer--above > ul > a > li > span {
 		color: #8c2525;
+	}
+
+
+	.footer--above > ul > a > li:hover {
+		color: $primary-yellow;
 		text-decoration: underline;
 	}
 
