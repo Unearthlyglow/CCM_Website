@@ -3,7 +3,7 @@
 
 
 
-<h1>Welcome Home - Gemütlichkeit</h1>
+<h1><span>W</span>elcome Home - <span>G</span>emütlichkeit</h1>
 
 <div class="paragraph">
 	<p class="one">
@@ -25,7 +25,7 @@
 	}
 
 	span {
-		color: $primary-yellow;
+		color: $primary-red;
 		font-weight: 700;
 	}
 

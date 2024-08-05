@@ -233,5 +233,9 @@
 		#body {
 			margin-top: 0rem;
 		}
+
+		.table {
+		margin-left: .5rem;
+	}
 	}
 </style>

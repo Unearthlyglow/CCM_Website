@@ -355,6 +355,11 @@
 	}
 
 	@media only screen and (max-width: 450px) {
+
+		.CCM-letters {
+		margin-left: 0rem;
+	}
+
 		.footer--kryten {
 			transform: translateY(-1rem);
 			margin-left: 2rem;
