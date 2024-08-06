@@ -337,12 +337,18 @@
 	}
 	}
 
+	@media only screen and (max-width: 600px) {
+		.footer--above {
+			flex-flow: wrap;
+			margin-right: 1rem;
+		}
+	}
 
 	@media only screen and (max-width: 548px) {
 
-		.footer--above {
-			flex-flow: wrap;
-		}
+		// .footer--above {
+		// 	margin-right: 1rem;
+		// }
 
 		.footer--above > ul > li {
 			font-size: 0.65rem;
@@ -382,6 +388,10 @@
 	}
 
 	@media only screen and (max-width: 450px) {
+
+		.footer--above {
+			margin-right: 2.5rem;
+		}
 
 		.CCM-letters {
 		margin-left: 0rem;
