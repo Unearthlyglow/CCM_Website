@@ -7,6 +7,7 @@
 	import TwitterLogo from '$lib/images/Twitter-Logo.svg';
 	import IgLogo from '$lib/images/Ig-logo.svg';
 	import kryten from '$lib/images/kryten2.svg';
+	import downwardbuild from '$lib/images/downwardbuild.svg';
 </script>
 
 <footer class="footer">
@@ -89,6 +90,7 @@
 				<p class="footer--quote">"It's (Almost) Better Than Life"</p>
 				<img class="footer--kryten" src={kryten} alt="Kryten" />
 			</div>
+			<img class="footer--downwardbuild" src={downwardbuild} alt="Downward Build" />
 
 			<img class="footer--fire" src={fire} alt="CCM Letters" />
 		</div>
@@ -195,6 +197,11 @@
 		height: 8rem;
 		margin-left: 8rem;
 		transform: translateY(-1.5rem);
+	}
+
+	.footer--downwardbuild {
+		display: block;
+		height: 8rem;
 	}
 
 	.footer--quote {
@@ -323,6 +330,14 @@
 		}
 	}
 
+
+	@media only screen and (max-width: 680px) {
+		.footer--downwardbuild {
+		display: none;
+	}
+	}
+
+
 	@media only screen and (max-width: 548px) {
 
 		.footer--above {
@@ -353,8 +368,10 @@
 
 		.footer--kryten {
 			transform: translateX(-5rem);
-			margin-top: 1rem;
+			margin-bottom: 2rem;
 		}
+
+	
 	}
 
 	@media only screen and (max-width: 500px) {
