@@ -22,11 +22,11 @@
 			<a href="/software/#body">
 				<li><span>||></span> Software-Portfolio</li>
 			</a>
-		</ul>
-		<ul>
 			<a href="/embedded/#body">
 				<li><span>||></span> Embedded-Programming</li>
 			</a>
+		</ul>
+		<ul>
 			<a href="/todos/#body">
 				<li><span>||></span> Website To-Dos</li>
 			</a>
@@ -36,11 +36,11 @@
 			<a href="/art/#body">
 				<li><span>||></span> Enjoyable Art</li>
 			</a>
-		</ul>
-		<ul>
 			<a href="/jazz-manifesto/#body">
 				<li><span>||></span> Jazz Manifesto</li>
 			</a>
+		</ul>
+		<ul>
 			<a href="https://capsules-cure-metropolis.github.io/MDBook-CCMBlog/" target="_blank">
 				<li><span>||></span> CCM:: General Blog</li>
 			</a>
