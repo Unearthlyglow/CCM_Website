@@ -325,6 +325,24 @@
 			transform: translateY(-1.5rem);
 		}
 
+		.footer--github {
+		padding-bottom: .4rem
+	}
+
+		.footer--linkedin {
+		padding-bottom: .4rem
+	}
+
+
+	.footer--twitter {
+		padding-bottom: .4rem
+	}
+
+	.footer--ig {
+		padding-bottom: .4rem
+	}
+
+
 		.footer--above > ul > a > li {
 			font-size: 0.76rem;
 		}
@@ -345,10 +363,6 @@
 	}
 
 	@media only screen and (max-width: 548px) {
-
-		// .footer--above {
-		// 	margin-right: 1rem;
-		// }
 
 		.footer--above > ul > li {
 			font-size: 0.65rem;
@@ -376,8 +390,6 @@
 			transform: translateX(-5rem);
 			margin-bottom: 2rem;
 		}
-
-	
 	}
 
 	@media only screen and (max-width: 500px) {
