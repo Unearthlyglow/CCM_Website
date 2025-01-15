@@ -9,6 +9,8 @@
 </script>
 
 
+<!-- Gonna remove some stuff!! -->
+ 
 <svelte:head>
 	<title>CCM | {$page.data.page.title}</title>
 	<meta name="description" content={$page.data.page.description} />
